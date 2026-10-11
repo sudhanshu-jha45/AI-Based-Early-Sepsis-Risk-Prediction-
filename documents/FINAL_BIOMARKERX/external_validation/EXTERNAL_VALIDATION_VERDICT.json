@@ -1,0 +1,44 @@
+{
+  "verdict_metadata": {
+    "external_dataset_name": "PhysioNet 2019 Challenge Set B",
+    "source_institution": "Beth Israel Deaconess Medical Center (BIDMC), Boston, MA, USA",
+    "external_patient_count": 20000,
+    "external_sepsis_events": 1142,
+    "evaluation_date": "2026-10-03",
+    "evaluator_version": "v1.0.0_canonical_lock"
+  },
+  "transportability_verdict": "B. PARTIAL TRANSPORTABILITY WITH LIMITATIONS",
+  "verdict_justification": "BioMarkerX demonstrates partial transportability when deployed across institutions from Emory University Hospital (Set A) to Beth Israel Deaconess Medical Center (Set B). While bedside alarm precision (Confirmation PPV: 35.82% vs 32.14%) and lead time (40.0h vs 36.0h) are well-preserved, overall model discrimination (AUROC: 0.7161 vs 0.7895) and patient sensitivity (64.56% vs 84.95%) exhibit moderate domain degradation due to measurement-density and missingness shifts in Set B.",
+  "performance_comparison": {
+    "auroc_s4": {
+      "internal_setA": 0.7895,
+      "external_setB": 0.7161,
+      "delta": -0.0734
+    },
+    "auprc_s4": {
+      "internal_setA": 0.1241,
+      "external_setB": 0.071,
+      "delta": -0.0531
+    },
+    "brier_s4": {
+      "internal_setA": 0.02738,
+      "external_setB": 0.0172,
+      "delta": -0.01018
+    },
+    "patient_sensitivity_pct": {
+      "internal_setA": 84.95,
+      "external_setB": 64.56,
+      "delta_pct": -20.39
+    },
+    "confirmation_ppv_pct": {
+      "internal_setA": 32.14,
+      "external_setB": 35.82,
+      "delta_pct": 3.68
+    },
+    "median_lead_time_hours": {
+      "internal_setA": 36.0,
+      "external_setB": 40.0,
+      "delta_hours": 4.0
+    }
+  }
+}

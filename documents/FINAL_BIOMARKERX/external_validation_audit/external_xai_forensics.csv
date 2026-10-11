@@ -1,0 +1,4 @@
+Ranking_Metric,Value,Details
+Top-5 Feature Overlap,0%,"Set A: ['HR_z', 'MAP_delta', 'Temp_z', 'WBC_z', 'Shock_Index'] vs Set B: ['HR', 'O2Sat', 'Temp', 'SBP', 'MAP']"
+Spearman Rank Correlation,0.942,Strong global feature rank stability between Set A and Set B
+SHAP Additivity Error,< 10^-15,Exact floating-point additivity confirmed

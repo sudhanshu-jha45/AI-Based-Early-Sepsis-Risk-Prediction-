@@ -1,0 +1,23 @@
+{
+  "manuscript_title": "BioMarkerX: A Dual-Tier Asymmetric Risk Architecture for Early ICU Sepsis Warning",
+  "figures": [
+    {
+      "figure_id": "Fig1",
+      "title": "BioMarkerX System Architecture",
+      "type": "Schematic Diagram",
+      "file": "FINAL_BIOMARKERX/publication/fig1_architecture.png"
+    },
+    {
+      "figure_id": "Fig2",
+      "title": "Global SHAP Feature Importance Hierarchy",
+      "type": "Bar Chart",
+      "file": "FINAL_BIOMARKERX/xai/shap_global_importance_bar.png"
+    },
+    {
+      "figure_id": "Fig3",
+      "title": "Patient Sepsis Escalation Waterfall Force Plot",
+      "type": "Waterfall Plot",
+      "file": "FINAL_BIOMARKERX/xai/shap_patient_force_waterfall.png"
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+Rank,Feature_Name,Feature_Group,Mean_Abs_SHAP_SetA,Mean_Abs_SHAP_SetB,Rank_SetA,Rank_SetB,Spearman_Rho,Additivity_Error
+1,MAP_z,Causal Z,0.842,0.7915,1,1,0.942,< 1e-6
+2,HR_z,Causal Z,0.7812,0.742,2,2,0.942,< 1e-6
+3,Shock_Index,Derived Clinical,0.6945,0.651,3,3,0.942,< 1e-6
+4,Temp_z,Causal Z,0.612,0.542,4,5,0.942,< 1e-6
+5,Resp_z,Causal Z,0.584,0.561,5,4,0.942,< 1e-6
+6,WBC_z,Causal Z,0.521,0.412,6,7,0.942,< 1e-6
+7,MAP_delta,Delta,0.495,0.468,7,6,0.942,< 1e-6
+8,Lactate_z,Causal Z,0.462,0.385,8,9,0.942,< 1e-6
+9,Creatinine_z,Causal Z,0.415,0.392,9,8,0.942,< 1e-6
+10,Platelets_z,Causal Z,0.382,0.315,10,10,0.942,< 1e-6

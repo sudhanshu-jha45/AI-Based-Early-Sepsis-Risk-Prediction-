@@ -1,0 +1,13 @@
+cohort,metric,numerator,denominator,value
+Validation,Patient Sensitivity,381,457,0.8336980306345733
+Validation,Screening PPV,2720,58305,0.04665123059771889
+Validation,Confirmation PPV,18,36,0.5
+Validation,Confirmation Sensitivity,18,5461,0.003296099615455045
+Validation,Patient PPV,381,4187,0.0909959398137091
+Validation,Episode Sensitivity,381,457,0.8336980306345733
+Locked Test,Patient Sensitivity,237,279,0.8494623655913979
+Locked Test,Screening PPV,1700,32909,0.05165760126409189
+Locked Test,Confirmation PPV,9,28,0.32142857142857145
+Locked Test,Confirmation Sensitivity,9,3369,0.0026714158504007124
+Locked Test,Patient PPV,237,2445,0.09693251533742331
+Locked Test,Episode Sensitivity,237,279,0.8494623655913979

@@ -1,0 +1,9 @@
+{
+  "validation_patient_count": 5075,
+  "validation_window_count": 191863,
+  "validation_sepsis_events": 457,
+  "split_method": "SHA-256 Patient ID modulo split (60 <= hash % 100 < 85)",
+  "patient_overlap_with_locked_test": 0,
+  "model_artifact": "TARGET_MASTER_MODEL.joblib",
+  "calibrator_artifact": "TARGET_CALIBRATOR.joblib"
+}

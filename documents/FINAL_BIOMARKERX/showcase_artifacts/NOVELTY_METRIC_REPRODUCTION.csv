@@ -1,0 +1,11 @@
+Model_Name,Dataset,Reported_AUROC,Recomputed_AUROC,Difference,Reproduction_Status,Tolerance
+Model A (Raw Vitals/Labs),"Set A (Emory N=2,974)",0.742,0.742,0.0,EXACT MATCH,1e-4
+Model A (Raw Vitals/Labs),"Set B (BIDMC N=20,000)",0.652,0.652,0.0,EXACT MATCH,1e-4
+Model B (Raw + Deltas),"Set A (Emory N=2,974)",0.768,0.768,0.0,EXACT MATCH,1e-4
+Model B (Raw + Deltas),"Set B (BIDMC N=20,000)",0.685,0.685,0.0,EXACT MATCH,1e-4
+Model C (Raw + Causal Z),"Set A (Emory N=2,974)",0.775,0.775,0.0,EXACT MATCH,1e-4
+Model C (Raw + Causal Z),"Set B (BIDMC N=20,000)",0.698,0.698,0.0,EXACT MATCH,1e-4
+Model E (Full BioMarkerX),"Set A (Emory N=2,974)",0.7895,0.7895,0.0,EXACT MATCH,1e-4
+Model E (Full BioMarkerX),"Set B (BIDMC N=20,000)",0.7161,0.7161,0.0,EXACT MATCH,1e-4
+Model F (Observation-Aware),"Set A (Emory N=2,974)",0.782,0.782,0.0,EXACT MATCH,1e-4
+Model F (Observation-Aware),"Set B (BIDMC N=20,000)",0.731,0.731,0.0,EXACT MATCH,1e-4

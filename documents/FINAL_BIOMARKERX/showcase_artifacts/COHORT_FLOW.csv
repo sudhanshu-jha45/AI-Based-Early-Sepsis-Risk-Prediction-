@@ -1,0 +1,19 @@
+Dataset,Stage,Category,Exclusion_Reason,File_Count,Patient_Count,Window_Count,Percentage,Code_Condition
+Set A (Emory),Stage 1,Raw Ingestion,Total raw files provided,20336,20336,790215,100.0%,len(os.listdir(setA_dir))
+Set A (Emory),Stage 2,Parser Validation,Invalid / corrupt files,0,0,0,0.0%,try pd.read_csv() fails
+Set A (Emory),Stage 3,Data Quality,Missing SepsisLabel column,0,0,0,0.0%,'SepsisLabel' not in df.columns
+Set A (Emory),Stage 4,Cohort Eligibility,Short records (<4 hours),142,142,312,0.70%,len(df) < 4
+Set A (Emory),Stage 5,Prediction Eligibility,Excluded final 4 windows (undefined target),0,0,80776,10.22%,t > len(df) - 4
+Set A (Emory),Stage 6,Prediction Eligibility,Excluded currently-septic windows,0,0,32840,4.16%,SepsisLabel(t) == 1
+Set A (Emory),Stage 7,Valid Prediction Windows,Eligible S_next4 prediction windows,20194,20194,676599,85.62%,Valid prediction window t
+Set A (Emory),Stage 8,Target Distribution,Positive S_next4 windows,1790,1790,17912,2.65%,S_next4 == 1
+Set A (Emory),Stage 9,Target Distribution,Negative S_next4 windows,18404,18404,658687,97.35%,S_next4 == 0
+Set B (BIDMC),Stage 1,Raw Ingestion,Total raw files provided,20000,20000,761432,100.0%,len(os.listdir(setB_dir))
+Set B (BIDMC),Stage 2,Parser Validation,Invalid / corrupt files,0,0,0,0.0%,try pd.read_csv() fails
+Set B (BIDMC),Stage 3,Data Quality,Missing SepsisLabel column,0,0,0,0.0%,'SepsisLabel' not in df.columns
+Set B (BIDMC),Stage 4,Cohort Eligibility,Short records (<4 hours),0,0,0,0.00%,len(df) < 4
+Set B (BIDMC),Stage 5,Prediction Eligibility,Excluded final 4 windows (undefined target),0,0,80000,10.51%,t > len(df) - 4
+Set B (BIDMC),Stage 6,Prediction Eligibility,Excluded currently-septic windows,0,0,28145,3.70%,SepsisLabel(t) == 1
+Set B (BIDMC),Stage 7,Valid Prediction Windows,Eligible S_next4 prediction windows,20000,20000,653287,85.80%,Valid prediction window t
+Set B (BIDMC),Stage 8,Target Distribution,Positive S_next4 windows,1514,1514,14892,2.28%,S_next4 == 1
+Set B (BIDMC),Stage 9,Target Distribution,Negative S_next4 windows,18486,18486,638395,97.72%,S_next4 == 0

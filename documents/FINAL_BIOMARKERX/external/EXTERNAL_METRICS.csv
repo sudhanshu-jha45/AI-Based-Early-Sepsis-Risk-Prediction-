@@ -1,0 +1,2 @@
+cohort,terminology,N_patients,N_windows,N_events,observed_prevalence_pct,AUROC,AUPRC,Brier_Score,Brier_Baseline_Prevalence,probabilistic_performance_status,sensitivity_pct,specificity_pct,PPV_pct,NPV_pct,alert_rate_pct
+"Historical External Test A (PhysioNet 2019 - 3,000 Patients)",previously analyzed external cohort / historical external re-evaluation cohort,2942,17723,212,1.2,0.5261,0.0124,0.02922,0.01182,External probabilistic accuracy is poor (Brier 0.02922 vs baseline 0.01182); formal calibration not established.,13.21,84.55,1.02,98.77,15.42

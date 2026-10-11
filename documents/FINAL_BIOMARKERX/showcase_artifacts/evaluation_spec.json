@@ -1,0 +1,134 @@
+{
+  "evaluator_version": "v1.0.0_canonical_lock",
+  "primary_target": "S_next4 (4-Hour Forward Clinical Early Warning Horizon)",
+  "bootstrap_configuration": {
+    "method": "Patient-level resample with replacement",
+    "replicates": 1000,
+    "random_seed": 42
+  },
+  "metrics_internal_setA": {
+    "patients": 2974,
+    "events": 279,
+    "auroc_s4": {
+      "point": 0.7899,
+      "ci_95": [
+        0.7657,
+        0.8109
+      ]
+    },
+    "auroc_s1_single_step": {
+      "point": 0.8651,
+      "ci_95": [
+        0.849,
+        0.881
+      ]
+    },
+    "auprc_s4": {
+      "point": 0.1241,
+      "ci_95": [
+        0.108,
+        0.1443
+      ]
+    },
+    "brier_s4": {
+      "point": 0.02738,
+      "ci_95": [
+        0.0245,
+        0.0302
+      ]
+    },
+    "patient_sensitivity_pct": {
+      "point": 84.95,
+      "count": "237 / 279",
+      "ci_95": [
+        80.68,
+        88.74
+      ]
+    },
+    "confirmation_ppv_pct": {
+      "point": 32.14,
+      "count": "9 / 28",
+      "ci_95": [
+        3.84,
+        61.54
+      ]
+    },
+    "screening_ppv_pct": {
+      "point": 5.17,
+      "count": "5,240 / 101,438",
+      "ci_95": [
+        4.56,
+        5.79
+      ]
+    },
+    "median_lead_time_hours": {
+      "point": 36.0,
+      "iqr": [
+        11.0,
+        75.0
+      ],
+      "ci_95": [
+        31.5,
+        41.0
+      ]
+    },
+    "screening_alerts_per_patient_day": 7.01,
+    "confirmation_alerts_per_patient_day": 0.00597,
+    "denominators": {
+      "tp_patients": 237,
+      "fn_patients": 42,
+      "fp_patients": 2208,
+      "tn_patients": 487,
+      "total_patients": 2974
+    }
+  },
+  "metrics_external_setB": {
+    "patients": 20000,
+    "events": 1142,
+    "auroc_s4": {
+      "point": 0.7161,
+      "ci_95": [
+        0.698,
+        0.734
+      ]
+    },
+    "auprc_s4": {
+      "point": 0.071,
+      "ci_95": [
+        0.062,
+        0.081
+      ]
+    },
+    "brier_s4": {
+      "point": 0.0172,
+      "ci_95": [
+        0.0162,
+        0.0182
+      ]
+    },
+    "calibration_slope": 0.4952,
+    "patient_sensitivity_pct": {
+      "point": 64.56,
+      "count": "737 / 1,142",
+      "ci_95": [
+        61.8,
+        67.3
+      ]
+    },
+    "confirmation_ppv_pct": {
+      "point": 35.82,
+      "ci_95": [
+        32.9,
+        38.8
+      ]
+    },
+    "median_lead_time_hours": {
+      "point": 40.0,
+      "ci_95": [
+        36.0,
+        44.0
+      ]
+    },
+    "confirmation_alerts_per_patient_day": 0.008
+  }
+}

@@ -1,0 +1,5 @@
+Subgroup,Patients,AUROC,Sensitivity_Pct,Measurement_Density_Vitals_Per_Hr,Missingness_Pct
+Short Stay (< 24h),6420,0.6924,58.4,0.62,78.4
+Long Stay (>= 24h),13580,0.731,68.2,0.94,62.1
+High Measurement Density (>= 0.8 vitals/h),11200,0.7485,72.1,1.12,54.2
+Low Measurement Density (< 0.8 vitals/h),8800,0.675,54.9,0.48,84.1

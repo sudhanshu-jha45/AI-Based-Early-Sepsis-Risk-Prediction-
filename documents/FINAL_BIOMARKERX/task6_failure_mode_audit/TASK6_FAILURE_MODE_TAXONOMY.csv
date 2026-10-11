@@ -1,0 +1,10 @@
+failure_mode_id,name,count,percentage,example_pattern,evidence
+FM-01,No screening detection,42,15.053763440860216,Patient max pred prob < 0.015 before onset,42 out of 279 sepsis patients had continuous low model predictions (max prob < 0.015) prior to onset.
+FM-02,Probability insufficient for confirmation,32767,99.56850709532347,0.015 <= P < 0.300 during screening windows,"32,767 screening positive windows cross tau_s=0.015 but fall below tau_c=0.300."
+FM-03,Persistence failure,0,0.0,P >= 0.300 for 1 or 2 consecutive windows only,0 screening windows hit tau_c=0.300 but do not persist for 3 consecutive hours.
+FM-04,Physiological gate failure,0,0.0,"P >= 0.300 & p >= 3, but MAP > 75 & MAP_delta_3h > -3",0 screening windows satisfy probability/persistence but are gated out because MAP is stable (>75 mmHg and no drop).
+FM-05,Missing physiological evidence,0,0.0,MAP data missing or incomplete during window,0 screening windows lack complete vital sign trends.
+FM-06,Insufficient causal history,0,0.0,ICULOS < 3 hours where 3h MAP delta is undefined,Screening windows occurring in the first 3 hours of ICU stay before delta history is available.
+FM-07,Transient physiological spike,19,67.85714285714286,Isolated confirmation alert in non-sepsis patient,19 out of 28 confirmation windows occurred in non-sepsis patients (False Confirmation Alerts).
+FM-08,Observation-process limitation,11,26.19047619047619,Sparse measurement intervals (>4h gap) prior to onset,11 out of 42 missed patients had lowest-quartile measurement density.
+FM-09,Other / unresolved,2,4.761904761904762,Rapid fulminant onset within 1h of admission,2 patients developed sepsis within 1 hour of ICU admission with no pre-onset baseline history.

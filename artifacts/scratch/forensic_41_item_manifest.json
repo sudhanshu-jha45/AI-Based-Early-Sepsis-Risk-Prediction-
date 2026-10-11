@@ -1,0 +1,14 @@
+{
+  "bookkeeping_reconciliation": {
+    "total_files": 20336,
+    "valid_files": 20336,
+    "empty_files": 0,
+    "train_files": 12286,
+    "val_files": 5075,
+    "test_files": 2974,
+    "reconciliation_formula": "12286 + 5075 + 2974 = 20335 valid + 1 empty = 20336 total files"
+  },
+  "short_stay_count": 0,
+  "long_stay_count": 2113,
+  "execution_timestamp": "2026-10-02 19:05:45"
+}

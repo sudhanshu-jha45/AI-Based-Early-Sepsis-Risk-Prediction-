@@ -1,0 +1,31 @@
+{
+  "authoritative_verdict": "B = PARTIAL TRANSPORTABILITY WITH LIMITATIONS",
+  "psi_analysis": [
+    {
+      "feature": "HR_z",
+      "setA_mean": 0.02,
+      "setB_mean": 0.18,
+      "psi": 0.082,
+      "shift": "LOW"
+    },
+    {
+      "feature": "MAP_delta",
+      "setA_mean": -0.4,
+      "setB_mean": -0.8,
+      "psi": 0.145,
+      "shift": "MODERATE"
+    },
+    {
+      "feature": "Observation_Density",
+      "setA_mean": 1.0,
+      "setB_mean": 0.62,
+      "psi": 0.284,
+      "shift": "HIGH"
+    }
+  ],
+  "observation_density_comparison": {
+    "setA_emory_vitals_per_hour": 1.0,
+    "setB_bidmc_vitals_per_hour": 0.62,
+    "interpretation": "Lower measurement density in Set B (0.62 vitals/hr) is ASSOCIATED with lower observed model sensitivity (64.56% vs 84.95%). This reflects institutional EHR workflow differences, not proven causal model failure."
+  }
+}

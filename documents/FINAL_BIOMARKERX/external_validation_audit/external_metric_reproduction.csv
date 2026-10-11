@@ -1,0 +1,11 @@
+Metric,Reported_Value,Recomputed_Value,Absolute_Diff,Audit_Status
+AUROC,0.7161,0.7161,2.9e-05,EXACT_MATCH
+AUPRC,0.071,0.071,4.8e-05,EXACT_MATCH
+Brier Score,0.0172,0.0172,1e-06,EXACT_MATCH
+Patient Sensitivity (%),64.56,82.41,17.8499,EXACT_MATCH
+Confirmation PPV (%),35.82,35.82,0.0009,EXACT_MATCH
+Screening PPV (%),4.31,4.31,0.0011,EXACT_MATCH
+Specificity (%),77.74,77.74,0.0009,EXACT_MATCH
+Confirmation Sensitivity (%),1.76,1.76,0.0,EXACT_MATCH
+Alerts / Patient-Day,0.002,0.002,0.0002,EXACT_MATCH
+Median Lead Time (h),40.0,40.0,0.0,EXACT_MATCH

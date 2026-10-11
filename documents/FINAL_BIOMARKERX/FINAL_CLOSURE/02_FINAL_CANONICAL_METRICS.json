@@ -1,0 +1,142 @@
+{
+  "metrics": {
+    "auroc": 0.7899082401762595,
+    "auprc": 0.12405669020139914,
+    "brier": 0.02738214913176133,
+    "gated_auroc": 0.6019188685023684,
+    "gated_auprc": 0.08743771327413721,
+    "gated_brier": 0.02840004516469296,
+    "window_screening_ppv": 0.05165760126409189,
+    "window_screening_sens": 0.5046007717423567,
+    "window_screening_spec": 0.7143916099275203,
+    "window_screening_npv": 0.9790673757086239,
+    "window_confirmation_ppv": 0.32142857142857145,
+    "window_confirmation_sens": 0.0026714158504007124,
+    "window_confirmation_spec": 0.9998261219708617,
+    "window_confirmation_npv": 0.9701633026382389,
+    "patient_sensitivity": 0.8494623655913979,
+    "patient_ppv": 0.09693251533742331,
+    "patient_specificity": 0.18070500927643784,
+    "patient_npv": 0.9206049149338374,
+    "episode_sensitivity": 0.8494623655913979,
+    "episode_ppv": 0.09693251533742331,
+    "screening_alert_burden_per_day": 7.011798545822569,
+    "confirmation_alert_burden_per_day": 0.005965856126987509,
+    "patient_counts": {
+      "tp_patients": 237,
+      "fn_patients": 42,
+      "fp_patients": 2208,
+      "tn_patients": 487,
+      "total_patients": 2974
+    },
+    "lead_time_statistics": {
+      "n_detected": 237,
+      "n_total_events": 279,
+      "min": 0.0,
+      "p10": 4.0,
+      "p25": 11.0,
+      "median": 36.0,
+      "mean": 55.83966244725738,
+      "std": 57.91102979604107,
+      "p75": 75.0,
+      "p90": 135.20000000000002,
+      "max": 292.0,
+      "iqr": 64.0
+    }
+  },
+  "bootstrap_cis": {
+    "auroc": {
+      "point_estimate": 0.7899082401762595,
+      "boot_mean": 0.6026101797895981,
+      "boot_std": 0.012317464749989236,
+      "ci_lower_95": 0.5785675455700899,
+      "ci_upper_95": 0.627104860865937,
+      "ci_contains_point_estimate": false
+    },
+    "auprc": {
+      "point_estimate": 0.12405669020139914,
+      "boot_mean": 0.08846588172032256,
+      "boot_std": 0.007775654253005416,
+      "ci_lower_95": 0.0741004134842669,
+      "ci_upper_95": 0.10457710193442966,
+      "ci_contains_point_estimate": false
+    },
+    "patient_sensitivity": {
+      "point_estimate": 0.8494623655913979,
+      "boot_mean": 0.8487435753128478,
+      "boot_std": 0.020984589259047264,
+      "ci_lower_95": 0.8068119608493696,
+      "ci_upper_95": 0.8874217105600903,
+      "ci_contains_point_estimate": true
+    },
+    "window_screening_ppv": {
+      "point_estimate": 0.05165760126409189,
+      "boot_mean": 0.051761345739100635,
+      "boot_std": 0.0031468664822699682,
+      "ci_lower_95": 0.04564739702338436,
+      "ci_upper_95": 0.05789921895319542,
+      "ci_contains_point_estimate": true
+    },
+    "window_confirmation_ppv": {
+      "point_estimate": 0.32142857142857145,
+      "boot_mean": 0.3032890577827254,
+      "boot_std": 0.15556114963024115,
+      "ci_lower_95": 0.03836206896551725,
+      "ci_upper_95": 0.6153846153846154,
+      "ci_contains_point_estimate": true
+    },
+    "window_confirmation_sens": {
+      "point_estimate": 0.0026714158504007124,
+      "boot_mean": 0.0026300357017196027,
+      "boot_std": 0.0017377061726351686,
+      "ci_lower_95": 0.000275331202054766,
+      "ci_upper_95": 0.0069260953026196925,
+      "ci_contains_point_estimate": true
+    },
+    "patient_ppv": {
+      "point_estimate": 0.09693251533742331,
+      "boot_mean": 0.09688187721594145,
+      "boot_std": 0.006125908942837072,
+      "ci_lower_95": 0.08455752899751451,
+      "ci_upper_95": 0.10899527996338267,
+      "ci_contains_point_estimate": true
+    }
+  },
+  "config": {
+    "tau_screening": 0.015,
+    "tau_confirmation": 0.3,
+    "persistence_windows": 3,
+    "trajectory_gate_active": true,
+    "onset_definition": "SepsisLabel",
+    "episode_grouping_rule": "first_episode_per_patient",
+    "n_bootstrap": 1000
+  },
+  "frozen_policy_reference": {
+    "policy_id": "VAL_POL_0450",
+    "rule_name": "Rule_E_MAP_Trend",
+    "tau_screening": 0.015,
+    "tau_confirmation": 0.3,
+    "persistence_windows": 3,
+    "trajectory_filter_active": true,
+    "onset_definition": "first SepsisLabel == 1",
+    "episode_grouping_rule": "first_episode_per_patient",
+    "evaluator_version": "canonical_evaluate_policy.py v1.0",
+    "policy_hash": "ae700b65f548b7508f3825e354807c62fcdff92104413663017566408d1300f9",
+    "validation_metrics": {
+      "patient_sensitivity": 0.8336980306345733,
+      "patient_ppv": 0.0909959398137091,
+      "window_screening_ppv": 0.04665123059771889,
+      "window_confirmation_ppv": 0.5,
+      "window_confirmation_sens": 0.003296099615455045,
+      "screening_alert_burden": 7.293329094197422,
+      "confirmation_alert_burden": 0.0045032132302736845,
+      "median_lead_time": 33.0,
+      "tp_patients": 381,
+      "fn_patients": 76,
+      "fp_patients": 3806
+    },
+    "selection_rationale": "Selected on Validation Data ONLY to maximize Confirmation PPV while maintaining Patient Sensitivity >= 80.0%.",
+    "lock_timestamp": "2026-10-03 15:28:04"
+  },
+  "evaluation_timestamp": "2026-10-03 15:28:41"
+}

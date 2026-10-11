@@ -1,0 +1,10 @@
+{
+  "v5_internal_auroc": 0.9858515294636783,
+  "v5_internal_auprc": 0.9770557015850779,
+  "v5_internal_brier": 0.04451279289027107,
+  "feature_count": 806,
+  "raw_alert_rate_per_day": 1.7669538182524775,
+  "filtered_alert_rate_per_day": 1.4104540449510978,
+  "alert_burden_reduction_pct": 20.17595307917889,
+  "execution_timestamp": "2026-10-02 16:56:15"
+}

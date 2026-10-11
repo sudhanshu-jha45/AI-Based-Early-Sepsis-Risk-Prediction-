@@ -1,0 +1,18 @@
+{
+  "model_name": "BioMarkerX FINAL LOCKED MODEL",
+  "commit_version": "v3.0.0-final-lock",
+  "lock_timestamp": "2026-10-02T16:12:07",
+  "environment_specs": {
+    "python_version": "3.14.6",
+    "os": "win32",
+    "scikit_learn_version": "joblib"
+  },
+  "full_sha256_hashes": {
+    "raw_development_dataset": "77a3d6f1d6381396b5c840cd1daf56aa6c342edf8267babe660cadc0a57fe496",
+    "final_model_joblib": "8d6f5a9a01913ed035306360f4c18d2be8b17aa4cacaa44448998a53ab3455ec",
+    "final_calibrator_joblib": "3b99aad180078ae62061648bd217cb8f66e75755c3cfd12571439b9b5ae61960",
+    "feature_schema_mapping_json": "4303342b89c7eb3e761db8e42dfdcf6b8f3e079d4445899ce5c6fca95f8faa48",
+    "feature_order_audit_json": "9046767c88b8fc0832e6327b589741cc10518a3ca4020a2e5d7eac0f44123596",
+    "imputation_audit_json": "4d609c14b3edb83545aabfa3a69994b6b67cdda780a881b4f46afe00babe0551"
+  }
+}

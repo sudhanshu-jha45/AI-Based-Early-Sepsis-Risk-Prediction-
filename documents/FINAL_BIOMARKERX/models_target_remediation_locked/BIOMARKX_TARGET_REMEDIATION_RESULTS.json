@@ -1,0 +1,33 @@
+{
+  "model_version": "BioMarkerX Target Remediation Engine (4H Causal Horizon)",
+  "locked_test_auroc": 0.7895,
+  "locked_test_auprc": 0.1241,
+  "locked_test_brier": 0.02738,
+  "patient_level_sensitivity": 0.8244,
+  "screening_ppv": 0.1542,
+  "screening_sensitivity": 0.654,
+  "screening_specificity": 0.899,
+  "confirmation_ppv": 0.2765,
+  "confirmation_sensitivity": 0.228,
+  "confirmation_specificity": 0.9895,
+  "screening_alert_burden": 1.79,
+  "confirmation_alert_burden": 0.35,
+  "median_lead_time_hours": 36.5,
+  "policy_parameters": {
+    "tau_screening": 0.035,
+    "tau_confirmation": 0.18,
+    "persistence_windows": 2,
+    "trajectory_gating": "Shock Index >= 0.85 OR HR Delta > 0.2 OR MAP Delta < -0.2"
+  },
+  "target_verification": {
+    "patient_sensitivity": "82.44%",
+    "patient_sensitivity_status": "PASSED (Target >= 80.0%)",
+    "screening_ppv": "15.42%",
+    "screening_ppv_status": "PASSED (Target >= 15.0%)",
+    "confirmation_ppv": "27.65%",
+    "confirmation_ppv_status": "PASSED (Target >= 25.0%)",
+    "confirmation_sensitivity": "22.80%",
+    "confirmation_sensitivity_status": "PASSED (Target >= 20.0-30.0%)"
+  },
+  "execution_timestamp": "2026-10-02 21:23:40"
+}

@@ -1,0 +1,26 @@
+{
+  "Novelty_1_Physiological_Acceleration": {
+    "classification": "B. PROMISING BUT NOT YET PROVEN",
+    "justification": "Modest AUROC gain (+0.0012) on test set. Requires prospective validation."
+  },
+  "Novelty_2_Organ_Dysfunction_Matrix": {
+    "classification": "B. PROMISING BUT NOT YET PROVEN",
+    "justification": "Useful for clinical sub-scoring, but marginal impact on overall discrimination."
+  },
+  "Novelty_3_Temperature_Scaling": {
+    "classification": "C. NOT SUPPORTED (As AUROC Driver)",
+    "justification": "Monotonic transformation does not alter ROC AUC. Improves calibration Brier score only."
+  },
+  "Novelty_4_Vasopressor_MAP_Adjustment": {
+    "classification": "D. HEURISTIC / METHODOLOGICAL LIMITATION",
+    "justification": "Uses Shock Index proxy and manual coefficient 5.0 rather than true MAR vasopressor dose data."
+  },
+  "Novelty_5_LOS_Adaptive_Persistence": {
+    "classification": "B. PROMISING BUT NOT YET PROVEN",
+    "justification": "Improves early stay sensitivity, but increases early screening false alerts by +14.2%."
+  },
+  "Novelty_6_Dual_Tier_Architecture": {
+    "classification": "A. SCIENTIFICALLY SUPPORTED",
+    "justification": "Decoupling screening (high sensitivity) from confirmation (high PPV) is mathematically sound and clinically defensible."
+  }
+}

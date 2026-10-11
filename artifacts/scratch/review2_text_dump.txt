@@ -1,0 +1,55 @@
+[2] School of Computer Science Engineering and Information Systems
+[3] Fall Semester 2026-2027
+[5] Department of Computer Applications
+[6] PAMCA698 - Internship I/ Dissertation I (Project)
+[7] Review -2 
+[8] Date: 07.10.2026
+[9] <Dissertation Title>
+[11] Reg.No, NAME
+[12] Under the Guidance of
+[13] Dr Karthikeyan P
+[14] Professor Grade 1
+[15] SCORE
+[19]      Guide Signature with date
+[20]      Dr Karthikeyan P
+[23] Internal Examiner -1 				Internal Examiner-2
+[24] Signature						Signature
+[29] ABSTRACT:
+[31] 200 Words & Keywords:
+[33] < REQUIRED COMPONENTS…
+[35] INTRODUCTION:
+[37] PROBLEM STATEMENT:
+[39] OBJECTIVES:
+[41] SCOPE OF THE PROJECT:
+[43] PROPOSED SYSTEM:
+[45] LITERATURE SURVEY: (minimum 15 papers)
+[48] [6.1] FINDINGS IN LITERATURE SURVEY:
+[49] [7]. METHEDOLOGY:
+[50] [8].SOFTWARE REQUIREMENTS:
+[51] Functional and Non Functional Requirements
+[52] [9]. SYSTEM ARCHITECTURE:
+[55] Fig. 9.1 System Architecture
+[57] [10]. UML DIAGRAMS:
+[59] Use Case & Class Diagrams are compulsory
+[61] [11]. IMPLEMENTATION
+[64] 11.1. PROJECT PLAN
+[66] 11.2 SAMPLE CODE
+[68] 11.3 TESTING STRATEGIES
+[70] 11.3 SAMPLE SCREEN SHOTS
+[73] [12]. SUMMARY:
+[77] REFERENCES: (minimum 15 papers)
+[79] Bianca de Almeida-Pititto, Patrícia M. Dualib, Lenita Zajdenverg, JoanaRodrigues Dantas,Filipe Dias de Souza , Melanie Rodacki and Marcello Casaccia Bertoluci on behalf of Brazilian Diabetes Society Study Group (SBD), “Severity And Mortality Of COVID 19”, In Patients With Diabetes, Hypertension And Cardio vascular Disease: A Meta-analysis,Diabetology & Metabolic Syndrome Research, (2020) 
+[80] R. Indrakumari, T. Poongodi, Soumya Ranjan Jena, “Heart Disease Prediction using Exploratory Data Analysis, International Conference” on Smart Sustainable Intelligent Computingand Applications under (ICITETM 2020) 
+[81] Senthilkumar Mohan 1, Chandrasegar Thirumalai1, And Gautam Srivastava 2,3, (Member,IEEE), “Effective Heart Disease Prediction Using Hybrid Machine Learning Techniques”,(IEEE ACCESS) 
+[82] Aishwarya Majumdar, Dr. Vaidehi , “Diabetes Prediction using Machine Learning Algorithms, International Conference” On Recent Trends In Advanced Computing (2019, ICRTAC2019) 
+[83] Emma Barron, Chirag Bakhai, Partha Kar, Andy Weaver, Dominique Bradley, Hassan Ismail, Peter Knighton, Naomi Holman, Kamlesh Khunti, Naveed Sattar, Nicholas J Wareham,Bob Young, Jonathan Valabhji, Associations of type 1 and type 2 diabetes with COVID-19 related mortality in England: a whole-population study, (Lancet Diabetes Endocrinol 2020) 
+[84] Quan Zou, Kaiyang Qu , Yamei Luo, Dehui Yin, Ying Ju,Hua Tang, “Predicting Diabetes Mellitus With Machine Learning Techniques,” Bioinformatics and Computational Biology(Frontier Genetics Journal, 2018)
+[85] Md. Kamrul Hasan , Md. Ashraful Alam , Dola Das, Eklas Hossain, (Senior Member, IEEE), And Mahmudul Hasan, “Diabetes Prediction Using Ensembling of Different MachineLearning Classifiers”, (IEEE ACCESS 2020) 
+[86] Jyoti Soni, Ujma Ansari, Dipesh Sharma, Sunita Soni, Predictive Daa Mining for Medical Diagnosis”, International Jourmal of Computer Applications, (Volume 17, #8,2011)
+[87] Himanshu Sharma, MA Rizvi, “Prediction of Heart Disease using Machine Learning Algorithms: A Survey”,International Journal on Recent and Innovation Trends in Computing and Communication (2016)
+[88] Baban U. Rindhe, Nikita Ahire, Rupali Patil, Shweta Gagare, Manisha Darade, “Heart Disease Prediction Using Machine Learning”, IJARSCT, (2021)
+[89] Nabaouia Louridi, Samira Douzi, Bouabid El Ouahidi, “Machine Learning-Based Identifcation Of Patients With A Cardiovascular Defect”, Journal of Big Data (2021)
+[90] Dhai Eddine Salhi, Abdelkamel Tari, M-Tahar Kechadi, “Using Machine learning for heart disease prediction”, researchgate.net. 
+[91] Zaibunnisa L. H. Malik, Momin Fatema, Nikam Pooja, Gawandar Ankita, 2021, Heart Disease Prediction using Artificial Intelligence, INTERNATIONAL JOURNAL OF ENGINEERING RESEARCH & TECHNOLOGY (IJERT) NREST – 2021 (Volume 09 – Issue 04),
+[92] Kumar, P. & Anand, D.. (2016). A Computational Intelligence Method for Effective Diagnosis of Heart Disease using Genetic Algorithm. International Journal of Bio-Science and Bio-Technology. 8. 363-372. 10.14257/ijbsbt.2016.8.2.34.
+[93] Shifei Ding, XinzhengXu, Rubie, “Extreme learning machine and its applications.”, Neural Comput&Applic, IJCSIS, (2018) 25:549–556 https://doi.org/10.1007/s00521-013-1522-8

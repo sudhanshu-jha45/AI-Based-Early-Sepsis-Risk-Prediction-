@@ -1,0 +1,21 @@
+{
+  "model_1_physiology_only": {
+    "AUROC": 0.8268,
+    "AUPRC": 0.4129,
+    "Brier": 0.06729,
+    "r_meas_correlation": 0.0602
+  },
+  "model_2_measurement_context_only": {
+    "AUROC": 0.5448,
+    "AUPRC": 0.1102,
+    "Brier": 0.0831,
+    "r_meas_correlation": 0.6124
+  },
+  "model_3_combo": {
+    "AUROC": 0.8271,
+    "AUPRC": 0.4135,
+    "Brier": 0.06721,
+    "r_meas_correlation": 0.4105
+  },
+  "nuanced_audit_finding": "Measurement-context-only features showed modest discrimination (AUROC 0.5448) in evaluated model formulation. Correlation r dropped to +0.0602 in Model 1, indicating substantial mitigation of observation-frequency dependence."
+}

@@ -1,0 +1,2 @@
+dataset_role,file_path,total_patients,total_windows,valid_prediction_windows,target_definition_note
+DEVELOPMENT DATA,FINAL_CLEANED_DATASETS/dataset_v2_unified_2115_patients_6h.csv,2115,17554,10098,"Derived from PhysioNet 2019 SepsisLabel (Sepsis-3 operationalization t_sepsis - 6h). Aggregated into 6h windows, target Y(k)=1 for transition S(k)=0 -> S(k+1)=1. Distinct from prospectively adjudicated clinical sepsis onset."

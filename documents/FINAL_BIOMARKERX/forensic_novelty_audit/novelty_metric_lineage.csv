@@ -1,0 +1,4 @@
+Metric,Canonical_Baseline,Novelty_Reported,Difference,Dataset,Label_Definition,Evaluator
+Patient Sensitivity,84.95% (237/279),99.63% (542/544),+14.68%,PhysioNet Set A,Canonical: first SepsisLabel==1 prior to alert vs Novelty: any post-hoc hit anywhere,Canonical strictly enforces t_alert <= t_onset; Novelty counted post-onset alerts.
+AUROC,0.7895 (Test A) / 0.8658 (Novelty slice),0.8707,+0.0049,PhysioNet Set A Slice,S_next (Shift -1),"Evaluated on overlapping 6k slice. Gain caused by feature pipeline shifts, NOT temperature scaling."
+Confirmation PPV,32.14% (9/28),43.49% – 61.29%,+11.35% to +29.15%,PhysioNet Set A Slice,Window Confirmation,Threshold tau_c raised from 0.300 to 0.350 on high-risk risk set.

@@ -1,0 +1,14 @@
+{
+  "patient_sensitivity": 0.7986870897155361,
+  "patient_ppv": 0.13448784082535004,
+  "patient_specificity": 0.4913382416630576,
+  "window_screening_sens": 0.6006225965940304,
+  "window_screening_ppv": 0.0943369093157698,
+  "window_confirmation_ppv": 0.24168666438121358,
+  "window_confirmation_sens": 0.12909723493865594,
+  "screening_alerts_per_day": 4.349228355649604,
+  "confirmation_alerts_per_day": 0.36488536090856494,
+  "tp_patients": 365,
+  "fn_patients": 92,
+  "fp_patients": 2349
+}

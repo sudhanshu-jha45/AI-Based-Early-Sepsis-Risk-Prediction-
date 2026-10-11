@@ -1,0 +1,11 @@
+{
+  "novelty_pipeline": "BioMarkerX Acceleration & Organ Dysfunction Engine",
+  "n_patients": 5999,
+  "n_windows": 229080,
+  "novelty_auroc": 0.8706874179228804,
+  "novelty_auprc": 0.18192561344224026,
+  "novelty_brier": 0.020185976619681693,
+  "acceleration_gated_ppv": 0.43486590038314177,
+  "total_confirmation_alerts": 522,
+  "execution_time_sec": 151.18
+}

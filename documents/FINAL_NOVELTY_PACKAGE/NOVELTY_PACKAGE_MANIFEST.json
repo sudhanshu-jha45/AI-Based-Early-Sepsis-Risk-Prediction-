@@ -1,0 +1,32 @@
+{
+  "package_name": "BioMarkerX Publication-Grade Novelty Package",
+  "version": "v1.0.0_publication_lock",
+  "status": "Verdict B: Core Result Supported But Claims Require Qualification",
+  "primary_novelty": "Measurement-process-aware causal trajectory modeling for transportable early sepsis prediction",
+  "datasets": {
+    "internal_validation": "Emory Set A (N=2,974)",
+    "external_validation": "BIDMC Set B (N=20,000)"
+  },
+  "verified_metrics": {
+    "transportability_gap_reduction": "30.52%",
+    "dropout_40_endpoint_ratio": "2.93x lower AUROC loss",
+    "same_physiology_shift_ratio": "3.00x smaller prediction shift",
+    "density_stratification_gap": "7.75% -> 3.10%"
+  },
+  "files": [
+    "NOVELTY_CENTRAL_CONTRIBUTION.md",
+    "NOVELTY_HYPOTHESES.md",
+    "NOVELTY_LITERATURE_GAP.md",
+    "NOVELTY_LITERATURE_MATRIX.csv",
+    "CONTRIBUTIONS_FINAL.md",
+    "METHODS_NOVELTY_SECTION.md",
+    "RESULTS_NOVELTY_SECTION.md",
+    "LIMITATIONS_NOVELTY.md",
+    "TABLES_PUBLICATION.md",
+    "FIGURES_PUBLICATION_PLAN.md",
+    "NOVELTY_CLAIMS_SAFE.md",
+    "NOVELTY_CLAIMS_PROHIBITED.md",
+    "NOVELTY_PACKAGE_MANIFEST.json",
+    "NOVELTY_PACKAGE_SHA256.txt"
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "task": "Task 5 - Physiological Confirmation & False-Alert Forensic Analysis",
+  "timestamp": "2026-10-03 14:32:57",
+  "total_psv_files": 20336,
+  "train_patients": 12287,
+  "validation_patients": 5075,
+  "locked_test_patients": 2974,
+  "zero_leakage_assertion_passed": true,
+  "hash_rule": {
+    "train": "hash % 100 < 60",
+    "validation": "60 <= hash % 100 < 85",
+    "locked_test": "hash % 100 >= 85"
+  }
+}

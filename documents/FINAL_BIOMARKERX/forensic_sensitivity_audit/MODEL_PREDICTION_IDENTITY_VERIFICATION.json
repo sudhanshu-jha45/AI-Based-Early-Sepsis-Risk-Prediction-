@@ -1,0 +1,18 @@
+{
+  "statement": "MODEL & PREDICTION IDENTITY VERIFIED 100% IDENTICAL",
+  "sha256_hashes": {
+    "master_model": "93ecdbc42f0fda19cbba15261c1545d653eeef54e343e44e5ddcfacaf83cccdd",
+    "calibrator": "b3faf071de7416a19da1189f12413bf15b6bd8212a74cf717f2ebc773cdee2bb",
+    "train_medians": "f65fa42ec2c858d56aec57e2930b544ceda86395b02969df2c49f732810be4b4",
+    "locked_patient_ids": "e91cde036777e0cb9ec20d4d8aac23b43e3b220e828b3af956a98916a43f7b7e",
+    "feature_matrix": "cafdc596c095c549d77c2b57058b253db292e3ba954a91aaa1ba4f8ce40601d9",
+    "raw_predictions": "739f8ff481bda087e02901010e701bfdecdd4e9b327ed233d76bccf15472dadd",
+    "calibrated_predictions": "6d4f7d0463f14d33ba6c1ec090a2dab1c8e323b6245c84ac278f1eb13aedacee"
+  },
+  "locked_test_counts": {
+    "patients": 2974,
+    "windows": 112641,
+    "features": 122
+  },
+  "conclusion": "The discrepancy between 82.44% and 79.93% is purely a POLICY / EVALUATION MISMATCH (Onset Boundary Definition), NOT a model or prediction mismatch."
+}

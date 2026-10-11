@@ -1,0 +1,18 @@
+{
+  "model_version": "BioMarkerX V3 High-Performance Engine",
+  "test_auroc": 0.7884326247619231,
+  "test_auprc": 0.09543421338836186,
+  "test_brier": 0.02205714682185954,
+  "confirmation_window_ppv": 0.1649122807017544,
+  "confirmation_episode_ppv": 0.145985401459854,
+  "confirmation_sensitivity": 0.017735849056603775,
+  "confirmation_specificity": 0.9978361865970852,
+  "alerts_per_patient_day": 0.06072389272112286,
+  "policy_parameters": {
+    "tau_screening": 0.08,
+    "persistence_windows": 2,
+    "tau_confirmation": 0.25,
+    "shock_threshold": 0.95
+  },
+  "execution_timestamp": "2026-10-02 20:35:04"
+}

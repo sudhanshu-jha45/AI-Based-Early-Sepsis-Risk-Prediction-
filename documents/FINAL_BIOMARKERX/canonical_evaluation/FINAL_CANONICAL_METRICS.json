@@ -1,0 +1,141 @@
+{
+  "version": "canonical_v1",
+  "model": {
+    "features": 122,
+    "classifier": "HistGradientBoostingClassifier(balanced, max_iter=300, lr=0.03, l2=1.5)",
+    "calibrator": "IsotonicRegression",
+    "tau_screening": 0.035,
+    "tau_confirmation": 0.18,
+    "persistence_windows": 2,
+    "trajectory_gating": "NOT APPLIED (see reconciliation report)"
+  },
+  "dataset": {
+    "total_test_patients": 2974,
+    "total_test_windows": 112641,
+    "label_target": "S_next4 (4h lookahead from PhysioNet SepsisLabel)",
+    "label_note": "Dataset-defined. NOT independently adjudicated clinical sepsis onset."
+  },
+  "window_level": {
+    "window_screening_tp": 1968,
+    "window_screening_fp": 18653,
+    "window_screening_fn": 1401,
+    "window_screening_tn": 90619,
+    "window_screening_ppv": 0.09543669075214586,
+    "window_screening_sens": 0.5841495992876224,
+    "window_screening_spec": 0.8292975327622812,
+    "window_screening_npv": 0.9847750489024125,
+    "window_screening_f1": 0.16406836181742393,
+    "window_confirmation_tp": 436,
+    "window_confirmation_fp": 1908,
+    "window_confirmation_fn": 2933,
+    "window_confirmation_tn": 107364,
+    "window_confirmation_ppv": 0.18600682593856654,
+    "window_confirmation_sens": 0.12941525675274562,
+    "window_confirmation_spec": 0.9825389852844278,
+    "window_confirmation_npv": 0.9734081616000435,
+    "window_confirmation_f1": 0.1526343427271136,
+    "auroc": 0.7895103506580183,
+    "auprc": 0.12410481289948076,
+    "brier": 0.02737970029341863,
+    "n_windows": 112641,
+    "n_positive": 3369,
+    "prevalence": 0.029909180493781128
+  },
+  "alert_level": {
+    "alert_screening_total": 4052,
+    "alert_screening_tp": 291,
+    "alert_screening_fp": 3761,
+    "alert_screening_ppv": 0.07181638696939782,
+    "alert_screening_per_day": 0.8633446080911924,
+    "alert_confirmation_total": 389,
+    "alert_confirmation_tp": 103,
+    "alert_confirmation_fp": 286,
+    "alert_confirmation_ppv": 0.2647814910025707,
+    "alert_confirmation_per_day": 0.08288278690707647
+  },
+  "episode_level": {
+    "n_sepsis_episodes": 279,
+    "n_detected_episodes": 223,
+    "n_missed_episodes": 56,
+    "n_no_event_patients": 2695,
+    "n_no_event_patients_alerted": 1299,
+    "episode_sensitivity": 0.7992831541218638,
+    "episode_ppv": 0.14651773981603153
+  },
+  "patient_level": {
+    "patient_tp": 223,
+    "patient_fn": 56,
+    "patient_fp": 1299,
+    "patient_tn": 1396,
+    "patient_sensitivity": 0.7992831541218638,
+    "patient_ppv": 0.14651773981603153,
+    "patient_specificity": 0.5179962894248609,
+    "patient_npv": 0.9614325068870524
+  },
+  "lead_time": {
+    "n_detected": 223,
+    "n_total_sepsis": 279,
+    "min": 0.0,
+    "p10": 0.0,
+    "p25": 6.0,
+    "median": 30.0,
+    "mean": 50.52914798206278,
+    "std": 58.28280983013422,
+    "p75": 69.5,
+    "p90": 134.8,
+    "max": 290.0,
+    "iqr": 63.5,
+    "interpretation": "Hours prior to first PhysioNet Sepsis-3 label transition (dataset-defined). NOT hours before independently adjudicated clinical sepsis onset."
+  },
+  "target_pass_fail": [
+    {
+      "target": "Patient Sensitivity >= 80%",
+      "definition": "PATIENT-LEVEL: TP_p/(TP_p+FN_p), detection before onset",
+      "threshold": 0.8,
+      "observed": 0.7992831541218638,
+      "verdict": "FAIL",
+      "note": "Observed 79.93% vs 80.00% threshold."
+    },
+    {
+      "target": "Screening PPV >= 15%",
+      "definition": "WINDOW-LEVEL: TP_w/(TP_w+FP_w) at tau_s=0.035, NO gating",
+      "threshold": 0.15,
+      "observed": 0.09543669075214586,
+      "verdict": "FAIL",
+      "note": "Observed 9.54% < 15.00%. Old 15.42% was produced WITH trajectory gating (not pre-specified). Without gating, window-level screening PPV = 9.54%."
+    },
+    {
+      "target": "Confirmation PPV >= 25%",
+      "definition": "WINDOW-LEVEL: TP_c/(TP_c+FP_c) at tau_c=0.18, 2-window persistence, NO gating",
+      "threshold": 0.25,
+      "observed": 0.18600682593856654,
+      "verdict": "FAIL",
+      "note": "Observed 18.60% < 25.00%. Old 27.65% used trajectory gating AND single-window confirmation."
+    },
+    {
+      "target": "Confirmation Sensitivity >= 20%",
+      "definition": "WINDOW-LEVEL: TP_c/(TP_c+FN_c) at tau_c=0.18, 2-window persistence",
+      "threshold": 0.2,
+      "observed": 0.12941525675274562,
+      "verdict": "FAIL",
+      "note": "Observed 12.94% < 20.00%. Old 22.80% used single-window confirmation."
+    },
+    {
+      "target": "Episode Sensitivity (informational)",
+      "definition": "EPISODE-LEVEL: detected_episodes/total_episodes",
+      "threshold": "N/A",
+      "observed": 0.7992831541218638,
+      "verdict": "INFORMATIONAL",
+      "note": "Observed 79.93%"
+    },
+    {
+      "target": "Episode PPV (informational)",
+      "definition": "EPISODE-LEVEL: detected/(detected + false-alert patients)",
+      "threshold": "N/A",
+      "observed": 0.14651773981603153,
+      "verdict": "INFORMATIONAL",
+      "note": "Observed 14.65%"
+    }
+  ],
+  "timestamp": "2026-10-03 01:37:04"
+}

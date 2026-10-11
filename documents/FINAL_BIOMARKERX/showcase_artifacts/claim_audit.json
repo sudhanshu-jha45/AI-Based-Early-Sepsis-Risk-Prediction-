@@ -1,0 +1,38 @@
+[
+  {
+    "claim": "Independent Institutional External Validation",
+    "evidence": "Evaluated on BIDMC Set B (N=20,000)",
+    "status": "SUPPORTED",
+    "safe_wording": "Independent retrospective institutional external validation"
+  },
+  {
+    "claim": "Clinical Sepsis Early Warning Prediction",
+    "evidence": "S_next4 dataset-defined label target",
+    "status": "PARTIAL",
+    "safe_wording": "Prediction of dataset-defined future SepsisLabel event horizon"
+  },
+  {
+    "claim": "External Model Generalization",
+    "evidence": "Set B AUROC 0.7161 vs Set A 0.7895",
+    "status": "PARTIAL",
+    "safe_wording": "Partial transportability with domain degradation in Set B"
+  },
+  {
+    "claim": "XAI Feature Attribution Stability",
+    "evidence": "Spearman rho = 0.942 across cohorts",
+    "status": "SUPPORTED",
+    "safe_wording": "High cross-center rank stability (Spearman rho = 0.942)"
+  },
+  {
+    "claim": "Prospective Clinical Deployment Readiness",
+    "evidence": "No prospective clinical trial performed",
+    "status": "NOT ESTABLISHED",
+    "safe_wording": "Retrospective research model; prospective RCT required"
+  },
+  {
+    "claim": "Vasopressor-Aware Physiological Modeling",
+    "evidence": "Synthetic Shock Index heuristic",
+    "status": "NOT CLAIMED",
+    "safe_wording": "Hemodynamic Shock Index surrogate; true vasopressor dosage not available"
+  }
+]

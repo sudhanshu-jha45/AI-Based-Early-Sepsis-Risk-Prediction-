@@ -1,0 +1,111 @@
+{
+  "metrics": {
+    "auroc": 0.7895103506580183,
+    "auprc": 0.12410481289948076,
+    "brier": 0.02737970029341863,
+    "window_screening_ppv": 0.09543669075214586,
+    "window_screening_sens": 0.5841495992876224,
+    "window_screening_spec": 0.8292975327622812,
+    "window_screening_npv": 0.9847750489024125,
+    "window_confirmation_ppv": 0.18600682593856654,
+    "window_confirmation_sens": 0.12941525675274562,
+    "window_confirmation_spec": 0.9825389852844278,
+    "window_confirmation_npv": 0.9734081616000435,
+    "patient_sensitivity": 0.8243727598566308,
+    "patient_ppv": 0.15042511445389142,
+    "patient_specificity": 0.5179962894248609,
+    "patient_npv": 0.9660899653979239,
+    "episode_sensitivity": 0.8243727598566308,
+    "episode_ppv": 0.15042511445389142,
+    "screening_alert_burden_per_day": 4.393639971236051,
+    "confirmation_alert_burden_per_day": 0.4994273843449543,
+    "patient_counts": {
+      "tp_patients": 230,
+      "fn_patients": 49,
+      "fp_patients": 1299,
+      "tn_patients": 1396,
+      "total_patients": 2974
+    },
+    "lead_time_statistics": {
+      "n_detected": 230,
+      "n_total_events": 279,
+      "min": 0.0,
+      "p10": 2.0,
+      "p25": 9.0,
+      "median": 33.5,
+      "mean": 52.573913043478264,
+      "std": 58.404073840870296,
+      "p75": 72.5,
+      "p90": 138.1,
+      "max": 294.0,
+      "iqr": 63.5
+    }
+  },
+  "bootstrap_cis": {
+    "auroc": {
+      "point_estimate": 0.7895103506580183,
+      "boot_mean": 0.7896543513966562,
+      "boot_std": 0.011637680846907637,
+      "ci_lower_95": 0.7657050930489893,
+      "ci_upper_95": 0.8109473882030445,
+      "ci_contains_point_estimate": true
+    },
+    "auprc": {
+      "point_estimate": 0.12410481289948076,
+      "boot_mean": 0.12492368754338655,
+      "boot_std": 0.009260295663086332,
+      "ci_lower_95": 0.10797606892813298,
+      "ci_upper_95": 0.1442705932095372,
+      "ci_contains_point_estimate": true
+    },
+    "patient_sensitivity": {
+      "point_estimate": 0.8243727598566308,
+      "boot_mean": 0.8242837677793049,
+      "boot_std": 0.02272375683578228,
+      "ci_lower_95": 0.7790233509133991,
+      "ci_upper_95": 0.8664738258317025,
+      "ci_contains_point_estimate": true
+    },
+    "window_screening_ppv": {
+      "point_estimate": 0.09543669075214586,
+      "boot_mean": 0.09542842693018375,
+      "boot_std": 0.005019091763797022,
+      "ci_lower_95": 0.08572257135841803,
+      "ci_upper_95": 0.10511696114346206,
+      "ci_contains_point_estimate": true
+    },
+    "window_confirmation_ppv": {
+      "point_estimate": 0.18600682593856654,
+      "boot_mean": 0.1873885450170744,
+      "boot_std": 0.02298254000783773,
+      "ci_lower_95": 0.14563193428404422,
+      "ci_upper_95": 0.23335409604652033,
+      "ci_contains_point_estimate": true
+    },
+    "window_confirmation_sens": {
+      "point_estimate": 0.12941525675274562,
+      "boot_mean": 0.12925483813988842,
+      "boot_std": 0.015805377706144614,
+      "ci_lower_95": 0.09829755362950383,
+      "ci_upper_95": 0.15960625442297527,
+      "ci_contains_point_estimate": true
+    },
+    "patient_ppv": {
+      "point_estimate": 0.15042511445389142,
+      "boot_mean": 0.15039799693574998,
+      "boot_std": 0.009132598707753842,
+      "ci_lower_95": 0.13359199129215782,
+      "ci_upper_95": 0.16840970084725257,
+      "ci_contains_point_estimate": true
+    }
+  },
+  "config": {
+    "tau_screening": 0.035,
+    "tau_confirmation": 0.18,
+    "persistence_windows": 2,
+    "trajectory_gate_active": false,
+    "onset_definition": "SepsisLabel",
+    "episode_grouping_rule": "first_episode_per_patient",
+    "n_bootstrap": 1000
+  }
+}

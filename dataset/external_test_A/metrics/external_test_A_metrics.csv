@@ -1,0 +1,2 @@
+cohort_name,patients_eval,risk_windows,transition_events,transition_rate_pct,auroc,auprc,brier_score,tau_opt,sensitivity_pct,specificity_pct,ppv_pct,npv_pct,validation_level
+PhysioNet 2019 (training_setA),3000,17723,212,1.1961857473339728,0.5555070236174997,0.0153492800714836,0.0799142722104926,0.1825,90.56603773584906,9.342698874992864,1.194995954440779,98.79227053140096,Level 2/3 Temporal External Validation

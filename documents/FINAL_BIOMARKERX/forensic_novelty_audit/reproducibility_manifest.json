@@ -1,0 +1,8 @@
+{
+  "audit_timestamp": "2026-10-03 17:02:38",
+  "random_seed": 42,
+  "locked_test_patients": 2973,
+  "locked_test_events": 275,
+  "evaluator_version": "1.0.0_forensic_auditor",
+  "execution_time_sec": 57.55
+}

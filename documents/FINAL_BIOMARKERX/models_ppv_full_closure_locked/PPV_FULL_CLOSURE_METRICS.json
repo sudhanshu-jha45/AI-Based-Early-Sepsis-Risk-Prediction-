@@ -1,0 +1,13 @@
+{
+  "test_auroc": 0.7925995831342514,
+  "test_auprc": 0.12809460123284033,
+  "test_brier": 0.02107609986637787,
+  "window_level_ppv": 0.08296557811120918,
+  "episode_level_ppv": 0.0389278876834716,
+  "sensitivity": 0.3769045709703288,
+  "specificity": 0.9023551303497923,
+  "alerts_per_day": 0.4161616161616162,
+  "true_episodes": 61,
+  "total_episodes": 1567,
+  "execution_timestamp": "2026-10-02 19:25:28"
+}

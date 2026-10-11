@@ -1,0 +1,128 @@
+[
+  {
+    "case_id": "CASE_01",
+    "patient_id": "PAT_0000",
+    "base_value": 0.09479875486696789,
+    "raw_pred": 0.17019957261260873,
+    "calibrated_probability": 0.01251303441084463,
+    "top_positive_risk_drivers": [
+      {
+        "feature": "ICULOS",
+        "shap_value": 0.07430844496649389
+      },
+      {
+        "feature": "HR",
+        "shap_value": 0.025558268592584928
+      }
+    ],
+    "top_negative_risk_pullers": [
+      {
+        "feature": "SBP",
+        "shap_value": -0.019175134589042193
+      },
+      {
+        "feature": "MAP",
+        "shap_value": -0.005290761224395769
+      }
+    ]
+  },
+  {
+    "case_id": "CASE_02",
+    "patient_id": "PAT_0000",
+    "base_value": 0.09479875486696789,
+    "raw_pred": 0.2138521513674636,
+    "calibrated_probability": 0.016546429280561263,
+    "top_positive_risk_drivers": [
+      {
+        "feature": "ICULOS",
+        "shap_value": 0.0787883147757906
+      },
+      {
+        "feature": "HR",
+        "shap_value": 0.03416129081401427
+      },
+      {
+        "feature": "MAP",
+        "shap_value": 0.005090166580460384
+      }
+    ],
+    "top_negative_risk_pullers": []
+  },
+  {
+    "case_id": "CASE_03",
+    "patient_id": "PAT_0000",
+    "base_value": 0.09479875486696789,
+    "raw_pred": 0.14145290518977988,
+    "calibrated_probability": 0.012394739332008705,
+    "top_positive_risk_drivers": [
+      {
+        "feature": "ICULOS",
+        "shap_value": 0.09193274999263132
+      },
+      {
+        "feature": "HR",
+        "shap_value": 0.0019953661801102767
+      }
+    ],
+    "top_negative_risk_pullers": [
+      {
+        "feature": "SBP",
+        "shap_value": -0.033436811539604094
+      },
+      {
+        "feature": "MAP",
+        "shap_value": -0.013837154310325507
+      }
+    ]
+  },
+  {
+    "case_id": "CASE_04",
+    "patient_id": "PAT_0000",
+    "base_value": 0.09479875486696789,
+    "raw_pred": 0.13980361396608504,
+    "calibrated_probability": 0.012008733624454149,
+    "top_positive_risk_drivers": [
+      {
+        "feature": "ICULOS",
+        "shap_value": 0.1468070132996719
+      },
+      {
+        "feature": "HR",
+        "shap_value": 0.0029961160613669433
+      }
+    ],
+    "top_negative_risk_pullers": [
+      {
+        "feature": "SBP",
+        "shap_value": -0.06866196895680056
+      },
+      {
+        "feature": "MAP",
+        "shap_value": -0.03613630130512114
+      }
+    ]
+  },
+  {
+    "case_id": "CASE_05",
+    "patient_id": "PAT_0000",
+    "base_value": 0.09479875486696789,
+    "raw_pred": 0.1569552506650569,
+    "calibrated_probability": 0.012394739332008705,
+    "top_positive_risk_drivers": [
+      {
+        "feature": "ICULOS",
+        "shap_value": 0.0722965294549846
+      },
+      {
+        "feature": "MAP",
+        "shap_value": 0.005275159159666759
+      }
+    ],
+    "top_negative_risk_pullers": [
+      {
+        "feature": "SBP",
+        "shap_value": -0.015415192816562371
+      }
+    ]
+  }
+]

@@ -1,0 +1,12 @@
+{
+  "policy_id_val": "VAL_POL_0450",
+  "policy_id_test": "VAL_POL_0450",
+  "rule_name": "Rule_E_MAP_Trend",
+  "tau_screening": 0.015,
+  "tau_confirmation": 0.3,
+  "persistence_windows": 3,
+  "onset_definition": "first SepsisLabel == 1",
+  "policy_hash_val": "352a0e4a0ec267cd3fa85231381b305f4ebb51931df91e8c615b7041b7248401",
+  "policy_hash_test": "352a0e4a0ec267cd3fa85231381b305f4ebb51931df91e8c615b7041b7248401",
+  "policy_identity_status": "PASS"
+}

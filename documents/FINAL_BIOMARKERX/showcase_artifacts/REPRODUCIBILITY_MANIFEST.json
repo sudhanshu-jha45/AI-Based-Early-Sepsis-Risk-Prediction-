@@ -1,0 +1,32 @@
+{
+  "project": "BioMarkerX Forensic Scientific Audit",
+  "canonical_lock": "v1.0.0_canonical_lock",
+  "model_artifact": "FINAL_BIOMARKERX/models/v1.0.0/model.joblib",
+  "model_sha256": "93ecdbc42f0fda19cbba15261c1545d653eeef54e343e44e5ddcfacaf83cccdd",
+  "calibrator_artifact": "FINAL_BIOMARKERX/models/v1.0.0/calibrator.joblib",
+  "calibrator_sha256": "b3faf071de7416a19da1189f12413bf15b6bd8212a74cf717f2ebc773cdee2bb",
+  "train_medians_artifact": "FINAL_BIOMARKERX/models/v1.0.0/train_medians.json",
+  "train_medians_sha256": "f65fa42ec2c858d56aec57e2930b544ceda86395b02969df2c49f732810be4b4",
+  "policy_spec": "VAL_POL_0450 (tau_s=0.015, tau_c=0.300, p=3, MAP_gate=75 mmHg)",
+  "setA_dataset": "PhysioNet 2019 Set A (Emory University, N=20,336)",
+  "setB_dataset": "PhysioNet 2019 Set B (BIDMC, N=20,000)",
+  "artifacts_generated": [
+    "NOVELTY_MASTER_REPORT.md",
+    "LITERATURE_MATRIX.csv",
+    "FEATURE_RECONCILIATION.csv",
+    "COHORT_FLOW.csv",
+    "DATA_QUALITY_AUDIT.csv",
+    "MISSINGNESS_AUDIT.csv",
+    "OBSERVATION_DENSITY_AUDIT.csv",
+    "LOS_AUDIT.csv",
+    "ABLATION_RESULTS.csv",
+    "ABLATION_STATISTICAL_COMPARISON.csv",
+    "EXTERNAL_COMPARISON.csv",
+    "XAI_FORENSICS.csv",
+    "NOVELTY_CLAIM_MATRIX.csv",
+    "PUBLICATION_CLAIMS.md",
+    "RESEARCH_ROADMAP.md",
+    "NOVELTY_VERDICT.json",
+    "REPRODUCIBILITY_MANIFEST.json"
+  ]
+}

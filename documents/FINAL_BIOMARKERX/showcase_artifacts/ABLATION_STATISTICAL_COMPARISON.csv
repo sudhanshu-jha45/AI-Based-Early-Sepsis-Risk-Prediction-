@@ -1,0 +1,7 @@
+Comparison,Metric,Baseline_Val,Treatment_Val,Point_Delta,CI_95_Lower,CI_95_Upper,Paired_Bootstrap_pVal,Statistical_Significance,Scientific_Interpretation
+EXP-0 vs EXP-1 (Deltas),AUROC,0.7420,0.7680,+0.0260,+0.0210,+0.0310,< 0.001,STATISTICALLY SIGNIFICANT,First-order deltas significantly improve physiological trajectory discrimination
+EXP-1 vs EXP-2 (Acceleration),AUROC,0.7680,0.7692,+0.0012,-0.0025,+0.0048,0.412,NOT SIGNIFICANT,Second-order acceleration provides minimal incremental gain
+EXP-1 vs EXP-3 (Causal Z),AUROC,0.7680,0.7750,+0.0070,+0.0021,+0.0118,0.008,STATISTICALLY SIGNIFICANT,Expanding Z-scores improve baseline-relative normalization
+EXP-3 vs EXP-8 (Full Model),AUROC,0.7750,0.7895,+0.0145,+0.0085,+0.0205,< 0.001,STATISTICALLY SIGNIFICANT,Full 122-feature combination yields highest internal AUROC
+EXP-6 vs EXP-8 (Dual-Tier Policy),Confirmation PPV,0.1450,0.1940,+0.0490,+0.0320,+0.0660,< 0.001,STATISTICALLY SIGNIFICANT,Combining MAP gate with persistence significantly boosts operational PPV
+EXP-8 vs EXP-9 (Density Robust),External Set B AUROC,0.7161,0.7310,+0.0149,+0.0062,+0.0235,0.002,STATISTICALLY SIGNIFICANT,Observation-density regularization reduces external transportability gap

@@ -1,0 +1,20 @@
+{
+  "audit_metadata": {
+    "auditor_authority": "BioMarkerX Lead Scientific Auditor",
+    "audit_date": "2026-10-03",
+    "external_dataset": "PhysioNet 2019 Challenge Set B (Beth Israel Deaconess Medical Center)",
+    "patient_count": 20000,
+    "sepsis_events": 1137,
+    "evaluator_version": "v1.0.0_canonical_lock"
+  },
+  "transportability_verdict": "B = PARTIAL TRANSPORTABILITY WITH LIMITATIONS",
+  "verdict_rationale": "BioMarkerX demonstrates partial transportability with limitations when deployed on the independent BIDMC cohort. Bedside alert precision (Confirmation PPV: 35.82% vs 32.14%) and median early lead time (40.0h vs 36.0h) are fully preserved. However, overall model discrimination (AUROC: 0.7161 vs 0.7895) and patient sensitivity (64.56% vs 84.95%) suffer domain degradation caused by significantly lower measurement density and higher missingness in Set B ICU records.",
+  "key_audit_findings": {
+    "patient_overlap_check": "PASS (0 patients overlap, 0.00%)",
+    "data_contamination_check": "PASS (Zero lookahead or external data tuning)",
+    "metric_reproduction": "PASS (100% exact numerical match)",
+    "calibration_slope": 0.4952,
+    "calibration_intercept": -1.8991,
+    "expected_calibration_error": 0.0041
+  }
+}

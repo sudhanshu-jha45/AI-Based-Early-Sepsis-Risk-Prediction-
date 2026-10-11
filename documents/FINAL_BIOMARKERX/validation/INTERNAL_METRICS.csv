@@ -1,0 +1,2 @@
+cohort,cv_type,N_patients,N_windows,N_events,prevalence_pct,AUROC,AUPRC,Brier_Score,Brier_Baseline_Prevalence
+"Development Cohort (2,115 ICU Patients)",Model-Development GroupKFold (Subject to Selection Optimism),1986,10098,940,9.31,0.8268,0.4129,0.06729,0.08442

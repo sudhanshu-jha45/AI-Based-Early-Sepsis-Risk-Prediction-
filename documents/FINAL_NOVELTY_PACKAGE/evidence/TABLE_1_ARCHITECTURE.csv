@@ -1,0 +1,7 @@
+representation,causal_normalization,temporal_dynamics,observation_process_features,training_cohort,internal_validation,external_institutional_cohort
+Model A (Raw),None (Raw Vitals/Labs),None (Last Value),None,"Emory Set A (N=2,379)",Emory Set A (N=595),"BIDMC Set B (N=20,000)"
+Model B (Raw + Deltas),None,"1st Order (Delta t, Delta X)",None,"Emory Set A (N=2,379)",Emory Set A (N=595),"BIDMC Set B (N=20,000)"
+Model C (Causal Z),"Baseline Reference Normalization (Z_{i,t})",1st Order Velocity (dZ/dt),None,"Emory Set A (N=2,379)",Emory Set A (N=595),"BIDMC Set B (N=20,000)"
+Model D (Causal Trajectory),"Baseline Normalization (Z_{i,t})",1st & 2nd Order Velocity & Acceleration,"Imputation Masks (M_{i,t})","Emory Set A (N=2,379)",Emory Set A (N=595),"BIDMC Set B (N=20,000)"
+Model E (Full BioMarkerX),Causal Trajectory Normalization,Multi-scale Velocity & Acceleration,Full Mask + Density Features,"Emory Set A (N=2,379)",Emory Set A (N=595),"BIDMC Set B (N=20,000)"
+Model F (Observation-Aware),Causal Trajectory Normalization,Decoupled Trajectory Dynamics,"Decoupled Observation Vector (O_{i,t})","Emory Set A (N=2,379)",Emory Set A (N=595),"BIDMC Set B (N=20,000)"

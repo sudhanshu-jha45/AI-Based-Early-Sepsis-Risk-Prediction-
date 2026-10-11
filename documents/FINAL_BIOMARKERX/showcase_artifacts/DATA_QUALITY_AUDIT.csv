@@ -1,0 +1,11 @@
+Check_ID,Dataset,Quality_Dimension,Check_Description,Observed_Count,Status,Code_Verification
+CHK-01,Set A,Parser Integrity,Parse all PSV files without syntax/format error,20336,PASSED,pd.read_csv(sep='|')
+CHK-02,Set A,Monotonic Timestamps,ICULOS increases strictly monotonically +1 hour per row,20336,PASSED,(df['ICULOS'].diff().dropna() == 1).all()
+CHK-03,Set A,Zero Duplicate Hours,No patient record contains duplicate ICULOS timestamp,0,PASSED,df['ICULOS'].duplicated().any() == False
+CHK-04,Set A,Binary SepsisLabel,"SepsisLabel contains only {0, 1} values",20336,PASSED,"df['SepsisLabel'].isin([0, 1]).all()"
+CHK-05,Set A,Absorbing Sepsis State,"Once SepsisLabel=1, it remains 1 for remainder of ICU stay",20336,PASSED,Monotonic increasing check on SepsisLabel
+CHK-06,Set B,Parser Integrity,Parse all PSV files without syntax/format error,20000,PASSED,pd.read_csv(sep='|')
+CHK-07,Set B,Monotonic Timestamps,ICULOS increases strictly monotonically +1 hour per row,20000,PASSED,(df['ICULOS'].diff().dropna() == 1).all()
+CHK-08,Set B,Zero Duplicate Hours,No patient record contains duplicate ICULOS timestamp,0,PASSED,df['ICULOS'].duplicated().any() == False
+CHK-09,Set B,Binary SepsisLabel,"SepsisLabel contains only {0, 1} values",20000,PASSED,"df['SepsisLabel'].isin([0, 1]).all()"
+CHK-10,Set B,Absorbing Sepsis State,"Once SepsisLabel=1, it remains 1 for remainder of ICU stay",20000,PASSED,Monotonic increasing check on SepsisLabel

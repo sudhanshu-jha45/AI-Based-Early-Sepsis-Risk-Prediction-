@@ -1,0 +1,9 @@
+{
+  "tau_screening": 0.035,
+  "tau_confirmation": 0.18,
+  "persistence_windows": 2,
+  "trajectory_gate_active": false,
+  "onset_definition": "SepsisLabel",
+  "episode_grouping_rule": "first_episode_per_patient",
+  "n_bootstrap": 200
+}

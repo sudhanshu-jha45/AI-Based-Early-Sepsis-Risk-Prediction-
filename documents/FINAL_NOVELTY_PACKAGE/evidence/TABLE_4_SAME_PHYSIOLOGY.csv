@@ -1,0 +1,3 @@
+model,shift_0,shift_10,shift_40,shift_60,shift_80,mean_absolute_delta_p_40pct,median_delta_p_40pct,ci_95_lower,ci_95_upper
+Model E (Full BioMarkerX),0.0,0.024,0.054,0.095,0.142,0.054,0.048,0.046,0.062
+Model F (Observation-Aware),0.0,0.008,0.018,0.032,0.048,0.018,0.015,0.014,0.022

@@ -1,0 +1,22 @@
+{
+  "master_test_auroc": 0.8030352966404429,
+  "master_test_auprc": 0.09071694624391978,
+  "master_test_brier": 0.019158718385351423,
+  "validation_auroc": 0.7632673488622984,
+  "validation_auprc": 0.10561337870220983,
+  "screening_sensitivity": 0.5430060816681147,
+  "screening_specificity": 0.8680328608829105,
+  "confirmation_specificity": 0.974559898889591,
+  "confirmation_ppv": 0.1403294691885296,
+  "train_patients_count": 5995,
+  "val_patients_count": 2501,
+  "test_patients_count": 1504,
+  "train_windows_count": 226939,
+  "val_windows_count": 94992,
+  "test_windows_count": 56536,
+  "feature_count": 117,
+  "patient_overlap_count": 0,
+  "temporal_leakage_status": "PASS - center=False, expanding cumulative median/IQR",
+  "patient_leakage_status": "PASS - SHA-256 60/25/15 Patient ID hash split",
+  "execution_timestamp": "2026-10-02 18:20:54"
+}

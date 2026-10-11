@@ -1,0 +1,47 @@
+filepath,filename,size_bytes,mtime,sha256,matched_keywords
+scratch\execute_final_closure_engine.py,execute_final_closure_engine.py,21150,2026-10-02 00:57:59,94183d5888704bc3e56ad27d6f8dac1bc994b04a98f04904c1f7a011082edca1,['230']
+master_sepsis_pipeline.py,master_sepsis_pipeline.py,22730,2026-09-02 22:58:50,7e89e1c39841e87a0acdf667688a3bacecea3992a558c6080e543a561eb0faaf,['230']
+scratch\generate_massive_200page_pdf_engine.py,generate_massive_200page_pdf_engine.py,21364,2026-10-02 21:31:44,912c16dd02581a824cd8561409810b0602496183164ac704ec9bf6b3d2bd0e20,"['82.44', '230', 'tau_s']"
+BIOMARKX_TARGET_REMEDIATION_REPORT.md,BIOMARKX_TARGET_REMEDIATION_REPORT.md,625,2026-10-02 21:23:40,0fc85e721b63d0531dd9c9be0107aa3bf85b2d8b1ea18aee02d43dac98cd78dd,['82.44']
+scratch\forensic_investigation_patient_sensitivity.py,forensic_investigation_patient_sensitivity.py,2549,2026-10-03 12:26:52,037d458adf8ad47bc67d9531ff288b9eefb7e9f40bd57cbdd5641eb6628d9e0e,"['82.44', '79.93', '0.8244', '0.7993', '230', '223', 'tau_screening', 'tau_s']"
+scratch\execute_v2_master_closure_pipeline.py,execute_v2_master_closure_pipeline.py,26988,2026-10-02 20:12:12,4429a775f57dd5c7a4a40798e25f9ba6a148270ba9c243fa12c3d7c3487b1c67,"['tau_screening', 'tau_s']"
+scratch\generate_master_200page_pdf_v2.py,generate_master_200page_pdf_v2.py,23774,2026-10-02 21:26:35,fca4144db1b94d506b4be5b3cad31242596c4388f81a1019d272d0b876420756,"['82.44', '230']"
+scratch\lock_final_target_operating_point.py,lock_final_target_operating_point.py,12119,2026-10-02 21:14:29,7bcb7f0d7de29b52c9c188a25b1b458d9d1150f0c56fd06d3e09b8d9eef2ac4e,"['tau_screening', 'tau_s']"
+scratch\evaluate_patient_episode_level_metrics.py,evaluate_patient_episode_level_metrics.py,8238,2026-10-02 20:35:19,18e7321f055170af3289976c341564c49e0ad01cd9e484022fb17584ecfe3c56,['tau_s']
+BIOMARKERX_MASTER_PROBLEM_REGISTER.json,BIOMARKERX_MASTER_PROBLEM_REGISTER.json,2652,2026-10-02 17:05:03,78ec0d231f1b8ed44c85952dfb3d3ca1b2be1b071490031ac372527cbd53f750,"['230', 'tau_s']"
+scratch\execute_ppv_master_closure_engine.py,execute_ppv_master_closure_engine.py,14900,2026-10-02 19:23:55,fd1b589f171ffe2e1c7bbde515e17a8ee51ac03dc8b5d711f38731cf28270e2b,['tau_s']
+scratch\execute_publication_grade_target_engine.py,execute_publication_grade_target_engine.py,17664,2026-10-02 20:49:46,6c8e68ad483316b46ed8ec5a7a0b07bdf507a294e43755c66516bbe7e0ee1e3c,"['tau_screening', 'tau_s']"
+scratch\generate_50_page_pdf.py,generate_50_page_pdf.py,20251,2026-10-02 00:55:39,679ca385a093c446351b8c9d1e087a516ae89351a9ea036907c69650f05f3384,"['230', '223']"
+scratch\execute_final_14_point_remediation.py,execute_final_14_point_remediation.py,5266,2026-10-02 00:41:48,2a775aab4ae888ebeefca45923caa7c22fc5d5b8b276ce0b86a2221f73bde1fc,['230']
+FINAL_BIOMARKERX\models_target_remediation_locked\BIOMARKX_MAJOR_9_CLOSURE_RESULTS.json,BIOMARKX_MAJOR_9_CLOSURE_RESULTS.json,6301,2026-10-02 23:20:33,e12341989c0a57301e84791ccf400d690bcab48aa98419e14e2cc2a9f2504c64,"['223', 'tau_s']"
+scratch\execute_full_scale_22k_master_pipeline.py,execute_full_scale_22k_master_pipeline.py,11071,2026-10-02 18:43:53,b4959117226a609d5f4a5ef4d52ef46c3b8b3aee1c68c0a7afb4d0f0243c013c,['tau_s']
+scratch\execute_reserve_external_validation.py,execute_reserve_external_validation.py,7942,2026-10-02 18:05:30,d1cc96cdf35160cfa32839b9dc392e4be956b66d480d45da9756c72eea182e67,['tau_s']
+scratch\execute_7_point_fix.py,execute_7_point_fix.py,6048,2026-10-02 00:55:17,0b8a1f239c2af7ff1ed7bac1fa902d9465372185754dc4bb712adbdf2154ec44,['223']
+scratch\execute_uncheated_zero_leakage_master_pipeline.py,execute_uncheated_zero_leakage_master_pipeline.py,12477,2026-10-02 17:39:54,816a8575bf4c8e1328e263a78619db6f39be38ad6a75a40109665d793e77ddaa,['tau_s']
+FINAL_BIOMARKERX\canonical_evaluation\FINAL_METRIC_RECONCILIATION_REPORT.md,FINAL_METRIC_RECONCILIATION_REPORT.md,7637,2026-10-03 01:37:04,fc206cb26bbac49694d8fb7e158e6e36ff5c77bd024f3f24ded340d00cdfb3fb,"['82.44', '79.93', 'tau_s']"
+scratch\execute_lock_and_uncheated_pipeline.py,execute_lock_and_uncheated_pipeline.py,10374,2026-10-02 17:57:29,ff9a5d7c561ae974f9f9432b231a63a545442cd3099786540546d921a8641295,['tau_s']
+BioMarkerX_Master_Deliverables\BioMarkerX_V2_FINAL_CLOSURE_MANIFEST.json,BioMarkerX_V2_FINAL_CLOSURE_MANIFEST.json,1803,2026-10-02 13:12:12,a62217f8ee6b64374dc35f8eb2705436a9c2059961f17aef58328917e0296415,['230']
+scratch\generate_200_page_pdf_engine.py,generate_200_page_pdf_engine.py,59236,2026-10-02 14:54:27,daf3189e97439d28adf77762428d094525594bec50c1297e24215ec70bc01ba3,['230']
+scratch\generate_ultimate_master_pdf.py,generate_ultimate_master_pdf.py,28824,2026-10-02 01:02:29,3876081bbe470998199b670fa564e1d885dd16df8effa60465bfa26652b9fdd9,['230']
+scratch\execute_final_9_point_refinement.py,execute_final_9_point_refinement.py,8170,2026-10-02 00:44:25,1ce3f65cb645380388d35b47eebf2517e8f9f5dd2e54cd8d1cf140aa74a39639,"['230', '223']"
+FINAL_POLICY_LOCK.json,FINAL_POLICY_LOCK.json,774,2026-10-02 20:15:08,8d7585980beb7a89782dd8721f778965a304e0ff8d1e2f282831de560f463696,"['tau_screening', 'tau_s']"
+PPV_FULL_CLOSURE_REPORT.md,PPV_FULL_CLOSURE_REPORT.md,831,2026-10-02 19:25:28,2969c1a42afd175f19a95410f55fdbc928963f35271a175888d9fe967e8abf7e,['tau_s']
+FINAL_BIOMARKERX\models_causal_locked\PREVIOUS_VERSION_LOCK_MANIFEST.json,PREVIOUS_VERSION_LOCK_MANIFEST.json,568,2026-10-02 17:57:49,ff3609772649b09f2fd4795e4ba07eeb71c97c8d9707f5ca68281e644410fe89,['230']
+FINAL_BIOMARKERX\models_v3_high_performance_locked\V3_LOCKED_METRICS.json,V3_LOCKED_METRICS.json,631,2026-10-02 20:35:04,1f494706d2baddeaf0572537c9c0a82fafe462f48766ee81c97cd7887c6dd3fb,"['tau_screening', 'tau_s']"
+FINAL_BIOMARKERX\canonical_evaluation\FINAL_BOOTSTRAP_RESULTS.json,FINAL_BOOTSTRAP_RESULTS.json,7036,2026-10-03 01:37:04,6ce1d3d40e425aa551adbd0e26ec4a6768c97cab4ee79216c6f6d6c2fa0dc6b4,['230']
+scratch\canonical_evaluation_framework.py,canonical_evaluation_framework.py,40162,2026-10-03 01:59:46,1b21e269375a69fca3e0d0cbaa9694d0bf2a05ceba4044286ed1fa367310d2fc,"['82.44', '79.93', 'tau_screening', 'tau_s']"
+scratch\execute_major_9_challenge_closure_engine.py,execute_major_9_challenge_closure_engine.py,20380,2026-10-02 22:53:47,1bc8420b89d193031addfbc34cc8f5c146f5558ff1670e02ac19edbc1675b459,['tau_s']
+FINAL_BIOMARKERX\models_target_remediation_locked\BIOMARKX_TARGET_REMEDIATION_RESULTS.json,BIOMARKX_TARGET_REMEDIATION_RESULTS.json,1226,2026-10-02 21:23:40,928deb08932f4edb6ecb72690dd5539b3f0f1f9cb131fb13985696cfaeac58ed,"['82.44', '0.8244', 'tau_screening', 'tau_s']"
+scratch\execute_causal_validation_and_benchmarks.py,execute_causal_validation_and_benchmarks.py,5181,2026-10-02 17:04:50,e3b2a059e9d4613bafdcf655c0b8f0d16cc87c8073b95149125c09117754016f,"['230', 'tau_s']"
+v3_engine\V3_DEV_MEDIANS.json,V3_DEV_MEDIANS.json,5199,2026-10-02 15:29:29,fee2edcd524f6d27273776cafc479ad6617a094180fc0fd2accb63139b60680d,['223']
+v2\V2_DEV_MEDIANS.json,V2_DEV_MEDIANS.json,3701,2026-10-02 14:53:18,682f11749028d6240ee313823817a64dd60def7eaba8239bab7558ab69f792b2,['223']
+BIOMARKERX_PROJECT_INVENTORY.json,BIOMARKERX_PROJECT_INVENTORY.json,6010963,2026-10-02 17:00:52,cb1a974ab8f2078df7ed66a6b1468225815f5839a48ee7a1150917946bbddae9,"['230', '223']"
+BIOMARKERX_MASTER_PROBLEM_REGISTER.md,BIOMARKERX_MASTER_PROBLEM_REGISTER.md,2008,2026-10-02 17:05:03,2f712a399e82998dcf6b89694928fc09470e3c64c146b6a211b0e31d284f7f6f,"['230', 'tau_s']"
+scratch\solve_exact_target_operating_point.py,solve_exact_target_operating_point.py,13241,2026-10-02 21:16:17,967f8e17e8cc6210c9b30f0b0266667934bd6594a0a4b818b5f3a920c87a79fd,"['tau_screening', 'tau_s']"
+FINAL_BIOMARKERX\canonical_evaluation\FINAL_CANONICAL_METRICS.json,FINAL_CANONICAL_METRICS.json,5127,2026-10-03 01:37:04,97bd7cb56214c61dafb691af2de0233da5c7df8ec2e550a165e7ff481cc2ec82,"['79.93', '223', 'tau_screening', 'tau_s']"
+scratch\develop_v3_high_ppv_sens_engine.py,develop_v3_high_ppv_sens_engine.py,17989,2026-10-02 20:19:40,177d05f0ba2a146d1cf6461b12c808ba00ceddc689a94cac3cbfd1b360ce9fb7,"['tau_screening', 'tau_s']"
+scratch\write_final_locked_target_deliverables.py,write_final_locked_target_deliverables.py,2527,2026-10-02 21:23:07,6b08895b8a26f8bae85fb284892c76d310faff7736b4de5b93c5c3127dbc4914,"['82.44', '0.8244', 'tau_screening', 'tau_s']"
+scratch\execute_master_13k_6k_5k_pipeline.py,execute_master_13k_6k_5k_pipeline.py,13181,2026-10-02 18:17:43,cc905e19b87eb2e1d6d65c5e77143dcbd3e43cfd5f5205a5032a5a04e1f051e1,['tau_s']
+FINAL_BIOMARKERX\audits\FINAL_PROJECT_INVENTORY.json,FINAL_PROJECT_INVENTORY.json,7112466,2026-10-02 16:11:32,52a0f2ef0947a8b287afb98badebcce8e6b97af146869c084aab3de2d53246b9,"['230', '223']"
+scratch\generate_massive_200plus_page_pdf.py,generate_massive_200plus_page_pdf.py,32149,2026-10-02 01:04:41,9f650edd07994752c14fab5bc06ccf12d610424e1d00b0584abd9aa83a9a3adb,"['230', '223']"
+scratch\generate_dedicated_xai_pdf_monograph.py,generate_dedicated_xai_pdf_monograph.py,25872,2026-10-01 23:27:52,27375af551c6ae3bb4f9baa2565cf4d130c3a2d46d5147f25eb03622b659c31b,['230']

@@ -1,0 +1,52 @@
+{
+  "imputation": {
+    "method": "Within-patient forward fill (ffill) + Set A Training Median fallback",
+    "fit_dataset": "Set A Training Split (N=12,287 patients)",
+    "training_only_fit": true,
+    "max_fill_duration": "Unlimited within ICU stay; initial unobserved values filled with Set A training medians"
+  },
+  "causal_normalization": {
+    "formula": "z_{i,t,k} = (V_{i,t,k} - Median(V_{i,1:t,k})) / (IQR(V_{i,1:t,k}) + epsilon)",
+    "temporal_safety": "Strict expanding window tau <= t. Future information (tau > t) is zero-masked.",
+    "iqr_zero_fallback": "When IQR == 0, denominator equals epsilon (1e-5), stabilizing z_{i,t,k} to 0.0.",
+    "epsilon": 1e-05,
+    "epsilon_sensitivity_status": "STATUS: NOT ESTABLISHED (Epsilon fixed at 1e-5 in frozen pipeline specification)"
+  },
+  "unit_normalization_audit": [
+    {
+      "variable": "HR",
+      "raw_unit": "bpm",
+      "expected_unit": "bpm",
+      "conversion": "None",
+      "applied": true
+    },
+    {
+      "variable": "MAP",
+      "raw_unit": "mmHg",
+      "expected_unit": "mmHg",
+      "conversion": "None",
+      "applied": true
+    },
+    {
+      "variable": "Temp",
+      "raw_unit": "degC",
+      "expected_unit": "degC",
+      "conversion": "Fahrenheit converted to Celsius where Temp > 45",
+      "applied": true
+    },
+    {
+      "variable": "WBC",
+      "raw_unit": "x10^3/uL",
+      "expected_unit": "x10^3/uL",
+      "conversion": "None",
+      "applied": true
+    },
+    {
+      "variable": "Lactate",
+      "raw_unit": "mmol/L",
+      "expected_unit": "mmol/L",
+      "conversion": "None",
+      "applied": true
+    }
+  ]
+}

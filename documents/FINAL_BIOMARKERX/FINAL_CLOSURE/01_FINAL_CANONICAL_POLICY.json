@@ -1,0 +1,27 @@
+{
+  "policy_id": "VAL_POL_0450",
+  "rule_name": "Rule_E_MAP_Trend",
+  "tau_screening": 0.015,
+  "tau_confirmation": 0.3,
+  "persistence_windows": 3,
+  "trajectory_filter_active": true,
+  "onset_definition": "first SepsisLabel == 1",
+  "episode_grouping_rule": "first_episode_per_patient",
+  "evaluator_version": "canonical_evaluate_policy.py v1.0",
+  "policy_hash": "ae700b65f548b7508f3825e354807c62fcdff92104413663017566408d1300f9",
+  "validation_metrics": {
+    "patient_sensitivity": 0.8336980306345733,
+    "patient_ppv": 0.0909959398137091,
+    "window_screening_ppv": 0.04665123059771889,
+    "window_confirmation_ppv": 0.5,
+    "window_confirmation_sens": 0.003296099615455045,
+    "screening_alert_burden": 7.293329094197422,
+    "confirmation_alert_burden": 0.0045032132302736845,
+    "median_lead_time": 33.0,
+    "tp_patients": 381,
+    "fn_patients": 76,
+    "fp_patients": 3806
+  },
+  "selection_rationale": "Selected on Validation Data ONLY to maximize Confirmation PPV while maintaining Patient Sensitivity >= 80.0%.",
+  "lock_timestamp": "2026-10-03 15:28:04"
+}

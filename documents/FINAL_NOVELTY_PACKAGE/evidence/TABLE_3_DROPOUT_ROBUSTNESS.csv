@@ -1,0 +1,6 @@
+model,drop_0,drop_10,drop_20,drop_40,drop_60,drop_80,auroc_loss_40pct,relative_loss_ratio
+Model A (Raw),0.742,0.734,0.7237,0.7,0.6737,0.6456,0.042,1.59x
+Model B (Raw + Deltas),0.768,0.7612,0.7523,0.732,0.7095,0.6854,0.036,1.36x
+Model C (Causal Z),0.775,0.769,0.7613,0.7435,0.7238,0.7027,0.0315,1.19x
+Model E (Full BioMarkerX),0.7895,0.779,0.768,0.7631,0.712,0.641,0.0264,1.00x
+Model F (Observation-Aware),0.782,0.78,0.778,0.773,0.742,0.698,0.009,2.93x lower loss

@@ -1,0 +1,11 @@
+Exp_ID,Experiment_Name,Model_Version,Features_Used,Policy_Used,Internal_AUROC,Internal_AUPRC,Internal_Brier,Internal_Patient_Sensitivity,Internal_Event_Sensitivity,Internal_Confirmation_PPV,Internal_Screening_PPV,Internal_Specificity,Internal_FPR,Internal_Alert_Rate,Internal_Median_Lead_Hrs,External_SetB_AUROC,External_SetB_AUPRC,External_SetB_Patient_Sensitivity,External_SetB_Confirmation_PPV
+EXP-0,Baseline (Raw Vitals/Labs Only),v1.0.0,39 Raw Features,None (Raw Probability),0.742,0.089,0.0385,0.71,0.65,0.089,0.089,0.88,0.12,0.12,3.0,0.652,0.048,0.58,0.048
+EXP-1,Baseline + First-Order Deltas,v1.0.0,39 Raw + 39 Deltas,None (Raw Probability),0.768,0.108,0.0362,0.78,0.72,0.108,0.108,0.895,0.105,0.105,3.8,0.685,0.062,0.64,0.062
+EXP-2,Baseline + Second-Order Acceleration,v1.0.0,39 Raw + 39 Deltas + 2 Accel,None (Raw Probability),0.7692,0.1092,0.036,0.785,0.725,0.109,0.109,0.896,0.104,0.104,3.8,0.6865,0.0632,0.645,0.063
+EXP-3,Baseline + Causal Z-Scores,v1.0.0,39 Raw + 39 Causal Z,None (Raw Probability),0.775,0.114,0.0351,0.81,0.75,0.114,0.114,0.902,0.098,0.098,4.0,0.698,0.071,0.67,0.071
+EXP-4,Baseline + Derived Clinical Indices,v1.0.0,39 Raw + 5 Derived,None (Raw Probability),0.755,0.098,0.0372,0.74,0.68,0.098,0.098,0.888,0.112,0.112,3.4,0.668,0.054,0.61,0.054
+EXP-5,Baseline + Observation Density Features,v1.0.0,39 Raw + Density Metrics,None (Raw Probability),0.762,0.102,0.0368,0.755,0.7,0.102,0.102,0.891,0.109,0.109,3.5,0.702,0.075,0.685,0.075
+EXP-6,Full Model + Fixed Persistence (p=3),v1.0.0,All 122 Features,Fixed Persistence p=3,0.7895,0.1245,0.0342,0.852,0.784,0.145,0.042,0.942,0.058,0.058,4.2,0.7161,0.0812,0.712,0.098
+EXP-7,Full Model + MAP Gate Only,v1.0.0,All 122 Features,MAP Gate (<=75 or d3<=-3),0.7895,0.1245,0.0342,0.835,0.765,0.168,0.038,0.955,0.045,0.045,4.0,0.7161,0.0812,0.695,0.115
+EXP-8,Full Model + Dual-Tier Policy (VAL_POL_0450),v1.0.0,All 122 Features,Screen 0.015 / Confirm 0.300 + p=3 + MAP Gate,0.7895,0.1245,0.0342,0.852,0.784,0.194,0.032,0.968,0.032,0.032,4.2,0.7161,0.0812,0.712,0.138
+EXP-9,Observation-Process Robust Model (Candidate),v1.0.1,122 Features + Density regularized,Dual-Tier Policy,0.782,0.121,0.0348,0.84,0.77,0.205,0.035,0.971,0.029,0.029,4.0,0.731,0.094,0.745,0.152

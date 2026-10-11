@@ -1,0 +1,31 @@
+{
+  "policy_id": "POL_0077",
+  "policy_hash": "783d1ab4e48c364af3215100efbc2b3d79c805bbbeb11d4df946e48f8b7ed27c",
+  "tau_screening": 0.02,
+  "tau_confirmation": 0.25,
+  "persistence_windows": 2,
+  "trajectory_filter": "OFF",
+  "onset_definition": "SepsisLabel",
+  "episode_grouping_rule": "first_episode_per_patient",
+  "validation_performance_metrics": {
+    "policy_id": "POL_0077",
+    "tau_screening": 0.02,
+    "tau_confirmation": 0.25,
+    "persistence_windows": 2,
+    "trajectory_filter": "OFF",
+    "patient_sensitivity": 0.9212253829321663,
+    "window_screening_sens": 0.7516938289690532,
+    "window_screening_ppv": 0.06317620080951722,
+    "window_confirmation_ppv": 0.32105263157894737,
+    "window_confirmation_sens": 0.03351034609045962,
+    "patient_specificity": 0.2462104807275877,
+    "screening_alerts_per_day": 8.12792461287481,
+    "confirmation_alerts_per_day": 0.071300876146,
+    "tp_patients": 421,
+    "fn_patients": 36,
+    "fp_patients": 3481
+  },
+  "selection_dataset": "Validation Cohort (N=5075 patients, N=191863 windows)",
+  "selection_timestamp": "2026-10-03 13:32:27",
+  "lock_status": "FROZEN_VALIDATION_POLICY_LOCK"
+}

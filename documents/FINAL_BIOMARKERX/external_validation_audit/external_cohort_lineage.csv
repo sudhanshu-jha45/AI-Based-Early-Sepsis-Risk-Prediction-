@@ -1,0 +1,2 @@
+total_files,valid_patients,invalid_skipped_patients,total_windows,positive_s_next4_windows,negative_s_next4_windows,dataset_defined_sepsis_events,patients_with_at_least_one_event,sepsis_event_prevalence_pct,final_row_events_retained
+20000,20000,0,741995,13170,728825,1137,1137,5.68,True

@@ -1,0 +1,160 @@
+order_index,feature_name,source_variable,group,formula,baseline_definition,unit,causal_status,static_or_dynamic,decision
+0,AST_max,AST,GROUP A — PHYSIOLOGICAL STATE,Raw Level,X_j(k=0) = mean value of signal j recorded during patient first 6h window (k=0),Normalized / Canonical,STRICTLY_CAUSAL,Dynamic,KEPT
+1,AST_mean,AST,GROUP A — PHYSIOLOGICAL STATE,Raw Level,X_j(k=0) = mean value of signal j recorded during patient first 6h window (k=0),Normalized / Canonical,STRICTLY_CAUSAL,Dynamic,KEPT
+2,AST_min,AST,GROUP A — PHYSIOLOGICAL STATE,Raw Level,X_j(k=0) = mean value of signal j recorded during patient first 6h window (k=0),Normalized / Canonical,STRICTLY_CAUSAL,Dynamic,KEPT
+3,AST_std,AST,GROUP A — PHYSIOLOGICAL STATE,Raw Level,X_j(k=0) = mean value of signal j recorded during patient first 6h window (k=0),Normalized / Canonical,STRICTLY_CAUSAL,Dynamic,KEPT
+4,BEb_max,BEb,GROUP A — PHYSIOLOGICAL STATE,Raw Level,X_j(k=0) = mean value of signal j recorded during patient first 6h window (k=0),Normalized / Canonical,STRICTLY_CAUSAL,Dynamic,KEPT
+5,BEb_mean,BEb,GROUP A — PHYSIOLOGICAL STATE,Raw Level,X_j(k=0) = mean value of signal j recorded during patient first 6h window (k=0),Normalized / Canonical,STRICTLY_CAUSAL,Dynamic,KEPT
+6,BEb_min,BEb,GROUP A — PHYSIOLOGICAL STATE,Raw Level,X_j(k=0) = mean value of signal j recorded during patient first 6h window (k=0),Normalized / Canonical,STRICTLY_CAUSAL,Dynamic,KEPT
+7,BEb_std,BEb,GROUP A — PHYSIOLOGICAL STATE,Raw Level,X_j(k=0) = mean value of signal j recorded during patient first 6h window (k=0),Normalized / Canonical,STRICTLY_CAUSAL,Dynamic,KEPT
+8,BUN_Creatinine_Ratio_max,BUN,GROUP A — PHYSIOLOGICAL STATE,Raw Level,X_j(k=0) = mean value of signal j recorded during patient first 6h window (k=0),Normalized / Canonical,STRICTLY_CAUSAL,Dynamic,KEPT
+9,BUN_Creatinine_Ratio_mean,BUN,GROUP A — PHYSIOLOGICAL STATE,Raw Level,X_j(k=0) = mean value of signal j recorded during patient first 6h window (k=0),Normalized / Canonical,STRICTLY_CAUSAL,Dynamic,KEPT
+10,BUN_Creatinine_Ratio_min,BUN,GROUP A — PHYSIOLOGICAL STATE,Raw Level,X_j(k=0) = mean value of signal j recorded during patient first 6h window (k=0),Normalized / Canonical,STRICTLY_CAUSAL,Dynamic,KEPT
+11,BUN_Creatinine_Ratio_std,BUN,GROUP A — PHYSIOLOGICAL STATE,Raw Level,X_j(k=0) = mean value of signal j recorded during patient first 6h window (k=0),Normalized / Canonical,STRICTLY_CAUSAL,Dynamic,KEPT
+12,BUN_max,BUN,GROUP A — PHYSIOLOGICAL STATE,Raw Level,X_j(k=0) = mean value of signal j recorded during patient first 6h window (k=0),Normalized / Canonical,STRICTLY_CAUSAL,Dynamic,KEPT
+13,BUN_mean,BUN,GROUP A — PHYSIOLOGICAL STATE,Raw Level,X_j(k=0) = mean value of signal j recorded during patient first 6h window (k=0),Normalized / Canonical,STRICTLY_CAUSAL,Dynamic,KEPT
+14,BUN_min,BUN,GROUP A — PHYSIOLOGICAL STATE,Raw Level,X_j(k=0) = mean value of signal j recorded during patient first 6h window (k=0),Normalized / Canonical,STRICTLY_CAUSAL,Dynamic,KEPT
+15,BUN_std,BUN,GROUP A — PHYSIOLOGICAL STATE,Raw Level,X_j(k=0) = mean value of signal j recorded during patient first 6h window (k=0),Normalized / Canonical,STRICTLY_CAUSAL,Dynamic,KEPT
+16,CL_max,CL,GROUP A — PHYSIOLOGICAL STATE,Raw Level,X_j(k=0) = mean value of signal j recorded during patient first 6h window (k=0),Normalized / Canonical,STRICTLY_CAUSAL,Dynamic,KEPT
+17,CL_mean,CL,GROUP A — PHYSIOLOGICAL STATE,Raw Level,X_j(k=0) = mean value of signal j recorded during patient first 6h window (k=0),Normalized / Canonical,STRICTLY_CAUSAL,Dynamic,KEPT
+18,CL_min,CL,GROUP A — PHYSIOLOGICAL STATE,Raw Level,X_j(k=0) = mean value of signal j recorded during patient first 6h window (k=0),Normalized / Canonical,STRICTLY_CAUSAL,Dynamic,KEPT
+19,CL_std,CL,GROUP A — PHYSIOLOGICAL STATE,Raw Level,X_j(k=0) = mean value of signal j recorded during patient first 6h window (k=0),Normalized / Canonical,STRICTLY_CAUSAL,Dynamic,KEPT
+20,Creatinine_max,Creatinine,GROUP A — PHYSIOLOGICAL STATE,Raw Level,X_j(k=0) = mean value of signal j recorded during patient first 6h window (k=0),Normalized / Canonical,STRICTLY_CAUSAL,Dynamic,KEPT
+21,Creatinine_mean,Creatinine,GROUP A — PHYSIOLOGICAL STATE,Raw Level,X_j(k=0) = mean value of signal j recorded during patient first 6h window (k=0),Normalized / Canonical,STRICTLY_CAUSAL,Dynamic,KEPT
+22,Creatinine_min,Creatinine,GROUP A — PHYSIOLOGICAL STATE,Raw Level,X_j(k=0) = mean value of signal j recorded during patient first 6h window (k=0),Normalized / Canonical,STRICTLY_CAUSAL,Dynamic,KEPT
+23,Creatinine_std,Creatinine,GROUP A — PHYSIOLOGICAL STATE,Raw Level,X_j(k=0) = mean value of signal j recorded during patient first 6h window (k=0),Normalized / Canonical,STRICTLY_CAUSAL,Dynamic,KEPT
+24,DBP_max,DBP,GROUP A — PHYSIOLOGICAL STATE,Raw Level,X_j(k=0) = mean value of signal j recorded during patient first 6h window (k=0),Normalized / Canonical,STRICTLY_CAUSAL,Dynamic,KEPT
+25,DBP_mean,DBP,GROUP A — PHYSIOLOGICAL STATE,Raw Level,X_j(k=0) = mean value of signal j recorded during patient first 6h window (k=0),Normalized / Canonical,STRICTLY_CAUSAL,Dynamic,KEPT
+26,DBP_min,DBP,GROUP A — PHYSIOLOGICAL STATE,Raw Level,X_j(k=0) = mean value of signal j recorded during patient first 6h window (k=0),Normalized / Canonical,STRICTLY_CAUSAL,Dynamic,KEPT
+27,DBP_std,DBP,GROUP A — PHYSIOLOGICAL STATE,Raw Level,X_j(k=0) = mean value of signal j recorded during patient first 6h window (k=0),Normalized / Canonical,STRICTLY_CAUSAL,Dynamic,KEPT
+28,FiO2_max,FiO2,GROUP A — PHYSIOLOGICAL STATE,Raw Level,X_j(k=0) = mean value of signal j recorded during patient first 6h window (k=0),Normalized / Canonical,STRICTLY_CAUSAL,Dynamic,KEPT
+29,FiO2_mean,FiO2,GROUP A — PHYSIOLOGICAL STATE,Raw Level,X_j(k=0) = mean value of signal j recorded during patient first 6h window (k=0),Normalized / Canonical,STRICTLY_CAUSAL,Dynamic,KEPT
+30,FiO2_min,FiO2,GROUP A — PHYSIOLOGICAL STATE,Raw Level,X_j(k=0) = mean value of signal j recorded during patient first 6h window (k=0),Normalized / Canonical,STRICTLY_CAUSAL,Dynamic,KEPT
+31,FiO2_std,FiO2,GROUP A — PHYSIOLOGICAL STATE,Raw Level,X_j(k=0) = mean value of signal j recorded during patient first 6h window (k=0),Normalized / Canonical,STRICTLY_CAUSAL,Dynamic,KEPT
+32,Gender_mean,Gender,GROUP D — STATIC DEMOGRAPHICS,Raw Level,X_j(k=0) = mean value of signal j recorded during patient first 6h window (k=0),Normalized / Canonical,STRICTLY_CAUSAL,Static,KEPT
+33,HCO3_max,HCO3,GROUP A — PHYSIOLOGICAL STATE,Raw Level,X_j(k=0) = mean value of signal j recorded during patient first 6h window (k=0),Normalized / Canonical,STRICTLY_CAUSAL,Dynamic,KEPT
+34,HCO3_mean,HCO3,GROUP A — PHYSIOLOGICAL STATE,Raw Level,X_j(k=0) = mean value of signal j recorded during patient first 6h window (k=0),Normalized / Canonical,STRICTLY_CAUSAL,Dynamic,KEPT
+35,HCO3_min,HCO3,GROUP A — PHYSIOLOGICAL STATE,Raw Level,X_j(k=0) = mean value of signal j recorded during patient first 6h window (k=0),Normalized / Canonical,STRICTLY_CAUSAL,Dynamic,KEPT
+36,HCO3_std,HCO3,GROUP A — PHYSIOLOGICAL STATE,Raw Level,X_j(k=0) = mean value of signal j recorded during patient first 6h window (k=0),Normalized / Canonical,STRICTLY_CAUSAL,Dynamic,KEPT
+37,HCT_max,HCT,GROUP A — PHYSIOLOGICAL STATE,Raw Level,X_j(k=0) = mean value of signal j recorded during patient first 6h window (k=0),Normalized / Canonical,STRICTLY_CAUSAL,Dynamic,KEPT
+38,HCT_mean,HCT,GROUP A — PHYSIOLOGICAL STATE,Raw Level,X_j(k=0) = mean value of signal j recorded during patient first 6h window (k=0),Normalized / Canonical,STRICTLY_CAUSAL,Dynamic,KEPT
+39,HCT_min,HCT,GROUP A — PHYSIOLOGICAL STATE,Raw Level,X_j(k=0) = mean value of signal j recorded during patient first 6h window (k=0),Normalized / Canonical,STRICTLY_CAUSAL,Dynamic,KEPT
+40,HCT_std,HCT,GROUP A — PHYSIOLOGICAL STATE,Raw Level,X_j(k=0) = mean value of signal j recorded during patient first 6h window (k=0),Normalized / Canonical,STRICTLY_CAUSAL,Dynamic,KEPT
+41,HGB_HCT_Ratio_max,HGB,GROUP A — PHYSIOLOGICAL STATE,Raw Level,X_j(k=0) = mean value of signal j recorded during patient first 6h window (k=0),Normalized / Canonical,STRICTLY_CAUSAL,Dynamic,KEPT
+42,HGB_HCT_Ratio_mean,HGB,GROUP A — PHYSIOLOGICAL STATE,Raw Level,X_j(k=0) = mean value of signal j recorded during patient first 6h window (k=0),Normalized / Canonical,STRICTLY_CAUSAL,Dynamic,KEPT
+43,HGB_HCT_Ratio_min,HGB,GROUP A — PHYSIOLOGICAL STATE,Raw Level,X_j(k=0) = mean value of signal j recorded during patient first 6h window (k=0),Normalized / Canonical,STRICTLY_CAUSAL,Dynamic,KEPT
+44,HGB_HCT_Ratio_std,HGB,GROUP A — PHYSIOLOGICAL STATE,Raw Level,X_j(k=0) = mean value of signal j recorded during patient first 6h window (k=0),Normalized / Canonical,STRICTLY_CAUSAL,Dynamic,KEPT
+45,HGB_max,HGB,GROUP A — PHYSIOLOGICAL STATE,Raw Level,X_j(k=0) = mean value of signal j recorded during patient first 6h window (k=0),Normalized / Canonical,STRICTLY_CAUSAL,Dynamic,KEPT
+46,HGB_mean,HGB,GROUP A — PHYSIOLOGICAL STATE,Raw Level,X_j(k=0) = mean value of signal j recorded during patient first 6h window (k=0),Normalized / Canonical,STRICTLY_CAUSAL,Dynamic,KEPT
+47,HGB_min,HGB,GROUP A — PHYSIOLOGICAL STATE,Raw Level,X_j(k=0) = mean value of signal j recorded during patient first 6h window (k=0),Normalized / Canonical,STRICTLY_CAUSAL,Dynamic,KEPT
+48,HGB_std,HGB,GROUP A — PHYSIOLOGICAL STATE,Raw Level,X_j(k=0) = mean value of signal j recorded during patient first 6h window (k=0),Normalized / Canonical,STRICTLY_CAUSAL,Dynamic,KEPT
+49,HR_max,HR,GROUP A — PHYSIOLOGICAL STATE,Raw Level,X_j(k=0) = mean value of signal j recorded during patient first 6h window (k=0),Normalized / Canonical,STRICTLY_CAUSAL,Dynamic,KEPT
+50,HR_mean,HR,GROUP A — PHYSIOLOGICAL STATE,Raw Level,X_j(k=0) = mean value of signal j recorded during patient first 6h window (k=0),Normalized / Canonical,STRICTLY_CAUSAL,Dynamic,KEPT
+51,HR_min,HR,GROUP A — PHYSIOLOGICAL STATE,Raw Level,X_j(k=0) = mean value of signal j recorded during patient first 6h window (k=0),Normalized / Canonical,STRICTLY_CAUSAL,Dynamic,KEPT
+52,HR_std,HR,GROUP A — PHYSIOLOGICAL STATE,Raw Level,X_j(k=0) = mean value of signal j recorded during patient first 6h window (k=0),Normalized / Canonical,STRICTLY_CAUSAL,Dynamic,KEPT
+53,INR_max,INR,GROUP A — PHYSIOLOGICAL STATE,Raw Level,X_j(k=0) = mean value of signal j recorded during patient first 6h window (k=0),Normalized / Canonical,STRICTLY_CAUSAL,Dynamic,KEPT
+54,INR_mean,INR,GROUP A — PHYSIOLOGICAL STATE,Raw Level,X_j(k=0) = mean value of signal j recorded during patient first 6h window (k=0),Normalized / Canonical,STRICTLY_CAUSAL,Dynamic,KEPT
+55,INR_min,INR,GROUP A — PHYSIOLOGICAL STATE,Raw Level,X_j(k=0) = mean value of signal j recorded during patient first 6h window (k=0),Normalized / Canonical,STRICTLY_CAUSAL,Dynamic,KEPT
+56,INR_std,INR,GROUP A — PHYSIOLOGICAL STATE,Raw Level,X_j(k=0) = mean value of signal j recorded during patient first 6h window (k=0),Normalized / Canonical,STRICTLY_CAUSAL,Dynamic,KEPT
+57,K_max,K,GROUP A — PHYSIOLOGICAL STATE,Raw Level,X_j(k=0) = mean value of signal j recorded during patient first 6h window (k=0),Normalized / Canonical,STRICTLY_CAUSAL,Dynamic,KEPT
+58,K_mean,K,GROUP A — PHYSIOLOGICAL STATE,Raw Level,X_j(k=0) = mean value of signal j recorded during patient first 6h window (k=0),Normalized / Canonical,STRICTLY_CAUSAL,Dynamic,KEPT
+59,K_min,K,GROUP A — PHYSIOLOGICAL STATE,Raw Level,X_j(k=0) = mean value of signal j recorded during patient first 6h window (k=0),Normalized / Canonical,STRICTLY_CAUSAL,Dynamic,KEPT
+60,K_std,K,GROUP A — PHYSIOLOGICAL STATE,Raw Level,X_j(k=0) = mean value of signal j recorded during patient first 6h window (k=0),Normalized / Canonical,STRICTLY_CAUSAL,Dynamic,KEPT
+61,MAP_max,MAP,GROUP A — PHYSIOLOGICAL STATE,Raw Level,X_j(k=0) = mean value of signal j recorded during patient first 6h window (k=0),Normalized / Canonical,STRICTLY_CAUSAL,Dynamic,KEPT
+62,MAP_mean,MAP,GROUP A — PHYSIOLOGICAL STATE,Raw Level,X_j(k=0) = mean value of signal j recorded during patient first 6h window (k=0),Normalized / Canonical,STRICTLY_CAUSAL,Dynamic,KEPT
+63,MAP_min,MAP,GROUP A — PHYSIOLOGICAL STATE,Raw Level,X_j(k=0) = mean value of signal j recorded during patient first 6h window (k=0),Normalized / Canonical,STRICTLY_CAUSAL,Dynamic,KEPT
+64,MAP_std,MAP,GROUP A — PHYSIOLOGICAL STATE,Raw Level,X_j(k=0) = mean value of signal j recorded during patient first 6h window (k=0),Normalized / Canonical,STRICTLY_CAUSAL,Dynamic,KEPT
+65,Na_max,Na,GROUP A — PHYSIOLOGICAL STATE,Raw Level,X_j(k=0) = mean value of signal j recorded during patient first 6h window (k=0),Normalized / Canonical,STRICTLY_CAUSAL,Dynamic,KEPT
+66,Na_mean,Na,GROUP A — PHYSIOLOGICAL STATE,Raw Level,X_j(k=0) = mean value of signal j recorded during patient first 6h window (k=0),Normalized / Canonical,STRICTLY_CAUSAL,Dynamic,KEPT
+67,Na_min,Na,GROUP A — PHYSIOLOGICAL STATE,Raw Level,X_j(k=0) = mean value of signal j recorded during patient first 6h window (k=0),Normalized / Canonical,STRICTLY_CAUSAL,Dynamic,KEPT
+68,Na_std,Na,GROUP A — PHYSIOLOGICAL STATE,Raw Level,X_j(k=0) = mean value of signal j recorded during patient first 6h window (k=0),Normalized / Canonical,STRICTLY_CAUSAL,Dynamic,KEPT
+69,PT_max,PT,GROUP A — PHYSIOLOGICAL STATE,Raw Level,X_j(k=0) = mean value of signal j recorded during patient first 6h window (k=0),Normalized / Canonical,STRICTLY_CAUSAL,Dynamic,KEPT
+70,PT_mean,PT,GROUP A — PHYSIOLOGICAL STATE,Raw Level,X_j(k=0) = mean value of signal j recorded during patient first 6h window (k=0),Normalized / Canonical,STRICTLY_CAUSAL,Dynamic,KEPT
+71,PT_min,PT,GROUP A — PHYSIOLOGICAL STATE,Raw Level,X_j(k=0) = mean value of signal j recorded during patient first 6h window (k=0),Normalized / Canonical,STRICTLY_CAUSAL,Dynamic,KEPT
+72,PT_std,PT,GROUP A — PHYSIOLOGICAL STATE,Raw Level,X_j(k=0) = mean value of signal j recorded during patient first 6h window (k=0),Normalized / Canonical,STRICTLY_CAUSAL,Dynamic,KEPT
+73,PaCO2_max,PaCO2,GROUP A — PHYSIOLOGICAL STATE,Raw Level,X_j(k=0) = mean value of signal j recorded during patient first 6h window (k=0),Normalized / Canonical,STRICTLY_CAUSAL,Dynamic,KEPT
+74,PaCO2_mean,PaCO2,GROUP A — PHYSIOLOGICAL STATE,Raw Level,X_j(k=0) = mean value of signal j recorded during patient first 6h window (k=0),Normalized / Canonical,STRICTLY_CAUSAL,Dynamic,KEPT
+75,PaCO2_min,PaCO2,GROUP A — PHYSIOLOGICAL STATE,Raw Level,X_j(k=0) = mean value of signal j recorded during patient first 6h window (k=0),Normalized / Canonical,STRICTLY_CAUSAL,Dynamic,KEPT
+76,PaCO2_std,PaCO2,GROUP A — PHYSIOLOGICAL STATE,Raw Level,X_j(k=0) = mean value of signal j recorded during patient first 6h window (k=0),Normalized / Canonical,STRICTLY_CAUSAL,Dynamic,KEPT
+77,Platelets_max,Platelets,GROUP A — PHYSIOLOGICAL STATE,Raw Level,X_j(k=0) = mean value of signal j recorded during patient first 6h window (k=0),Normalized / Canonical,STRICTLY_CAUSAL,Dynamic,KEPT
+78,Platelets_mean,Platelets,GROUP A — PHYSIOLOGICAL STATE,Raw Level,X_j(k=0) = mean value of signal j recorded during patient first 6h window (k=0),Normalized / Canonical,STRICTLY_CAUSAL,Dynamic,KEPT
+79,Platelets_min,Platelets,GROUP A — PHYSIOLOGICAL STATE,Raw Level,X_j(k=0) = mean value of signal j recorded during patient first 6h window (k=0),Normalized / Canonical,STRICTLY_CAUSAL,Dynamic,KEPT
+80,Platelets_std,Platelets,GROUP A — PHYSIOLOGICAL STATE,Raw Level,X_j(k=0) = mean value of signal j recorded during patient first 6h window (k=0),Normalized / Canonical,STRICTLY_CAUSAL,Dynamic,KEPT
+81,Pulse_Pressure_max,Pulse,GROUP A — PHYSIOLOGICAL STATE,Raw Level,X_j(k=0) = mean value of signal j recorded during patient first 6h window (k=0),Normalized / Canonical,STRICTLY_CAUSAL,Dynamic,KEPT
+82,Pulse_Pressure_mean,Pulse,GROUP A — PHYSIOLOGICAL STATE,Raw Level,X_j(k=0) = mean value of signal j recorded during patient first 6h window (k=0),Normalized / Canonical,STRICTLY_CAUSAL,Dynamic,KEPT
+83,Pulse_Pressure_min,Pulse,GROUP A — PHYSIOLOGICAL STATE,Raw Level,X_j(k=0) = mean value of signal j recorded during patient first 6h window (k=0),Normalized / Canonical,STRICTLY_CAUSAL,Dynamic,KEPT
+84,Pulse_Pressure_std,Pulse,GROUP A — PHYSIOLOGICAL STATE,Raw Level,X_j(k=0) = mean value of signal j recorded during patient first 6h window (k=0),Normalized / Canonical,STRICTLY_CAUSAL,Dynamic,KEPT
+85,SBP_max,SBP,GROUP A — PHYSIOLOGICAL STATE,Raw Level,X_j(k=0) = mean value of signal j recorded during patient first 6h window (k=0),Normalized / Canonical,STRICTLY_CAUSAL,Dynamic,KEPT
+86,SBP_mean,SBP,GROUP A — PHYSIOLOGICAL STATE,Raw Level,X_j(k=0) = mean value of signal j recorded during patient first 6h window (k=0),Normalized / Canonical,STRICTLY_CAUSAL,Dynamic,KEPT
+87,SBP_min,SBP,GROUP A — PHYSIOLOGICAL STATE,Raw Level,X_j(k=0) = mean value of signal j recorded during patient first 6h window (k=0),Normalized / Canonical,STRICTLY_CAUSAL,Dynamic,KEPT
+88,SBP_std,SBP,GROUP A — PHYSIOLOGICAL STATE,Raw Level,X_j(k=0) = mean value of signal j recorded during patient first 6h window (k=0),Normalized / Canonical,STRICTLY_CAUSAL,Dynamic,KEPT
+89,SO2_max,SO2,GROUP A — PHYSIOLOGICAL STATE,Raw Level,X_j(k=0) = mean value of signal j recorded during patient first 6h window (k=0),Normalized / Canonical,STRICTLY_CAUSAL,Dynamic,KEPT
+90,SO2_mean,SO2,GROUP A — PHYSIOLOGICAL STATE,Raw Level,X_j(k=0) = mean value of signal j recorded during patient first 6h window (k=0),Normalized / Canonical,STRICTLY_CAUSAL,Dynamic,KEPT
+91,SO2_min,SO2,GROUP A — PHYSIOLOGICAL STATE,Raw Level,X_j(k=0) = mean value of signal j recorded during patient first 6h window (k=0),Normalized / Canonical,STRICTLY_CAUSAL,Dynamic,KEPT
+92,SO2_std,SO2,GROUP A — PHYSIOLOGICAL STATE,Raw Level,X_j(k=0) = mean value of signal j recorded during patient first 6h window (k=0),Normalized / Canonical,STRICTLY_CAUSAL,Dynamic,KEPT
+93,Shock_Index_max,Shock,GROUP A — PHYSIOLOGICAL STATE,Raw Level,X_j(k=0) = mean value of signal j recorded during patient first 6h window (k=0),Normalized / Canonical,STRICTLY_CAUSAL,Dynamic,KEPT
+94,Shock_Index_mean,Shock,GROUP A — PHYSIOLOGICAL STATE,Raw Level,X_j(k=0) = mean value of signal j recorded during patient first 6h window (k=0),Normalized / Canonical,STRICTLY_CAUSAL,Dynamic,KEPT
+95,Shock_Index_min,Shock,GROUP A — PHYSIOLOGICAL STATE,Raw Level,X_j(k=0) = mean value of signal j recorded during patient first 6h window (k=0),Normalized / Canonical,STRICTLY_CAUSAL,Dynamic,KEPT
+96,Shock_Index_std,Shock,GROUP A — PHYSIOLOGICAL STATE,Raw Level,X_j(k=0) = mean value of signal j recorded during patient first 6h window (k=0),Normalized / Canonical,STRICTLY_CAUSAL,Dynamic,KEPT
+97,Temp_max,Temp,GROUP A — PHYSIOLOGICAL STATE,Raw Level,X_j(k=0) = mean value of signal j recorded during patient first 6h window (k=0),Normalized / Canonical,STRICTLY_CAUSAL,Dynamic,KEPT
+98,Temp_mean,Temp,GROUP A — PHYSIOLOGICAL STATE,Raw Level,X_j(k=0) = mean value of signal j recorded during patient first 6h window (k=0),Normalized / Canonical,STRICTLY_CAUSAL,Dynamic,KEPT
+99,Temp_min,Temp,GROUP A — PHYSIOLOGICAL STATE,Raw Level,X_j(k=0) = mean value of signal j recorded during patient first 6h window (k=0),Normalized / Canonical,STRICTLY_CAUSAL,Dynamic,KEPT
+100,Temp_std,Temp,GROUP A — PHYSIOLOGICAL STATE,Raw Level,X_j(k=0) = mean value of signal j recorded during patient first 6h window (k=0),Normalized / Canonical,STRICTLY_CAUSAL,Dynamic,KEPT
+101,WBC_max,WBC,GROUP A — PHYSIOLOGICAL STATE,Raw Level,X_j(k=0) = mean value of signal j recorded during patient first 6h window (k=0),Normalized / Canonical,STRICTLY_CAUSAL,Dynamic,KEPT
+102,WBC_mean,WBC,GROUP A — PHYSIOLOGICAL STATE,Raw Level,X_j(k=0) = mean value of signal j recorded during patient first 6h window (k=0),Normalized / Canonical,STRICTLY_CAUSAL,Dynamic,KEPT
+103,WBC_min,WBC,GROUP A — PHYSIOLOGICAL STATE,Raw Level,X_j(k=0) = mean value of signal j recorded during patient first 6h window (k=0),Normalized / Canonical,STRICTLY_CAUSAL,Dynamic,KEPT
+104,WBC_std,WBC,GROUP A — PHYSIOLOGICAL STATE,Raw Level,X_j(k=0) = mean value of signal j recorded during patient first 6h window (k=0),Normalized / Canonical,STRICTLY_CAUSAL,Dynamic,KEPT
+105,pH_max,pH,GROUP A — PHYSIOLOGICAL STATE,Raw Level,X_j(k=0) = mean value of signal j recorded during patient first 6h window (k=0),Normalized / Canonical,STRICTLY_CAUSAL,Dynamic,KEPT
+106,pH_mean,pH,GROUP A — PHYSIOLOGICAL STATE,Raw Level,X_j(k=0) = mean value of signal j recorded during patient first 6h window (k=0),Normalized / Canonical,STRICTLY_CAUSAL,Dynamic,KEPT
+107,pH_min,pH,GROUP A — PHYSIOLOGICAL STATE,Raw Level,X_j(k=0) = mean value of signal j recorded during patient first 6h window (k=0),Normalized / Canonical,STRICTLY_CAUSAL,Dynamic,KEPT
+108,pH_std,pH,GROUP A — PHYSIOLOGICAL STATE,Raw Level,X_j(k=0) = mean value of signal j recorded during patient first 6h window (k=0),Normalized / Canonical,STRICTLY_CAUSAL,Dynamic,KEPT
+109,HR_base_diff,HR,GROUP B — PATIENT-RELATIVE PHYSIOLOGY,X(k) - X(k=0),X_j(k=0) = mean value of signal j recorded during patient first 6h window (k=0),Normalized / Canonical,STRICTLY_CAUSAL,Dynamic,KEPT
+110,HR_base_rel,HR,GROUP B — PATIENT-RELATIVE PHYSIOLOGY,(X(k)-X(k=0))/(|X(k=0)|+1e-5),X_j(k=0) = mean value of signal j recorded during patient first 6h window (k=0),Normalized / Canonical,STRICTLY_CAUSAL,Dynamic,KEPT
+111,MAP_base_diff,MAP,GROUP B — PATIENT-RELATIVE PHYSIOLOGY,X(k) - X(k=0),X_j(k=0) = mean value of signal j recorded during patient first 6h window (k=0),Normalized / Canonical,STRICTLY_CAUSAL,Dynamic,KEPT
+112,MAP_base_rel,MAP,GROUP B — PATIENT-RELATIVE PHYSIOLOGY,(X(k)-X(k=0))/(|X(k=0)|+1e-5),X_j(k=0) = mean value of signal j recorded during patient first 6h window (k=0),Normalized / Canonical,STRICTLY_CAUSAL,Dynamic,KEPT
+113,SBP_base_diff,SBP,GROUP B — PATIENT-RELATIVE PHYSIOLOGY,X(k) - X(k=0),X_j(k=0) = mean value of signal j recorded during patient first 6h window (k=0),Normalized / Canonical,STRICTLY_CAUSAL,Dynamic,KEPT
+114,SBP_base_rel,SBP,GROUP B — PATIENT-RELATIVE PHYSIOLOGY,(X(k)-X(k=0))/(|X(k=0)|+1e-5),X_j(k=0) = mean value of signal j recorded during patient first 6h window (k=0),Normalized / Canonical,STRICTLY_CAUSAL,Dynamic,KEPT
+115,DBP_base_diff,DBP,GROUP B — PATIENT-RELATIVE PHYSIOLOGY,X(k) - X(k=0),X_j(k=0) = mean value of signal j recorded during patient first 6h window (k=0),Normalized / Canonical,STRICTLY_CAUSAL,Dynamic,KEPT
+116,DBP_base_rel,DBP,GROUP B — PATIENT-RELATIVE PHYSIOLOGY,(X(k)-X(k=0))/(|X(k=0)|+1e-5),X_j(k=0) = mean value of signal j recorded during patient first 6h window (k=0),Normalized / Canonical,STRICTLY_CAUSAL,Dynamic,KEPT
+117,Temp_base_diff,Temp,GROUP B — PATIENT-RELATIVE PHYSIOLOGY,X(k) - X(k=0),X_j(k=0) = mean value of signal j recorded during patient first 6h window (k=0),Normalized / Canonical,STRICTLY_CAUSAL,Dynamic,KEPT
+118,Temp_base_rel,Temp,GROUP B — PATIENT-RELATIVE PHYSIOLOGY,(X(k)-X(k=0))/(|X(k=0)|+1e-5),X_j(k=0) = mean value of signal j recorded during patient first 6h window (k=0),Normalized / Canonical,STRICTLY_CAUSAL,Dynamic,KEPT
+119,SO2_base_diff,SO2,GROUP B — PATIENT-RELATIVE PHYSIOLOGY,X(k) - X(k=0),X_j(k=0) = mean value of signal j recorded during patient first 6h window (k=0),Normalized / Canonical,STRICTLY_CAUSAL,Dynamic,KEPT
+120,SO2_base_rel,SO2,GROUP B — PATIENT-RELATIVE PHYSIOLOGY,(X(k)-X(k=0))/(|X(k=0)|+1e-5),X_j(k=0) = mean value of signal j recorded during patient first 6h window (k=0),Normalized / Canonical,STRICTLY_CAUSAL,Dynamic,KEPT
+121,WBC_base_diff,WBC,GROUP B — PATIENT-RELATIVE PHYSIOLOGY,X(k) - X(k=0),X_j(k=0) = mean value of signal j recorded during patient first 6h window (k=0),Normalized / Canonical,STRICTLY_CAUSAL,Dynamic,KEPT
+122,WBC_base_rel,WBC,GROUP B — PATIENT-RELATIVE PHYSIOLOGY,(X(k)-X(k=0))/(|X(k=0)|+1e-5),X_j(k=0) = mean value of signal j recorded during patient first 6h window (k=0),Normalized / Canonical,STRICTLY_CAUSAL,Dynamic,KEPT
+123,HCT_base_diff,HCT,GROUP B — PATIENT-RELATIVE PHYSIOLOGY,X(k) - X(k=0),X_j(k=0) = mean value of signal j recorded during patient first 6h window (k=0),Normalized / Canonical,STRICTLY_CAUSAL,Dynamic,KEPT
+124,HCT_base_rel,HCT,GROUP B — PATIENT-RELATIVE PHYSIOLOGY,(X(k)-X(k=0))/(|X(k=0)|+1e-5),X_j(k=0) = mean value of signal j recorded during patient first 6h window (k=0),Normalized / Canonical,STRICTLY_CAUSAL,Dynamic,KEPT
+125,HGB_base_diff,HGB,GROUP B — PATIENT-RELATIVE PHYSIOLOGY,X(k) - X(k=0),X_j(k=0) = mean value of signal j recorded during patient first 6h window (k=0),Normalized / Canonical,STRICTLY_CAUSAL,Dynamic,KEPT
+126,HGB_base_rel,HGB,GROUP B — PATIENT-RELATIVE PHYSIOLOGY,(X(k)-X(k=0))/(|X(k=0)|+1e-5),X_j(k=0) = mean value of signal j recorded during patient first 6h window (k=0),Normalized / Canonical,STRICTLY_CAUSAL,Dynamic,KEPT
+127,Platelets_base_diff,Platelets,GROUP B — PATIENT-RELATIVE PHYSIOLOGY,X(k) - X(k=0),X_j(k=0) = mean value of signal j recorded during patient first 6h window (k=0),Normalized / Canonical,STRICTLY_CAUSAL,Dynamic,KEPT
+128,Platelets_base_rel,Platelets,GROUP B — PATIENT-RELATIVE PHYSIOLOGY,(X(k)-X(k=0))/(|X(k=0)|+1e-5),X_j(k=0) = mean value of signal j recorded during patient first 6h window (k=0),Normalized / Canonical,STRICTLY_CAUSAL,Dynamic,KEPT
+129,PT_base_diff,PT,GROUP B — PATIENT-RELATIVE PHYSIOLOGY,X(k) - X(k=0),X_j(k=0) = mean value of signal j recorded during patient first 6h window (k=0),Normalized / Canonical,STRICTLY_CAUSAL,Dynamic,KEPT
+130,PT_base_rel,PT,GROUP B — PATIENT-RELATIVE PHYSIOLOGY,(X(k)-X(k=0))/(|X(k=0)|+1e-5),X_j(k=0) = mean value of signal j recorded during patient first 6h window (k=0),Normalized / Canonical,STRICTLY_CAUSAL,Dynamic,KEPT
+131,INR_base_diff,INR,GROUP B — PATIENT-RELATIVE PHYSIOLOGY,X(k) - X(k=0),X_j(k=0) = mean value of signal j recorded during patient first 6h window (k=0),Normalized / Canonical,STRICTLY_CAUSAL,Dynamic,KEPT
+132,INR_base_rel,INR,GROUP B — PATIENT-RELATIVE PHYSIOLOGY,(X(k)-X(k=0))/(|X(k=0)|+1e-5),X_j(k=0) = mean value of signal j recorded during patient first 6h window (k=0),Normalized / Canonical,STRICTLY_CAUSAL,Dynamic,KEPT
+133,AST_base_diff,AST,GROUP B — PATIENT-RELATIVE PHYSIOLOGY,X(k) - X(k=0),X_j(k=0) = mean value of signal j recorded during patient first 6h window (k=0),Normalized / Canonical,STRICTLY_CAUSAL,Dynamic,KEPT
+134,AST_base_rel,AST,GROUP B — PATIENT-RELATIVE PHYSIOLOGY,(X(k)-X(k=0))/(|X(k=0)|+1e-5),X_j(k=0) = mean value of signal j recorded during patient first 6h window (k=0),Normalized / Canonical,STRICTLY_CAUSAL,Dynamic,KEPT
+135,Creatinine_base_diff,Creatinine,GROUP B — PATIENT-RELATIVE PHYSIOLOGY,X(k) - X(k=0),X_j(k=0) = mean value of signal j recorded during patient first 6h window (k=0),Normalized / Canonical,STRICTLY_CAUSAL,Dynamic,KEPT
+136,Creatinine_base_rel,Creatinine,GROUP B — PATIENT-RELATIVE PHYSIOLOGY,(X(k)-X(k=0))/(|X(k=0)|+1e-5),X_j(k=0) = mean value of signal j recorded during patient first 6h window (k=0),Normalized / Canonical,STRICTLY_CAUSAL,Dynamic,KEPT
+137,BUN_base_diff,BUN,GROUP B — PATIENT-RELATIVE PHYSIOLOGY,X(k) - X(k=0),X_j(k=0) = mean value of signal j recorded during patient first 6h window (k=0),Normalized / Canonical,STRICTLY_CAUSAL,Dynamic,KEPT
+138,BUN_base_rel,BUN,GROUP B — PATIENT-RELATIVE PHYSIOLOGY,(X(k)-X(k=0))/(|X(k=0)|+1e-5),X_j(k=0) = mean value of signal j recorded during patient first 6h window (k=0),Normalized / Canonical,STRICTLY_CAUSAL,Dynamic,KEPT
+139,K_base_diff,K,GROUP B — PATIENT-RELATIVE PHYSIOLOGY,X(k) - X(k=0),X_j(k=0) = mean value of signal j recorded during patient first 6h window (k=0),Normalized / Canonical,STRICTLY_CAUSAL,Dynamic,KEPT
+140,K_base_rel,K,GROUP B — PATIENT-RELATIVE PHYSIOLOGY,(X(k)-X(k=0))/(|X(k=0)|+1e-5),X_j(k=0) = mean value of signal j recorded during patient first 6h window (k=0),Normalized / Canonical,STRICTLY_CAUSAL,Dynamic,KEPT
+141,Na_base_diff,Na,GROUP B — PATIENT-RELATIVE PHYSIOLOGY,X(k) - X(k=0),X_j(k=0) = mean value of signal j recorded during patient first 6h window (k=0),Normalized / Canonical,STRICTLY_CAUSAL,Dynamic,KEPT
+142,Na_base_rel,Na,GROUP B — PATIENT-RELATIVE PHYSIOLOGY,(X(k)-X(k=0))/(|X(k=0)|+1e-5),X_j(k=0) = mean value of signal j recorded during patient first 6h window (k=0),Normalized / Canonical,STRICTLY_CAUSAL,Dynamic,KEPT
+143,BEb_base_diff,BEb,GROUP B — PATIENT-RELATIVE PHYSIOLOGY,X(k) - X(k=0),X_j(k=0) = mean value of signal j recorded during patient first 6h window (k=0),Normalized / Canonical,STRICTLY_CAUSAL,Dynamic,KEPT
+144,BEb_base_rel,BEb,GROUP B — PATIENT-RELATIVE PHYSIOLOGY,(X(k)-X(k=0))/(|X(k=0)|+1e-5),X_j(k=0) = mean value of signal j recorded during patient first 6h window (k=0),Normalized / Canonical,STRICTLY_CAUSAL,Dynamic,KEPT
+145,pH_base_diff,pH,GROUP B — PATIENT-RELATIVE PHYSIOLOGY,X(k) - X(k=0),X_j(k=0) = mean value of signal j recorded during patient first 6h window (k=0),Normalized / Canonical,STRICTLY_CAUSAL,Dynamic,KEPT
+146,pH_base_rel,pH,GROUP B — PATIENT-RELATIVE PHYSIOLOGY,(X(k)-X(k=0))/(|X(k=0)|+1e-5),X_j(k=0) = mean value of signal j recorded during patient first 6h window (k=0),Normalized / Canonical,STRICTLY_CAUSAL,Dynamic,KEPT
+147,PaCO2_base_diff,PaCO2,GROUP B — PATIENT-RELATIVE PHYSIOLOGY,X(k) - X(k=0),X_j(k=0) = mean value of signal j recorded during patient first 6h window (k=0),Normalized / Canonical,STRICTLY_CAUSAL,Dynamic,KEPT
+148,PaCO2_base_rel,PaCO2,GROUP B — PATIENT-RELATIVE PHYSIOLOGY,(X(k)-X(k=0))/(|X(k=0)|+1e-5),X_j(k=0) = mean value of signal j recorded during patient first 6h window (k=0),Normalized / Canonical,STRICTLY_CAUSAL,Dynamic,KEPT
+149,CL_base_diff,CL,GROUP B — PATIENT-RELATIVE PHYSIOLOGY,X(k) - X(k=0),X_j(k=0) = mean value of signal j recorded during patient first 6h window (k=0),Normalized / Canonical,STRICTLY_CAUSAL,Dynamic,KEPT
+150,CL_base_rel,CL,GROUP B — PATIENT-RELATIVE PHYSIOLOGY,(X(k)-X(k=0))/(|X(k=0)|+1e-5),X_j(k=0) = mean value of signal j recorded during patient first 6h window (k=0),Normalized / Canonical,STRICTLY_CAUSAL,Dynamic,KEPT
+151,HCO3_base_diff,HCO3,GROUP B — PATIENT-RELATIVE PHYSIOLOGY,X(k) - X(k=0),X_j(k=0) = mean value of signal j recorded during patient first 6h window (k=0),Normalized / Canonical,STRICTLY_CAUSAL,Dynamic,KEPT
+152,HCO3_base_rel,HCO3,GROUP B — PATIENT-RELATIVE PHYSIOLOGY,(X(k)-X(k=0))/(|X(k=0)|+1e-5),X_j(k=0) = mean value of signal j recorded during patient first 6h window (k=0),Normalized / Canonical,STRICTLY_CAUSAL,Dynamic,KEPT
+153,FiO2_base_diff,FiO2,GROUP B — PATIENT-RELATIVE PHYSIOLOGY,X(k) - X(k=0),X_j(k=0) = mean value of signal j recorded during patient first 6h window (k=0),Normalized / Canonical,STRICTLY_CAUSAL,Dynamic,KEPT
+154,FiO2_base_rel,FiO2,GROUP B — PATIENT-RELATIVE PHYSIOLOGY,(X(k)-X(k=0))/(|X(k=0)|+1e-5),X_j(k=0) = mean value of signal j recorded during patient first 6h window (k=0),Normalized / Canonical,STRICTLY_CAUSAL,Dynamic,KEPT
+155,Shock_Index_base_diff,Shock,GROUP B — PATIENT-RELATIVE PHYSIOLOGY,X(k) - X(k=0),X_j(k=0) = mean value of signal j recorded during patient first 6h window (k=0),Normalized / Canonical,STRICTLY_CAUSAL,Dynamic,KEPT
+156,Shock_Index_base_rel,Shock,GROUP B — PATIENT-RELATIVE PHYSIOLOGY,(X(k)-X(k=0))/(|X(k=0)|+1e-5),X_j(k=0) = mean value of signal j recorded during patient first 6h window (k=0),Normalized / Canonical,STRICTLY_CAUSAL,Dynamic,KEPT
+157,Pulse_Pressure_base_diff,Pulse,GROUP B — PATIENT-RELATIVE PHYSIOLOGY,X(k) - X(k=0),X_j(k=0) = mean value of signal j recorded during patient first 6h window (k=0),Normalized / Canonical,STRICTLY_CAUSAL,Dynamic,KEPT
+158,Pulse_Pressure_base_rel,Pulse,GROUP B — PATIENT-RELATIVE PHYSIOLOGY,(X(k)-X(k=0))/(|X(k=0)|+1e-5),X_j(k=0) = mean value of signal j recorded during patient first 6h window (k=0),Normalized / Canonical,STRICTLY_CAUSAL,Dynamic,KEPT

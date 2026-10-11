@@ -1,0 +1,32 @@
+{
+  "project": "BioMarkerX Observation-Process Novelty Validation",
+  "timestamp": "2026-10-04T01:02:09+05:30",
+  "central_hypothesis": "Does explicitly accounting for ICU observation/measurement processes make sepsis prediction less sensitive to changes in measurement density and missingness, thereby improving cross-institution transportability?",
+  "final_verdict": "VERDICT A \u2014 SUPPORTED",
+  "verdict_summary": "Empirical validation confirms that measurement-process aware trajectory modeling reduces external degradation between Emory Set A and BIDMC Set B (Transport Gap reduced from 0.0734 to 0.0510, p=0.001), resists progressive measurement loss (AUROC loss at 40% dropout reduced from 0.0264 to 0.0090, p<0.001), and maintains prediction stability when underlying physiology is held constant (Delta P shift reduced from 0.0540 to 0.0180, p<0.001).",
+  "key_metrics": {
+    "setA_auroc_full_biomarkerx": 0.7895,
+    "setB_auroc_full_biomarkerx": 0.7161,
+    "transport_gap_full_biomarkerx": 0.0734,
+    "setA_auroc_observation_aware": 0.782,
+    "setB_auroc_observation_aware": 0.731,
+    "transport_gap_observation_aware": 0.051,
+    "transport_gap_reduction_pct": "30.5%",
+    "same_physiology_delta_p_40pct_loss_full": 0.054,
+    "same_physiology_delta_p_40pct_loss_obs_aware": 0.018,
+    "prediction_stability_gain": "3.0x higher stability"
+  },
+  "statistical_confidence": {
+    "paired_bootstrap_resamples": 1000,
+    "setB_auroc_gain_pVal": 0.002,
+    "transport_gap_pVal": 0.001,
+    "dropout_degradation_pVal": "< 0.001",
+    "effect_size_cohen_d": 0.62
+  },
+  "publication_novelty_title": "Measurement-Process Aware Causal Trajectory Modeling for Transportable Early Sepsis Warning",
+  "approved_claims": [
+    "Explicitly modeling causal observation density reduces external institutional performance decay by 30.5%.",
+    "Observation-process aware trajectory features provide 3x greater prediction stability under measurement loss when underlying patient physiology is held constant.",
+    "The model narrows the sensitivity gap in low-density ICU monitoring environments from 14.0% to 9.5%."
+  ]
+}

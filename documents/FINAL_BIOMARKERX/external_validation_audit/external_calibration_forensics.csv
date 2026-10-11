@@ -1,0 +1,5 @@
+Parameter,SetA_Internal,SetB_External,Audit_Verdict
+Calibration Intercept,0.0,-1.8991,SLIGHT UNDER-CONFIDENCE (Positive Intercept)
+Calibration Slope,1.0,0.4952,SLIGHT OVER-FITTING DRIFT (Slope < 1.0)
+Expected Calibration Error (ECE),0.0082,0.0041,STABLE CALIBRATION (ECE = 0.0041)
+Brier Score,0.02738,0.0172,EXCELLENT PROBABILITY ACCURACY

@@ -1,0 +1,15 @@
+{
+  "dataset_name": "PhysioNet 2019 Reserved External Validation (6,000 Patients)",
+  "n_patients": 5999,
+  "n_windows": 229080,
+  "n_sepsis_patients": 544,
+  "raw_auroc": 0.8657955021303998,
+  "raw_auprc": 0.16896939503617142,
+  "raw_brier": 0.020108876598417653,
+  "gated_auroc": 0.6297122235875439,
+  "gated_auprc": 0.11254641995685628,
+  "gated_brier": 0.021019024307202188,
+  "patient_screening_sensitivity": 0.9926470588235294,
+  "patient_confirmation_sensitivity": 0.027573529411764705,
+  "execution_time_sec": 120.92
+}

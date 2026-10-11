@@ -1,0 +1,2 @@
+policy_id,rule_name,tau_screening,tau_confirmation,persistence_windows,patient_sensitivity,patient_ppv,patient_specificity,window_screening_ppv,window_confirmation_ppv,window_confirmation_sens,screening_alert_burden,confirmation_alert_burden,median_lead_time,tp_patients,fn_patients,fp_patients,satisfies_sens_target
+VAL_POL_0450,Rule_E_MAP_Trend,0.015,0.3,3,0.8336980306345733,0.0909959398137091,0.1758336942399307,0.04665123059771889,0.5,0.003296099615455045,7.293329094197422,0.0045032132302736845,33.0,381,76,3806,True

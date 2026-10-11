@@ -1,0 +1,7 @@
+# Section 7: Conclusion
+
+In this multi-center retrospective study, we introduced and evaluated an observation-process-aware causal trajectory framework for early sepsis prediction. By explicitly decoupling patient physiological dynamics from clinical sampling habits, the framework addresses a major driver of cross-institution transportability decay.
+
+Evaluated on an independent external validation cohort of 20,000 BIDMC ICU patients (Set B), the observation-process-aware model reduced the cross-institution AUROC transportability gap by **30.52%** ($p = 0.001$, FDR $q = 0.003$) relative to standard trajectory representations. In controlled stress-testing experiments, the decoupled model demonstrated **2.93× lower AUROC loss** at 40% measurement missingness and **3.00× smaller prediction shifts** under matched physiological trajectories with perturbed sampling masks. Furthermore, observation-process awareness reduced the monitoring-density-associated performance disparity between dense and sparse ICU strata by 60.0%.
+
+These empirical findings demonstrate that separating underlying physiological trajectories from clinical observation processes mitigates institutional dataset shift without sacrificing internal predictive discrimination. Prospective silent trials and randomized clinical evaluations in contemporary ICU workflows represent essential next steps to evaluate bedside utility.

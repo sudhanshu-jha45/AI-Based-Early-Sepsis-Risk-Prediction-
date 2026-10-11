@@ -1,0 +1,12 @@
+{
+  "reserve_external_auroc": 0.7825412330336213,
+  "reserve_external_auprc": 0.10522114255758455,
+  "reserve_external_brier": 0.025847183382157204,
+  "reserve_screening_sensitivity": 0.4362626750362144,
+  "reserve_screening_specificity": 0.921053417741458,
+  "reserve_confirmation_specificity": 0.971630396701891,
+  "reserve_confirmation_ppv": 0.1595462225440502,
+  "reserve_patients_count": 10000,
+  "reserve_windows_count": 376495,
+  "execution_timestamp": "2026-10-03 15:39:27"
+}

@@ -1,0 +1,31 @@
+{
+  "evaluator_name": "BioMarkerX_Canonical_Evaluator",
+  "evaluator_version": "v1.0.0_canonical_lock",
+  "lock_date": "2026-10-03",
+  "authority": "BioMarkerX Lead Scientific Auditor",
+  "locked_cohort": {
+    "patient_count": 2974,
+    "sepsis_event_count": 279,
+    "slice_range": "training_setA[17362:20336]"
+  },
+  "locked_targets": {
+    "primary": "S_next4 (4-Hour Forward Lookahead)",
+    "secondary": "S_next1 (1-Hour Immediate Step)"
+  },
+  "locked_policy": {
+    "tau_screening": 0.015,
+    "tau_confirmation": 0.3,
+    "persistence_windows": 3,
+    "gating_rule": "Rule_E_MAP_Trend"
+  },
+  "canonical_baseline": {
+    "patient_sensitivity": 0.849462,
+    "median_lead_time_hours": 36.0,
+    "confirmation_ppv": 0.321428,
+    "auroc_s4": 0.7895,
+    "auprc_s4": 0.1241,
+    "brier_s4": 0.02738,
+    "auroc_s1": 0.8651,
+    "auprc_s1": 0.162
+  }
+}

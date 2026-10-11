@@ -1,0 +1,5 @@
+subgroup_category,subgroup_value,patients,auroc,sensitivity
+Age,Younger (< 65),11096,0.7161,64.56
+Age,Elderly (>= 65),8904,0.7211,65.76
+ICU Stay Duration,Short Stay (< 24h),5597,0.7041,62.06
+ICU Stay Duration,Long Stay (>= 24h),14403,0.7241,65.66

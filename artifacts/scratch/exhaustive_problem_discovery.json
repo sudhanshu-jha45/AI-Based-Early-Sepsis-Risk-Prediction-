@@ -1,0 +1,42 @@
+[
+  {
+    "category": "Data Quality & Missingness",
+    "issue": "92 out of 203 features have >50% missing values in development cohort.",
+    "details": [
+      "WBC_mean",
+      "WBC_min",
+      "WBC_max",
+      "WBC_std",
+      "Platelets_mean",
+      "Platelets_min",
+      "Platelets_max",
+      "Platelets_std",
+      "PT_mean",
+      "PT_min"
+    ]
+  },
+  {
+    "category": "Raw Sensor Noise & Physiological Violations",
+    "issue": "Raw vitals contain physiological sensor artifacts (Extreme HR: 0, Extreme Temp: 9, BP Inversion: 65).",
+    "details": {
+      "HR_extreme": 0,
+      "Temp_extreme": 9,
+      "BP_inversion": 65
+    }
+  },
+  {
+    "category": "Cohort Inclusion & Window Truncation",
+    "issue": "2 patients have < 2 observation windows (< 12 hours stay), preventing meaningful trajectory velocity computation.",
+    "details": "Total patients: 2115"
+  },
+  {
+    "category": "Multimodal EHR Data Deficit",
+    "issue": "Model is restricted to structured tabular vitals/labs. Clinical nursing notes (NLP), Medication Administration Records (MAR), and ECG waveforms are missing.",
+    "details": "Only 6-hour binned tabular vitals and lab values available."
+  },
+  {
+    "category": "Class Imbalance",
+    "issue": "Positive Sepsis-3 transition windows represent only 35.55% of windows in dev cohort (and ~1.20% in external test).",
+    "details": "Positive windows: 5489.0, Negative windows: 9950"
+  }
+]

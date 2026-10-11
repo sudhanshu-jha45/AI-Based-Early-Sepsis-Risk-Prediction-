@@ -1,0 +1,5 @@
+Claim,Evidence,Problem,Safe_Replacement_Wording
+"External Validation on 5,999 Reserved Patients",Cohort slice [14000:20000] in PhysioNet Set A,"Overlaps 3,362 validation patients and 2,638 locked-test patients from SAME hospital database.",Evaluation on Reserved PhysioNet 2019 Holdout Cohort
+99.63% Sensitivity Achieved,542/544 patient detections at tau=0.015,Post-hoc detection without lead-time constraint; 82% patient FP rate at tau=0.015.,Screening Event Coverage of 99.6% under Un-gated Background Monitoring
+Temperature Scaling Boosts AUROC to 0.8707,Monotonic sigmoid transformation z / T,AUROC is strictly invariant under monotonic transformations. Gain was caused by dataset/feature shifts.,Temperature scaling optimized probability calibration (Brier = 0.0202)
+Physiologically Validated Vasopressor Adjustment,MAP_adj = MAP - ShockIndexProxy * 5.0,"Uses synthetic Shock Index proxy and manual coefficient 5.0, not actual MAR drug dose.",Heuristic Shock-Index Adjusted Perfusion Pressure Filter

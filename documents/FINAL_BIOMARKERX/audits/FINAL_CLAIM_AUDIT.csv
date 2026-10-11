@@ -1,0 +1,6 @@
+claim,supported,evidence,replacement_text
+External Brier proves good calibration,False,External Brier (0.03022) is worse than prevalence baseline (0.01182).,External predictions are poorly calibrated out-of-the-box and require local recalibration.
+Measurement confounding eliminated,False,Correlation r = +0.0602 is low but does not prove elimination.,Measurement-process dependence substantially reduced.
+False-alert storm eliminated,False,Specificity rose to 84.04% but sensitivity dropped from 64.50% to 14.62% at tau=0.1825.,"False-alert burden substantially reduced, accompanied by a severe drop in sensitivity."
+Prevalence drop caused AUROC degradation,False,AUROC is rank-based and theoretically invariant to marginal prevalence shift.,AUROC degradation is driven by genuine population and measurement distributional shifts.
+Unit mismatch caused degradation,False,Unit audit verified units are aligned.,Degradation driven by physiological distributional shift across institutions.

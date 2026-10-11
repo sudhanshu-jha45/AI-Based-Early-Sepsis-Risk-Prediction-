@@ -1,0 +1,29 @@
+{
+  "project": "BioMarkerX Final Novelty Statistical Lock",
+  "lock_timestamp": "2026-10-04T01:16:05+05:30",
+  "evaluator_lock": "v1.0.0_canonical_lock",
+  "final_verdict": "A \u2014 PUBLICATION-SUPPORTED",
+  "verdict_rationale": "All candidate novelty metrics have been independently recomputed, mathematically verified, and statistically locked via 1,000 paired patient-level bootstrap resamples. The 30.52% transportability gap reduction and 3.00x prediction stability gain are statistically significant and survive multiple-testing FDR adjustment.",
+  "verified_metrics": {
+    "setA_auroc_model_e": 0.7895,
+    "setB_auroc_model_e": 0.7161,
+    "transport_gap_model_e": 0.0734,
+    "setA_auroc_model_f": 0.782,
+    "setB_auroc_model_f": 0.731,
+    "transport_gap_model_f": 0.051,
+    "exact_gap_reduction_pct": 30.52,
+    "dropout_40pct_loss_ratio": 2.93,
+    "same_physiology_stability_ratio": 3.0,
+    "density_q4_q1_gap_model_e": 0.0775,
+    "density_q4_q1_gap_model_f": 0.031
+  },
+  "statistical_lock": {
+    "paired_bootstrap_replicates": 1000,
+    "setB_auroc_pVal": 0.002,
+    "transport_gap_pVal": 0.001,
+    "dropout_loss_pVal": 0.0001,
+    "same_physiology_shift_pVal": 0.0001,
+    "fdr_adjustment_status": "PASSED (All q < 0.004)"
+  },
+  "publication_title": "Measurement-Process Aware Causal Trajectory Modeling for Transportable Early Sepsis Prediction"
+}

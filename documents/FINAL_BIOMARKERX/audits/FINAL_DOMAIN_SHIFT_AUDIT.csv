@@ -1,0 +1,7 @@
+feature_name,PSI,Wasserstein_Distance,KS_Statistic,p_value,shift_association
+HR_mean,0.2073,4.906,0.1733,0.0,Associated with cross-site distributional shift in population features.
+MAP_mean,1.4074,10.8126,0.4968,0.0,Associated with cross-site distributional shift in population features.
+SBP_mean,0.4613,7.1651,0.225,0.0,Associated with cross-site distributional shift in population features.
+Temp_mean,1.5296,0.433,0.371,0.0,Associated with cross-site distributional shift in population features.
+WBC_mean,0.0954,1.5971,0.0652,0.0,Associated with cross-site distributional shift in population features.
+Creatinine_mean,0.4542,2.5912,0.1308,0.0,Associated with cross-site distributional shift in population features.

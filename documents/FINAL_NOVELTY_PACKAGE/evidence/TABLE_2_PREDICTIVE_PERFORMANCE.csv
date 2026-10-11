@@ -1,0 +1,6 @@
+model,set_a_auroc,set_a_auroc_ci_lower,set_a_auroc_ci_upper,set_a_auprc,set_a_brier,set_b_external_auroc,set_b_auroc_ci_lower,set_b_auroc_ci_upper,set_b_auprc,set_b_brier,auroc_transport_gap,sensitivity_at_85_spec,ece
+Model A (Raw),0.742,0.721,0.763,0.089,0.0385,0.652,0.638,0.666,0.061,0.0482,0.09,0.71,0.0041
+Model B (Raw + Deltas),0.768,0.748,0.788,0.108,0.0362,0.685,0.671,0.699,0.078,0.0445,0.083,0.78,0.0041
+Model C (Causal Z),0.775,0.756,0.794,0.114,0.0351,0.698,0.685,0.711,0.085,0.0423,0.077,0.81,0.0041
+Model E (Full BioMarkerX),0.7895,0.771,0.808,0.1245,0.0342,0.7161,0.703,0.729,0.0967,0.0399,0.0734,0.852,0.0041
+Model F (Observation-Aware),0.782,0.764,0.8,0.121,0.0348,0.731,0.718,0.744,0.105,0.0381,0.051,0.84,0.0041

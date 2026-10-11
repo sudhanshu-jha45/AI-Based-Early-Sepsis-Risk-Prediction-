@@ -1,0 +1,9 @@
+{
+  "alt_in_raw_data": false,
+  "gender_velocity_in_model": true,
+  "auroc_test_fit_medians": 0.5555070236174997,
+  "auroc_dev_fit_medians": 0.5321689978159281,
+  "measurement_intensity_r_ext": 0.5736079942115803,
+  "severe_shifted_features_count": 11,
+  "audit_status": "PHASE_6_7_COMPLETE"
+}

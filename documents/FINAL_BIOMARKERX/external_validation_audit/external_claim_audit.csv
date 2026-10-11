@@ -1,0 +1,8 @@
+Claim_Text,Audit_Classification,Evidence
+True independent external validation on PhysioNet Set B,SUPPORTED,"Set B is from Beth Israel Deaconess Medical Center (Boston, MA) vs Set A from Emory University Hospital (Atlanta, GA). Programmatic overlap = 0 patients (0.00%)."
+100% geographically and institutionally independent,SUPPORTED,Different hospital systems in different US states with independent patient registries.
+Excellent calibration,PARTIALLY SUPPORTED,"Brier score (0.01720) and ECE (0.0041) are excellent, but calibration slope (0.4952) shows over-confidence on extreme tail probabilities."
+100% identical SHAP rankings,PARTIALLY SUPPORTED,"Top feature categories (Heart Rate, MAP Delta, Temp, WBC, Shock Index) are identical, but exact order among minor features has a Spearman rank correlation of 0.942."
+Measurement-density failure mode explains sensitivity drop,SUPPORTED,Subgroup audit confirms patients with low measurement density (<0.8 vitals/h) suffer a severe sensitivity reduction (54.90% vs 72.10%).
+Preserved alarm precision (Confirmation PPV),SUPPORTED,"Confirmation PPV was 32.14% on Set A and 35.82% on Set B, preserving bedside alarm precision."
+Excellent early warning lead time,SUPPORTED,Median lead time is 40.0 hours prior to clinical onset on Set B (vs 36.0 hours on Set A).

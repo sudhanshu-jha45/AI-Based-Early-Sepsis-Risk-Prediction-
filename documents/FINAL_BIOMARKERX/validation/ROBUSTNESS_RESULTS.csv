@@ -1,0 +1,5 @@
+dropout_rate,AUROC,AUPRC,Brier,performance_retention_pct,limitation_note
+0%,0.8288,0.4208,0.06717,100.0,Applies specifically to simulated random lab dropout; does not establish robustness to severity-dependent missingness.
+10%,0.8263,0.419,0.06728,99.69,Applies specifically to simulated random lab dropout; does not establish robustness to severity-dependent missingness.
+25%,0.8252,0.4192,0.06731,99.57,Applies specifically to simulated random lab dropout; does not establish robustness to severity-dependent missingness.
+50%,0.8256,0.417,0.06755,99.61,Applies specifically to simulated random lab dropout; does not establish robustness to severity-dependent missingness.

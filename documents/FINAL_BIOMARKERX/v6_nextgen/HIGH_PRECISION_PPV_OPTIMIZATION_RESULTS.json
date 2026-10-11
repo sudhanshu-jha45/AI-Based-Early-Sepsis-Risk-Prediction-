@@ -1,0 +1,54 @@
+{
+  "optimization_target": "Multi-Biomarker Consensus Gating High-Precision Confirmation",
+  "cohort_size": 5999,
+  "total_risk_windows": 229080,
+  "grid_sweep_results": [
+    {
+      "tau_confirmation": 0.25,
+      "v5_alert_windows": 688,
+      "v5_confirmation_ppv": 0.3953488372093023,
+      "hp_alert_windows": 305,
+      "hp_confirmation_ppv": 0.39344262295081966,
+      "ppv_boost": -0.0019062142584826414
+    },
+    {
+      "tau_confirmation": 0.3,
+      "v5_alert_windows": 214,
+      "v5_confirmation_ppv": 0.5233644859813084,
+      "hp_alert_windows": 100,
+      "hp_confirmation_ppv": 0.54,
+      "ppv_boost": 0.016635514018691677
+    },
+    {
+      "tau_confirmation": 0.35,
+      "v5_alert_windows": 31,
+      "v5_confirmation_ppv": 0.6129032258064516,
+      "hp_alert_windows": 11,
+      "hp_confirmation_ppv": 0.45454545454545453,
+      "ppv_boost": -0.1583577712609971
+    },
+    {
+      "tau_confirmation": 0.4,
+      "v5_alert_windows": 3,
+      "v5_confirmation_ppv": 0.3333333333333333,
+      "hp_alert_windows": 1,
+      "hp_confirmation_ppv": 1.0,
+      "ppv_boost": 0.6666666666666667
+    },
+    {
+      "tau_confirmation": 0.45,
+      "v5_alert_windows": 3,
+      "v5_confirmation_ppv": 0.3333333333333333,
+      "hp_alert_windows": 1,
+      "hp_confirmation_ppv": 1.0,
+      "ppv_boost": 0.6666666666666667
+    }
+  ],
+  "optimal_high_precision_operating_point": {
+    "tau_confirmation": 0.35,
+    "baseline_v5_ppv": 0.6129032258064516,
+    "high_precision_consensus_ppv": 0.45454545454545453,
+    "ppv_improvement_factor": 0.7416267942583732
+  },
+  "execution_time_sec": 125.52
+}

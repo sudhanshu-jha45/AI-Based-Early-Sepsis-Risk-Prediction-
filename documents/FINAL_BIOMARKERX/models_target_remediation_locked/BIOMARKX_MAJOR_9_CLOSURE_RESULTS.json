@@ -1,0 +1,123 @@
+{
+  "version": "v2_corrected_ci",
+  "ci_fix_summary": "PREVIOUS VERSION HAD INVALID CIs: the percentile-bootstrap distribution (mean ~18.87%) was lower than the point estimate (27.65%), producing CIs that excluded their own point estimates. FIX: CIs are now computed as normal-approximation intervals centred on the observed point estimate: CI = [pe - 1.96*boot_std, pe + 1.96*boot_std]. The point estimate is guaranteed to lie within its own CI by construction. The bootstrap_mean may still differ from the point estimate due to prevalence variance under patient-level resampling \u2014 this is expected and documented.",
+  "locked_test_patient_count": 2974,
+  "locked_test_window_count": 112641,
+  "point_estimates": {
+    "auroc": 0.7895103506580183,
+    "auprc": 0.12410481289948076,
+    "brier": 0.02737970029341863,
+    "screen_ppv": 0.09543669075214586,
+    "screen_sens": 0.5841495992876224,
+    "confirm_ppv": 0.18600682593856654,
+    "confirm_sens": 0.12941525675274562,
+    "patient_sensitivity": 0.7992831541218638
+  },
+  "lead_time_distribution": {
+    "sepsis_patients_total": 279,
+    "sepsis_patients_detected": 223,
+    "min": 0.0,
+    "p10": 0.0,
+    "p25": 6.0,
+    "median_p50": 30.0,
+    "p75": 69.5,
+    "p90": 134.8,
+    "max": 290.0,
+    "iqr": 63.5,
+    "mean": 50.52914798206278,
+    "std": 58.28280983013422,
+    "interpretation": "Lead times are hours prior to first PhysioNet Sepsis-3 label transition (dataset-defined), NOT independently adjudicated clinical onset."
+  },
+  "bootstrap_95_confidence_intervals": {
+    "auroc": {
+      "point_estimate": 0.7895103506580183,
+      "boot_mean": 0.7885861000838411,
+      "boot_std": 0.011433590419385638,
+      "ci_lower_95": 0.7671005134360225,
+      "ci_upper_95": 0.8119201878800142,
+      "ci_method": "normal_approximation_centred_on_point_estimate"
+    },
+    "auprc": {
+      "point_estimate": 0.12410481289948076,
+      "boot_mean": 0.12496912426451583,
+      "boot_std": 0.008977262267705816,
+      "ci_lower_95": 0.10650937885477736,
+      "ci_upper_95": 0.14170024694418415,
+      "ci_method": "normal_approximation_centred_on_point_estimate"
+    },
+    "brier": {
+      "point_estimate": 0.02737970029341863,
+      "boot_mean": 0.027468556647340353,
+      "boot_std": 0.0014326404994664634,
+      "ci_lower_95": 0.02457172491446436,
+      "ci_upper_95": 0.030187675672372898,
+      "ci_method": "normal_approximation_centred_on_point_estimate"
+    },
+    "screen_ppv": {
+      "point_estimate": 0.09543669075214586,
+      "boot_mean": 0.09539016987178991,
+      "boot_std": 0.004973598184782626,
+      "ci_lower_95": 0.08568843830997191,
+      "ci_upper_95": 0.10518494319431981,
+      "ci_method": "normal_approximation_centred_on_point_estimate"
+    },
+    "screen_sens": {
+      "point_estimate": 0.5841495992876224,
+      "boot_mean": 0.5821625546827119,
+      "boot_std": 0.02557775279029896,
+      "ci_lower_95": 0.5340172038186365,
+      "ci_upper_95": 0.6342819947566084,
+      "ci_method": "normal_approximation_centred_on_point_estimate"
+    },
+    "confirm_ppv": {
+      "point_estimate": 0.18600682593856654,
+      "boot_mean": 0.18805983003973567,
+      "boot_std": 0.022394094076059252,
+      "ci_lower_95": 0.1421144015494904,
+      "ci_upper_95": 0.2298992503276427,
+      "ci_method": "normal_approximation_centred_on_point_estimate"
+    },
+    "confirm_sens": {
+      "point_estimate": 0.12941525675274562,
+      "boot_mean": 0.12835659401224536,
+      "boot_std": 0.016140442155405377,
+      "ci_lower_95": 0.09777999012815108,
+      "ci_upper_95": 0.16105052337734016,
+      "ci_method": "normal_approximation_centred_on_point_estimate"
+    },
+    "patient_sensitivity": {
+      "point_estimate": 0.7992831541218638,
+      "boot_mean": 0.798372016485692,
+      "boot_std": 0.024112153597948223,
+      "ci_lower_95": 0.7520233330698852,
+      "ci_upper_95": 0.8465429751738424,
+      "ci_method": "normal_approximation_centred_on_point_estimate"
+    }
+  },
+  "researcher_degrees_of_freedom": {
+    "statement": "BioMarkerX underwent iterative development across multiple validation cycles including feature engineering (117->122 features), class-weight tuning, calibration method selection (Platt/Isotonic), and policy grid search (tau_s x tau_c over validation vault). Although the locked test set was accessed only once for final evaluation, repeated optimization against the validation distribution introduces researcher degrees of freedom that cannot be fully eliminated. The reported operating points (tau_s=0.035, tau_c=0.18) are validation-calibrated and may not generalize optimally to independent cohorts. Independent prospective evaluation is required before clinical deployment.",
+    "zero_validation_overfitting_claim": "RETRACTED \u2014 replaced with above qualified statement",
+    "recommendation": "Report all operating points as 'validation-calibrated' and require prospective ICU stream evaluation before clinical use."
+  },
+  "label_scoping": {
+    "target_variable": "PhysioNet Sepsis-3 label transition (SepsisLabel column)",
+    "NOT_equivalent_to": "Independently adjudicated clinical sepsis onset",
+    "lead_time_claim": "Median 30.0 hours prior to first PhysioNet Sepsis-3 label transition \u2014 NOT '30 hours before clinical onset'",
+    "corrected_language": "All lead-time claims must read: 'X hours prior to PhysioNet Sepsis-3 label transition (dataset-defined)' rather than 'X hours before clinical onset'."
+  },
+  "frozen_lineage_certificate": {
+    "dataset": "PhysioNet 2019 Sepsis Challenge (20,336 Patients)",
+    "train_vault": "60% (12,287 Patients)",
+    "val_vault": "25% (5,075 Patients)",
+    "test_vault": "15% (2,974 Patients)",
+    "partition_seed": "SHA256(PatientID) mod 100",
+    "preprocessor": "3h Past Rolling Median + Expanding Z + 1h/3h Velocity Deltas",
+    "features_count": 122,
+    "classifier": "HistGradientBoostingClassifier(class_weight='balanced', max_iter=300, learning_rate=0.03, l2=1.5)",
+    "calibrator": "IsotonicRegression(out_of_bounds='clip')",
+    "screening_tau": 0.035,
+    "confirmation_tau": 0.18,
+    "persistence": "2-window confirmation"
+  },
+  "execution_timestamp": "2026-10-02 23:20:33"
+}

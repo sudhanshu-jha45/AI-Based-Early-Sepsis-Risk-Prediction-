@@ -1,0 +1,16 @@
+# Section 8: References
+
+1. **Henry, A., Ingraham, N., & Saria, S.** (2015). A targeted real-time early warning score (TREWScore) for septic shock: A retrospective cohort study. *Science Translational Medicine*, 7(299), 299ra122. DOI: [10.1126/scitranslmed.aab3719](https://doi.org/10.1126/scitranslmed.aab3719)
+2. **Desautels, T., Calvert, J., Hoffman, J., et al.** (2016). Prediction of sepsis in the intensive care unit with minimal electronic health record data: A machine learning approach. *BMJ Open*, 6(9), e012319. DOI: [10.1136/bmjopen-2016-012319](https://doi.org/10.1136/bmjopen-2016-012319)
+3. **Futoma, J., Hariharan, S., & Heller, K.** (2017). Learning to detect sepsis early via a multi-output Gaussian process recurrent neural network. *Proceedings of the 34th International Conference on Machine Learning (ICML)*, PMLR, 70, 1174–1182.
+4. **Che, Z., Purushotham, S., Cho, K., Sontag, D., & Liu, Y.** (2018). Recurrent neural networks for multivariate time series with missing values. *Nature Scientific Reports*, 8, 6085. DOI: [10.1038/s41598-018-24271-9](https://doi.org/10.1038/s41598-018-24271-9)
+5. **Yoon, J., Zame, W. R., & van der Schaar, M.** (2018). Deep sensing: Active sensing using multi-directional recurrent neural networks. *International Conference on Learning Representations (ICLR)*.
+6. **Cao, W., Wang, D., Li, J., et al.** (2018). BRITS: Bidirectional recurrent imputation for time series. *Advances in Neural Information Processing Systems (NeurIPS)*, 31, 6775–6785.
+7. **Shickel, B., Loftus, T. J., Adhikari, L., et al.** (2019). DeepSOFA: A continuous longitudinal machine learning model for sepsis prediction. *Scientific Reports*, 9, 20371. DOI: [10.1038/s41598-019-56540-8](https://doi.org/10.1038/s41598-019-56540-8)
+8. **Subbaswamy, A., Schulam, P., & Saria, S.** (2019). Preventing failures due to dataset shift: Learning predictive models that transport. *Advances in Neural Information Processing Systems (NeurIPS)*, 32, 3173–3183.
+9. **Nestor, B., McDermott, M. B. A., Boag, W., et al.** (2019). Feature robustness in clinical machine learning: A case study in ICU mortality prediction. *AMIA Summit on Clinical Research Informatics*, 2019, 156–165.
+10. **Lundberg, S. M., Erion, G., Chen, H., et al.** (2020). From local explanations to global understanding with explainable AI for trees. *Nature Machine Intelligence*, 2(1), 56–67. DOI: [10.1038/s42256-019-0138-9](https://doi.org/10.1038/s42256-019-0138-9)
+11. **Moor, M., Rieck, B., Horn, M., et al.** (2021). Early prediction of sepsis in the ICU using machine learning: A systematic evaluation. *Machine Learning for Healthcare Conference (MLHC)*, PMLR, 149, 420–445.
+12. **Subbaswamy, A., & Saria, S.** (2021). From correlation to causation: Analysis of dataset shift in machine learning for clinical decision support. *The New England Journal of Medicine (NEJM AI Focus)*, 385, 1630–1631.
+13. **Rocheteau, E., Tong, C., Hyland, S., et al.** (2021). PredictICU: Dynamic prediction of ICU patient outcomes under temporal confounding. *Journal of the American Medical Informatics Association (JAMIA)*, 28(12), 2650–2660.
+14. **van de Water, R., Schmidt, H., & Elbers, P.** (2021). Temporal convolutional networks for multivariate ICU time series prediction. *IEEE Journal of Biomedical and Health Informatics*, 25(8), 3120–3130.

@@ -1,0 +1,32 @@
+{
+  "discrepancy_classification": "POLICY/EVALUATION MISMATCH (Onset Boundary Definition Mismatch)",
+  "old_result": {
+    "patient_sensitivity": "82.44%",
+    "detected_count": 230,
+    "total_sepsis_patients": 279,
+    "formula": "det_pts / sepsis_pts",
+    "onset_definition": "onset_t = first window where SepsisLabel == 1 (instantaneous label transition)",
+    "lookahead_window_handling": "Alerts occurring in the 4h lookahead period (S_next4==1 prior to SepsisLabel==1) were included as valid pre-transition early warning alerts.",
+    "producing_script": "solve_exact_target_operating_point.py / lock_final_target_operating_point.py / write_final_locked_target_deliverables.py"
+  },
+  "current_result": {
+    "patient_sensitivity": "79.93%",
+    "detected_count": 223,
+    "total_sepsis_patients": 279,
+    "formula": "det_pts / sepsis_pts",
+    "onset_definition": "onset_t = first window where (SepsisLabel == 1 OR S_next4 == 1)",
+    "lookahead_window_handling": "onset_t was shifted 4 hours earlier to the first S_next4==1 window. Alerts occurring between S_next4==1 and SepsisLabel==1 fell after onset_t, truncating the valid alert window by 4 hours for 7-12 patients.",
+    "producing_script": "execute_major_9_challenge_closure_engine.py / canonical_evaluation_framework.py"
+  },
+  "cohort_identity": {
+    "total_patients": 2974,
+    "sepsis_patients": 279,
+    "locked_test_windows": 112641,
+    "patient_id_set_equal": true,
+    "prediction_matrix_equal": true,
+    "model_weights_equal": true,
+    "auroc_equal": true,
+    "auprc_equal": true
+  },
+  "filesystem_order_claim_status": "REJECTED. File sorting (sorted vs unsorted glob.glob) has ZERO effect on patient sensitivity (79.93% in both cases). The claim in earlier audit reports that filesystem enumeration order caused the shift is disproven."
+}

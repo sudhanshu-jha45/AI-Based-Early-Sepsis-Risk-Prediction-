@@ -1,0 +1,123 @@
+Rank,Feature,Mean_Abs_SHAP,Physiological_Role
+1,ICULOS,0.09150865605543977,Temporal ICU Length of Stay Accumulation
+2,SBP,0.04490277229117431,Systolic Perfusion Boundary
+3,HR,0.02844264507640133,Hemodynamic Acceleration / Tachycardia Response
+4,MAP,0.01394958413570344,Systemic Vascular Resistance & Perfusion Pressure
+5,Temp,0.0,Thermoregulatory Dysregulation / Pyrexia-Hypothermia
+6,O2Sat,0.0,Pulmonary Gas Exchange & Arterial Oxygenation
+7,Resp,0.0,Respiratory Rate / Compensatory Tachypnea
+8,BaseExcess,0.0,Metabolic Acid-Base Deficit
+9,HCO3,0.0,Physiological Biomarker Dynamics
+10,DBP,0.0,Diastolic Arterial Tone
+11,pH,0.0,Acid-Base Homeostasis & Systemic Metabolic Acidosis
+12,PaCO2,0.0,Physiological Biomarker Dynamics
+13,SaO2,0.0,Physiological Biomarker Dynamics
+14,AST,0.0,Physiological Biomarker Dynamics
+15,BUN,0.0,Renal Nitrogen Clearance
+16,Alkalinephos,0.0,Physiological Biomarker Dynamics
+17,Calcium,0.0,Physiological Biomarker Dynamics
+18,Chloride,0.0,Physiological Biomarker Dynamics
+19,Creatinine,0.0,Acute Kidney Injury & Renal Hypoperfusion
+20,Bilirubin_direct,0.0,Physiological Biomarker Dynamics
+21,Glucose,0.0,Physiological Biomarker Dynamics
+22,Lactate,0.0,Anaerobic Tissue Hypoxia & Microvascular Perfusion Failure
+23,Magnesium,0.0,Physiological Biomarker Dynamics
+24,Phosphate,0.0,Physiological Biomarker Dynamics
+25,Potassium,0.0,Physiological Biomarker Dynamics
+26,FiO2,0.0,Physiological Biomarker Dynamics
+27,Bilirubin_total,0.0,Physiological Biomarker Dynamics
+28,TroponinI,0.0,Physiological Biomarker Dynamics
+29,Hgb,0.0,Physiological Biomarker Dynamics
+30,Hct,0.0,Physiological Biomarker Dynamics
+31,WBC,0.0,Systemic Leukocytosis / Immune Activation
+32,Fibrinogen,0.0,Physiological Biomarker Dynamics
+33,Platelets,0.0,Coagulopathy / Microvascular Thrombosis
+34,PTT,0.0,Physiological Biomarker Dynamics
+35,Age,0.0,Baseline Physiological Reserve
+36,Gender,0.0,Demographic Stratification
+37,Unit2,0.0,Physiological Biomarker Dynamics
+38,Unit1,0.0,Physiological Biomarker Dynamics
+39,HospAdmTime,0.0,Physiological Biomarker Dynamics
+40,HR_z,0.0,Hemodynamic Acceleration / Tachycardia Response
+41,O2Sat_z,0.0,Pulmonary Gas Exchange & Arterial Oxygenation
+42,Temp_z,0.0,Thermoregulatory Dysregulation / Pyrexia-Hypothermia
+43,SBP_z,0.0,Systolic Perfusion Boundary
+44,MAP_z,0.0,Systemic Vascular Resistance & Perfusion Pressure
+45,DBP_z,0.0,Diastolic Arterial Tone
+46,Resp_z,0.0,Respiratory Rate / Compensatory Tachypnea
+47,BaseExcess_z,0.0,Metabolic Acid-Base Deficit
+48,HCO3_z,0.0,Physiological Biomarker Dynamics
+49,FiO2_z,0.0,Physiological Biomarker Dynamics
+50,pH_z,0.0,Acid-Base Homeostasis & Systemic Metabolic Acidosis
+51,PaCO2_z,0.0,Physiological Biomarker Dynamics
+52,SaO2_z,0.0,Physiological Biomarker Dynamics
+53,AST_z,0.0,Physiological Biomarker Dynamics
+54,BUN_z,0.0,Renal Nitrogen Clearance
+55,Alkalinephos_z,0.0,Physiological Biomarker Dynamics
+56,Calcium_z,0.0,Physiological Biomarker Dynamics
+57,Chloride_z,0.0,Physiological Biomarker Dynamics
+58,Creatinine_z,0.0,Acute Kidney Injury & Renal Hypoperfusion
+59,Bilirubin_direct_z,0.0,Physiological Biomarker Dynamics
+60,Glucose_z,0.0,Physiological Biomarker Dynamics
+61,Lactate_z,0.0,Anaerobic Tissue Hypoxia & Microvascular Perfusion Failure
+62,Magnesium_z,0.0,Physiological Biomarker Dynamics
+63,Phosphate_z,0.0,Physiological Biomarker Dynamics
+64,Potassium_z,0.0,Physiological Biomarker Dynamics
+65,Bilirubin_total_z,0.0,Physiological Biomarker Dynamics
+66,TroponinI_z,0.0,Physiological Biomarker Dynamics
+67,Hct_z,0.0,Physiological Biomarker Dynamics
+68,Hgb_z,0.0,Physiological Biomarker Dynamics
+69,PTT_z,0.0,Physiological Biomarker Dynamics
+70,WBC_z,0.0,Systemic Leukocytosis / Immune Activation
+71,Fibrinogen_z,0.0,Physiological Biomarker Dynamics
+72,Platelets_z,0.0,Coagulopathy / Microvascular Thrombosis
+73,Age_z,0.0,Baseline Physiological Reserve
+74,Gender_z,0.0,Demographic Stratification
+75,Unit1_z,0.0,Physiological Biomarker Dynamics
+76,Unit2_z,0.0,Physiological Biomarker Dynamics
+77,HospAdmTime_z,0.0,Physiological Biomarker Dynamics
+78,ICULOS_z,0.0,Temporal ICU Length of Stay Accumulation
+79,HR_delta,0.0,Hemodynamic Acceleration / Tachycardia Response
+80,O2Sat_delta,0.0,Pulmonary Gas Exchange & Arterial Oxygenation
+81,Temp_delta,0.0,Thermoregulatory Dysregulation / Pyrexia-Hypothermia
+82,SBP_delta,0.0,Systolic Perfusion Boundary
+83,MAP_delta,0.0,Systemic Vascular Resistance & Perfusion Pressure
+84,DBP_delta,0.0,Diastolic Arterial Tone
+85,Resp_delta,0.0,Respiratory Rate / Compensatory Tachypnea
+86,BaseExcess_delta,0.0,Metabolic Acid-Base Deficit
+87,HCO3_delta,0.0,Physiological Biomarker Dynamics
+88,FiO2_delta,0.0,Physiological Biomarker Dynamics
+89,pH_delta,0.0,Acid-Base Homeostasis & Systemic Metabolic Acidosis
+90,PaCO2_delta,0.0,Physiological Biomarker Dynamics
+91,SaO2_delta,0.0,Physiological Biomarker Dynamics
+92,AST_delta,0.0,Physiological Biomarker Dynamics
+93,BUN_delta,0.0,Renal Nitrogen Clearance
+94,Alkalinephos_delta,0.0,Physiological Biomarker Dynamics
+95,Calcium_delta,0.0,Physiological Biomarker Dynamics
+96,Chloride_delta,0.0,Physiological Biomarker Dynamics
+97,Creatinine_delta,0.0,Acute Kidney Injury & Renal Hypoperfusion
+98,Bilirubin_direct_delta,0.0,Physiological Biomarker Dynamics
+99,Glucose_delta,0.0,Physiological Biomarker Dynamics
+100,Lactate_delta,0.0,Anaerobic Tissue Hypoxia & Microvascular Perfusion Failure
+101,Magnesium_delta,0.0,Physiological Biomarker Dynamics
+102,Phosphate_delta,0.0,Physiological Biomarker Dynamics
+103,Potassium_delta,0.0,Physiological Biomarker Dynamics
+104,Bilirubin_total_delta,0.0,Physiological Biomarker Dynamics
+105,TroponinI_delta,0.0,Physiological Biomarker Dynamics
+106,Hct_delta,0.0,Physiological Biomarker Dynamics
+107,Hgb_delta,0.0,Physiological Biomarker Dynamics
+108,PTT_delta,0.0,Physiological Biomarker Dynamics
+109,WBC_delta,0.0,Systemic Leukocytosis / Immune Activation
+110,Fibrinogen_delta,0.0,Physiological Biomarker Dynamics
+111,Platelets_delta,0.0,Coagulopathy / Microvascular Thrombosis
+112,Age_delta,0.0,Baseline Physiological Reserve
+113,Gender_delta,0.0,Demographic Stratification
+114,Unit1_delta,0.0,Physiological Biomarker Dynamics
+115,Unit2_delta,0.0,Physiological Biomarker Dynamics
+116,HospAdmTime_delta,0.0,Physiological Biomarker Dynamics
+117,ICULOS_delta,0.0,Temporal ICU Length of Stay Accumulation
+118,Shock_Index,0.0,Physiological Biomarker Dynamics
+119,Mod_Shock_Index,0.0,Physiological Biomarker Dynamics
+120,Pulse_Pressure,0.0,Physiological Biomarker Dynamics
+121,qSOFA_Causal,0.0,Physiological Biomarker Dynamics
+122,SIRS_Causal,0.0,Physiological Biomarker Dynamics

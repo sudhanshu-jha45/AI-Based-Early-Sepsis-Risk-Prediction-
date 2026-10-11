@@ -1,0 +1,7 @@
+variable,dev_unit,ext_unit,status
+HR,bpm,bpm,ALIGNED
+MAP,mmHg,mmHg,ALIGNED
+SBP,mmHg,mmHg,ALIGNED
+DBP,mmHg,mmHg,ALIGNED
+Temp,Celsius,Celsius,ALIGNED
+SpO2,%,%,ALIGNED

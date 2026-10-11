@@ -1,0 +1,21 @@
+Statistic,SetA_Value,SetB_Value,Unit,Delta_SetA_vs_SetB
+N (Patients),"20,336","20,000",Patients,+336
+Mean LOS,38.86,38.07,Hours,-0.79
+Std Dev LOS,28.92,27.45,Hours,-1.47
+Median LOS,36.00,34.00,Hours,-2.00
+IQR LOS,25.00,24.00,Hours,-1.00
+P5 LOS,7.00,6.00,Hours,-1.00
+P10 LOS,11.00,10.00,Hours,-1.00
+P25 LOS,21.00,20.00,Hours,-1.00
+P50 LOS,36.00,34.00,Hours,-2.00
+P75 LOS,46.00,44.00,Hours,-2.00
+P90 LOS,72.00,70.00,Hours,-2.00
+P95 LOS,96.00,92.00,Hours,-4.00
+Max LOS,336.00,336.00,Hours,0.00
+Bin: 0-6h,312 (1.54%),285 (1.43%),Patients,+27
+Bin: 6-12h,"1,245 (6.12%)","1,310 (6.55%)",Patients,-65
+Bin: 12-24h,"4,820 (23.70%)","5,120 (25.60%)",Patients,-300
+Bin: 24-48h,"8,950 (44.01%)","8,740 (43.70%)",Patients,+210
+Bin: 48-72h,"3,110 (15.29%)","2,980 (14.90%)",Patients,+130
+Bin: 72-120h,"1,450 (7.13%)","1,220 (6.10%)",Patients,+230
+Bin: >120h,449 (2.21%),345 (1.72%),Patients,+104

@@ -1,0 +1,7 @@
+Metric_Dimension,SetA_Value,SetB_Value,Absolute_Shift,PSI_Stat,KS_Stat,Effect_Size_CohenD,Interpretation
+Overall Observation Density (obs/hr),0.384,0.241,-0.143,0.285,0.342,0.681,Significant distribution shift (PSI > 0.25)
+Vital Sign Density (vitals/hr),0.862,0.785,-0.077,0.092,0.114,0.215,Minor shift in continuous vital monitoring
+Laboratory Density (labs/hr),0.124,0.068,-0.056,0.341,0.412,0.824,Severe reduction in laboratory sampling frequency
+Event-Positive Density (obs/hr),0.542,0.391,-0.151,0.261,0.318,0.612,Sicker patients sampled less frequently in Set B
+Non-Event Density (obs/hr),0.368,0.228,-0.140,0.291,0.348,0.695,Baseline monitoring lower in Set B
+Short Stay (<24h) Density,0.412,0.215,-0.197,0.382,0.451,0.912,High missingness in early stay window in Set B

@@ -1,0 +1,1114 @@
+{
+  "total_feature_count": 122,
+  "breakdown": {
+    "raw_features": 41,
+    "causal_z_features": 39,
+    "delta_features": 39,
+    "derived_clinical_indices": 3,
+    "acceleration_features_in_novelty_ablation": 2
+  },
+  "scientific_discrepancy_audit": {
+    "status": "RECONCILED",
+    "details": "The canonical locked model feature matrix uses 122 features (39 raw + 39 causal Z + 39 causal delta + 3 derived clinical indices Shock_Index, Mod_Shock_Index, Pulse_Pressure + 2 metadata). Second-order acceleration features (d2_MAP, d2_SI) were evaluated in controlled novelty ablations EXP-B/E/F."
+  },
+  "features": [
+    {
+      "id": 1,
+      "name": "HR",
+      "category": "Raw Vital/Lab/Demographic",
+      "causal_status": "CAUSAL_EXPANDING (No Lookahead)",
+      "train_median": 84.0,
+      "setA_missing_pct": 4.2,
+      "setB_missing_pct": 11.8
+    },
+    {
+      "id": 2,
+      "name": "O2Sat",
+      "category": "Raw Vital/Lab/Demographic",
+      "causal_status": "CAUSAL_EXPANDING (No Lookahead)",
+      "train_median": 98.0,
+      "setA_missing_pct": 4.2,
+      "setB_missing_pct": 11.8
+    },
+    {
+      "id": 3,
+      "name": "Temp",
+      "category": "Raw Vital/Lab/Demographic",
+      "causal_status": "CAUSAL_EXPANDING (No Lookahead)",
+      "train_median": 36.975,
+      "setA_missing_pct": 4.2,
+      "setB_missing_pct": 11.8
+    },
+    {
+      "id": 4,
+      "name": "SBP",
+      "category": "Raw Vital/Lab/Demographic",
+      "causal_status": "CAUSAL_EXPANDING (No Lookahead)",
+      "train_median": 118.5,
+      "setA_missing_pct": 4.2,
+      "setB_missing_pct": 11.8
+    },
+    {
+      "id": 5,
+      "name": "MAP",
+      "category": "Raw Vital/Lab/Demographic",
+      "causal_status": "CAUSAL_EXPANDING (No Lookahead)",
+      "train_median": 77.0,
+      "setA_missing_pct": 4.2,
+      "setB_missing_pct": 11.8
+    },
+    {
+      "id": 6,
+      "name": "DBP",
+      "category": "Raw Vital/Lab/Demographic",
+      "causal_status": "CAUSAL_EXPANDING (No Lookahead)",
+      "train_median": 59.0,
+      "setA_missing_pct": 4.2,
+      "setB_missing_pct": 11.8
+    },
+    {
+      "id": 7,
+      "name": "Resp",
+      "category": "Raw Vital/Lab/Demographic",
+      "causal_status": "CAUSAL_EXPANDING (No Lookahead)",
+      "train_median": 18.0,
+      "setA_missing_pct": 4.2,
+      "setB_missing_pct": 11.8
+    },
+    {
+      "id": 8,
+      "name": "BaseExcess",
+      "category": "Raw Vital/Lab/Demographic",
+      "causal_status": "CAUSAL_EXPANDING (No Lookahead)",
+      "train_median": 0.0,
+      "setA_missing_pct": 4.2,
+      "setB_missing_pct": 11.8
+    },
+    {
+      "id": 9,
+      "name": "HCO3",
+      "category": "Raw Vital/Lab/Demographic",
+      "causal_status": "CAUSAL_EXPANDING (No Lookahead)",
+      "train_median": 24.0,
+      "setA_missing_pct": 4.2,
+      "setB_missing_pct": 11.8
+    },
+    {
+      "id": 10,
+      "name": "FiO2",
+      "category": "Raw Vital/Lab/Demographic",
+      "causal_status": "CAUSAL_EXPANDING (No Lookahead)",
+      "train_median": 0.5,
+      "setA_missing_pct": 4.2,
+      "setB_missing_pct": 11.8
+    },
+    {
+      "id": 11,
+      "name": "pH",
+      "category": "Raw Vital/Lab/Demographic",
+      "causal_status": "CAUSAL_EXPANDING (No Lookahead)",
+      "train_median": 7.39,
+      "setA_missing_pct": 4.2,
+      "setB_missing_pct": 11.8
+    },
+    {
+      "id": 12,
+      "name": "PaCO2",
+      "category": "Raw Vital/Lab/Demographic",
+      "causal_status": "CAUSAL_EXPANDING (No Lookahead)",
+      "train_median": 40.0,
+      "setA_missing_pct": 4.2,
+      "setB_missing_pct": 11.8
+    },
+    {
+      "id": 13,
+      "name": "SaO2",
+      "category": "Raw Vital/Lab/Demographic",
+      "causal_status": "CAUSAL_EXPANDING (No Lookahead)",
+      "train_median": 97.0,
+      "setA_missing_pct": 4.2,
+      "setB_missing_pct": 11.8
+    },
+    {
+      "id": 14,
+      "name": "AST",
+      "category": "Raw Vital/Lab/Demographic",
+      "causal_status": "CAUSAL_EXPANDING (No Lookahead)",
+      "train_median": 58.0,
+      "setA_missing_pct": 4.2,
+      "setB_missing_pct": 11.8
+    },
+    {
+      "id": 15,
+      "name": "BUN",
+      "category": "Raw Vital/Lab/Demographic",
+      "causal_status": "CAUSAL_EXPANDING (No Lookahead)",
+      "train_median": 18.0,
+      "setA_missing_pct": 4.2,
+      "setB_missing_pct": 11.8
+    },
+    {
+      "id": 16,
+      "name": "Alkalinephos",
+      "category": "Raw Vital/Lab/Demographic",
+      "causal_status": "CAUSAL_EXPANDING (No Lookahead)",
+      "train_median": 80.0,
+      "setA_missing_pct": 4.2,
+      "setB_missing_pct": 11.8
+    },
+    {
+      "id": 17,
+      "name": "Calcium",
+      "category": "Raw Vital/Lab/Demographic",
+      "causal_status": "CAUSAL_EXPANDING (No Lookahead)",
+      "train_median": 8.3,
+      "setA_missing_pct": 4.2,
+      "setB_missing_pct": 11.8
+    },
+    {
+      "id": 18,
+      "name": "Chloride",
+      "category": "Raw Vital/Lab/Demographic",
+      "causal_status": "CAUSAL_EXPANDING (No Lookahead)",
+      "train_median": 106.0,
+      "setA_missing_pct": 4.2,
+      "setB_missing_pct": 11.8
+    },
+    {
+      "id": 19,
+      "name": "Creatinine",
+      "category": "Raw Vital/Lab/Demographic",
+      "causal_status": "CAUSAL_EXPANDING (No Lookahead)",
+      "train_median": 0.9,
+      "setA_missing_pct": 4.2,
+      "setB_missing_pct": 11.8
+    },
+    {
+      "id": 20,
+      "name": "Bilirubin_direct",
+      "category": "Raw Vital/Lab/Demographic",
+      "causal_status": "CAUSAL_EXPANDING (No Lookahead)",
+      "train_median": 1.2,
+      "setA_missing_pct": 4.2,
+      "setB_missing_pct": 11.8
+    },
+    {
+      "id": 21,
+      "name": "Glucose",
+      "category": "Raw Vital/Lab/Demographic",
+      "causal_status": "CAUSAL_EXPANDING (No Lookahead)",
+      "train_median": 124.0,
+      "setA_missing_pct": 4.2,
+      "setB_missing_pct": 11.8
+    },
+    {
+      "id": 22,
+      "name": "Lactate",
+      "category": "Raw Vital/Lab/Demographic",
+      "causal_status": "CAUSAL_EXPANDING (No Lookahead)",
+      "train_median": 1.7,
+      "setA_missing_pct": 4.2,
+      "setB_missing_pct": 11.8
+    },
+    {
+      "id": 23,
+      "name": "Magnesium",
+      "category": "Raw Vital/Lab/Demographic",
+      "causal_status": "CAUSAL_EXPANDING (No Lookahead)",
+      "train_median": 2.0,
+      "setA_missing_pct": 4.2,
+      "setB_missing_pct": 11.8
+    },
+    {
+      "id": 24,
+      "name": "Phosphate",
+      "category": "Raw Vital/Lab/Demographic",
+      "causal_status": "CAUSAL_EXPANDING (No Lookahead)",
+      "train_median": 3.4,
+      "setA_missing_pct": 4.2,
+      "setB_missing_pct": 11.8
+    },
+    {
+      "id": 25,
+      "name": "Potassium",
+      "category": "Raw Vital/Lab/Demographic",
+      "causal_status": "CAUSAL_EXPANDING (No Lookahead)",
+      "train_median": 4.1,
+      "setA_missing_pct": 4.2,
+      "setB_missing_pct": 11.8
+    },
+    {
+      "id": 26,
+      "name": "Bilirubin_total",
+      "category": "Raw Vital/Lab/Demographic",
+      "causal_status": "CAUSAL_EXPANDING (No Lookahead)",
+      "train_median": 0.9,
+      "setA_missing_pct": 4.2,
+      "setB_missing_pct": 11.8
+    },
+    {
+      "id": 27,
+      "name": "TroponinI",
+      "category": "Raw Vital/Lab/Demographic",
+      "causal_status": "CAUSAL_EXPANDING (No Lookahead)",
+      "train_median": 4.4,
+      "setA_missing_pct": 4.2,
+      "setB_missing_pct": 11.8
+    },
+    {
+      "id": 28,
+      "name": "Hct",
+      "category": "Raw Vital/Lab/Demographic",
+      "causal_status": "CAUSAL_EXPANDING (No Lookahead)",
+      "train_median": 30.3,
+      "setA_missing_pct": 4.2,
+      "setB_missing_pct": 11.8
+    },
+    {
+      "id": 29,
+      "name": "Hgb",
+      "category": "Raw Vital/Lab/Demographic",
+      "causal_status": "CAUSAL_EXPANDING (No Lookahead)",
+      "train_median": 10.5,
+      "setA_missing_pct": 4.2,
+      "setB_missing_pct": 11.8
+    },
+    {
+      "id": 30,
+      "name": "PTT",
+      "category": "Raw Vital/Lab/Demographic",
+      "causal_status": "CAUSAL_EXPANDING (No Lookahead)",
+      "train_median": 32.3,
+      "setA_missing_pct": 4.2,
+      "setB_missing_pct": 11.8
+    },
+    {
+      "id": 31,
+      "name": "WBC",
+      "category": "Raw Vital/Lab/Demographic",
+      "causal_status": "CAUSAL_EXPANDING (No Lookahead)",
+      "train_median": 10.9,
+      "setA_missing_pct": 4.2,
+      "setB_missing_pct": 11.8
+    },
+    {
+      "id": 32,
+      "name": "Fibrinogen",
+      "category": "Raw Vital/Lab/Demographic",
+      "causal_status": "CAUSAL_EXPANDING (No Lookahead)",
+      "train_median": 250.0,
+      "setA_missing_pct": 4.2,
+      "setB_missing_pct": 11.8
+    },
+    {
+      "id": 33,
+      "name": "Platelets",
+      "category": "Raw Vital/Lab/Demographic",
+      "causal_status": "CAUSAL_EXPANDING (No Lookahead)",
+      "train_median": 182.0,
+      "setA_missing_pct": 4.2,
+      "setB_missing_pct": 11.8
+    },
+    {
+      "id": 34,
+      "name": "Age",
+      "category": "Raw Vital/Lab/Demographic",
+      "causal_status": "CAUSAL_EXPANDING (No Lookahead)",
+      "train_median": 65.15,
+      "setA_missing_pct": 4.2,
+      "setB_missing_pct": 11.8
+    },
+    {
+      "id": 35,
+      "name": "Gender",
+      "category": "Raw Vital/Lab/Demographic",
+      "causal_status": "CAUSAL_EXPANDING (No Lookahead)",
+      "train_median": 1.0,
+      "setA_missing_pct": 4.2,
+      "setB_missing_pct": 11.8
+    },
+    {
+      "id": 36,
+      "name": "Unit1",
+      "category": "Raw Vital/Lab/Demographic",
+      "causal_status": "CAUSAL_EXPANDING (No Lookahead)",
+      "train_median": 1.0,
+      "setA_missing_pct": 4.2,
+      "setB_missing_pct": 11.8
+    },
+    {
+      "id": 37,
+      "name": "Unit2",
+      "category": "Raw Vital/Lab/Demographic",
+      "causal_status": "CAUSAL_EXPANDING (No Lookahead)",
+      "train_median": 0.0,
+      "setA_missing_pct": 4.2,
+      "setB_missing_pct": 11.8
+    },
+    {
+      "id": 38,
+      "name": "HospAdmTime",
+      "category": "Raw Vital/Lab/Demographic",
+      "causal_status": "CAUSAL_EXPANDING (No Lookahead)",
+      "train_median": -2.59,
+      "setA_missing_pct": 4.2,
+      "setB_missing_pct": 11.8
+    },
+    {
+      "id": 39,
+      "name": "ICULOS",
+      "category": "Raw Vital/Lab/Demographic",
+      "causal_status": "CAUSAL_EXPANDING (No Lookahead)",
+      "train_median": 20.0,
+      "setA_missing_pct": 4.2,
+      "setB_missing_pct": 11.8
+    },
+    {
+      "id": 40,
+      "name": "HR_z",
+      "category": "Causal Z-Score",
+      "causal_status": "CAUSAL_EXPANDING (No Lookahead)",
+      "train_median": 0.0,
+      "setA_missing_pct": 14.8,
+      "setB_missing_pct": 26.5
+    },
+    {
+      "id": 41,
+      "name": "O2Sat_z",
+      "category": "Causal Z-Score",
+      "causal_status": "CAUSAL_EXPANDING (No Lookahead)",
+      "train_median": 0.0,
+      "setA_missing_pct": 14.8,
+      "setB_missing_pct": 26.5
+    },
+    {
+      "id": 42,
+      "name": "Temp_z",
+      "category": "Causal Z-Score",
+      "causal_status": "CAUSAL_EXPANDING (No Lookahead)",
+      "train_median": 0.0,
+      "setA_missing_pct": 14.8,
+      "setB_missing_pct": 26.5
+    },
+    {
+      "id": 43,
+      "name": "SBP_z",
+      "category": "Causal Z-Score",
+      "causal_status": "CAUSAL_EXPANDING (No Lookahead)",
+      "train_median": 0.0,
+      "setA_missing_pct": 14.8,
+      "setB_missing_pct": 26.5
+    },
+    {
+      "id": 44,
+      "name": "MAP_z",
+      "category": "Causal Z-Score",
+      "causal_status": "CAUSAL_EXPANDING (No Lookahead)",
+      "train_median": 0.0,
+      "setA_missing_pct": 14.8,
+      "setB_missing_pct": 26.5
+    },
+    {
+      "id": 45,
+      "name": "DBP_z",
+      "category": "Causal Z-Score",
+      "causal_status": "CAUSAL_EXPANDING (No Lookahead)",
+      "train_median": 0.0,
+      "setA_missing_pct": 14.8,
+      "setB_missing_pct": 26.5
+    },
+    {
+      "id": 46,
+      "name": "Resp_z",
+      "category": "Causal Z-Score",
+      "causal_status": "CAUSAL_EXPANDING (No Lookahead)",
+      "train_median": 0.0,
+      "setA_missing_pct": 14.8,
+      "setB_missing_pct": 26.5
+    },
+    {
+      "id": 47,
+      "name": "BaseExcess_z",
+      "category": "Causal Z-Score",
+      "causal_status": "CAUSAL_EXPANDING (No Lookahead)",
+      "train_median": 0.0,
+      "setA_missing_pct": 14.8,
+      "setB_missing_pct": 26.5
+    },
+    {
+      "id": 48,
+      "name": "HCO3_z",
+      "category": "Causal Z-Score",
+      "causal_status": "CAUSAL_EXPANDING (No Lookahead)",
+      "train_median": 0.0,
+      "setA_missing_pct": 14.8,
+      "setB_missing_pct": 26.5
+    },
+    {
+      "id": 49,
+      "name": "FiO2_z",
+      "category": "Causal Z-Score",
+      "causal_status": "CAUSAL_EXPANDING (No Lookahead)",
+      "train_median": 0.0,
+      "setA_missing_pct": 14.8,
+      "setB_missing_pct": 26.5
+    },
+    {
+      "id": 50,
+      "name": "pH_z",
+      "category": "Causal Z-Score",
+      "causal_status": "CAUSAL_EXPANDING (No Lookahead)",
+      "train_median": 0.0,
+      "setA_missing_pct": 14.8,
+      "setB_missing_pct": 26.5
+    },
+    {
+      "id": 51,
+      "name": "PaCO2_z",
+      "category": "Causal Z-Score",
+      "causal_status": "CAUSAL_EXPANDING (No Lookahead)",
+      "train_median": 0.0,
+      "setA_missing_pct": 14.8,
+      "setB_missing_pct": 26.5
+    },
+    {
+      "id": 52,
+      "name": "SaO2_z",
+      "category": "Causal Z-Score",
+      "causal_status": "CAUSAL_EXPANDING (No Lookahead)",
+      "train_median": 0.0,
+      "setA_missing_pct": 14.8,
+      "setB_missing_pct": 26.5
+    },
+    {
+      "id": 53,
+      "name": "AST_z",
+      "category": "Causal Z-Score",
+      "causal_status": "CAUSAL_EXPANDING (No Lookahead)",
+      "train_median": 0.0,
+      "setA_missing_pct": 14.8,
+      "setB_missing_pct": 26.5
+    },
+    {
+      "id": 54,
+      "name": "BUN_z",
+      "category": "Causal Z-Score",
+      "causal_status": "CAUSAL_EXPANDING (No Lookahead)",
+      "train_median": 0.0,
+      "setA_missing_pct": 14.8,
+      "setB_missing_pct": 26.5
+    },
+    {
+      "id": 55,
+      "name": "Alkalinephos_z",
+      "category": "Causal Z-Score",
+      "causal_status": "CAUSAL_EXPANDING (No Lookahead)",
+      "train_median": 0.0,
+      "setA_missing_pct": 14.8,
+      "setB_missing_pct": 26.5
+    },
+    {
+      "id": 56,
+      "name": "Calcium_z",
+      "category": "Causal Z-Score",
+      "causal_status": "CAUSAL_EXPANDING (No Lookahead)",
+      "train_median": 0.0,
+      "setA_missing_pct": 14.8,
+      "setB_missing_pct": 26.5
+    },
+    {
+      "id": 57,
+      "name": "Chloride_z",
+      "category": "Causal Z-Score",
+      "causal_status": "CAUSAL_EXPANDING (No Lookahead)",
+      "train_median": 0.0,
+      "setA_missing_pct": 14.8,
+      "setB_missing_pct": 26.5
+    },
+    {
+      "id": 58,
+      "name": "Creatinine_z",
+      "category": "Causal Z-Score",
+      "causal_status": "CAUSAL_EXPANDING (No Lookahead)",
+      "train_median": 0.0,
+      "setA_missing_pct": 14.8,
+      "setB_missing_pct": 26.5
+    },
+    {
+      "id": 59,
+      "name": "Bilirubin_direct_z",
+      "category": "Causal Z-Score",
+      "causal_status": "CAUSAL_EXPANDING (No Lookahead)",
+      "train_median": 0.0,
+      "setA_missing_pct": 14.8,
+      "setB_missing_pct": 26.5
+    },
+    {
+      "id": 60,
+      "name": "Glucose_z",
+      "category": "Causal Z-Score",
+      "causal_status": "CAUSAL_EXPANDING (No Lookahead)",
+      "train_median": 0.0,
+      "setA_missing_pct": 14.8,
+      "setB_missing_pct": 26.5
+    },
+    {
+      "id": 61,
+      "name": "Lactate_z",
+      "category": "Causal Z-Score",
+      "causal_status": "CAUSAL_EXPANDING (No Lookahead)",
+      "train_median": 0.0,
+      "setA_missing_pct": 14.8,
+      "setB_missing_pct": 26.5
+    },
+    {
+      "id": 62,
+      "name": "Magnesium_z",
+      "category": "Causal Z-Score",
+      "causal_status": "CAUSAL_EXPANDING (No Lookahead)",
+      "train_median": 0.0,
+      "setA_missing_pct": 14.8,
+      "setB_missing_pct": 26.5
+    },
+    {
+      "id": 63,
+      "name": "Phosphate_z",
+      "category": "Causal Z-Score",
+      "causal_status": "CAUSAL_EXPANDING (No Lookahead)",
+      "train_median": 0.0,
+      "setA_missing_pct": 14.8,
+      "setB_missing_pct": 26.5
+    },
+    {
+      "id": 64,
+      "name": "Potassium_z",
+      "category": "Causal Z-Score",
+      "causal_status": "CAUSAL_EXPANDING (No Lookahead)",
+      "train_median": 0.0,
+      "setA_missing_pct": 14.8,
+      "setB_missing_pct": 26.5
+    },
+    {
+      "id": 65,
+      "name": "Bilirubin_total_z",
+      "category": "Causal Z-Score",
+      "causal_status": "CAUSAL_EXPANDING (No Lookahead)",
+      "train_median": 0.0,
+      "setA_missing_pct": 14.8,
+      "setB_missing_pct": 26.5
+    },
+    {
+      "id": 66,
+      "name": "TroponinI_z",
+      "category": "Causal Z-Score",
+      "causal_status": "CAUSAL_EXPANDING (No Lookahead)",
+      "train_median": 0.0,
+      "setA_missing_pct": 14.8,
+      "setB_missing_pct": 26.5
+    },
+    {
+      "id": 67,
+      "name": "Hct_z",
+      "category": "Causal Z-Score",
+      "causal_status": "CAUSAL_EXPANDING (No Lookahead)",
+      "train_median": 0.0,
+      "setA_missing_pct": 14.8,
+      "setB_missing_pct": 26.5
+    },
+    {
+      "id": 68,
+      "name": "Hgb_z",
+      "category": "Causal Z-Score",
+      "causal_status": "CAUSAL_EXPANDING (No Lookahead)",
+      "train_median": 0.0,
+      "setA_missing_pct": 14.8,
+      "setB_missing_pct": 26.5
+    },
+    {
+      "id": 69,
+      "name": "PTT_z",
+      "category": "Causal Z-Score",
+      "causal_status": "CAUSAL_EXPANDING (No Lookahead)",
+      "train_median": 0.0,
+      "setA_missing_pct": 14.8,
+      "setB_missing_pct": 26.5
+    },
+    {
+      "id": 70,
+      "name": "WBC_z",
+      "category": "Causal Z-Score",
+      "causal_status": "CAUSAL_EXPANDING (No Lookahead)",
+      "train_median": 0.0,
+      "setA_missing_pct": 14.8,
+      "setB_missing_pct": 26.5
+    },
+    {
+      "id": 71,
+      "name": "Fibrinogen_z",
+      "category": "Causal Z-Score",
+      "causal_status": "CAUSAL_EXPANDING (No Lookahead)",
+      "train_median": 0.0,
+      "setA_missing_pct": 14.8,
+      "setB_missing_pct": 26.5
+    },
+    {
+      "id": 72,
+      "name": "Platelets_z",
+      "category": "Causal Z-Score",
+      "causal_status": "CAUSAL_EXPANDING (No Lookahead)",
+      "train_median": 0.0,
+      "setA_missing_pct": 14.8,
+      "setB_missing_pct": 26.5
+    },
+    {
+      "id": 73,
+      "name": "Age_z",
+      "category": "Causal Z-Score",
+      "causal_status": "CAUSAL_EXPANDING (No Lookahead)",
+      "train_median": 0.0,
+      "setA_missing_pct": 14.8,
+      "setB_missing_pct": 26.5
+    },
+    {
+      "id": 74,
+      "name": "Gender_z",
+      "category": "Causal Z-Score",
+      "causal_status": "CAUSAL_EXPANDING (No Lookahead)",
+      "train_median": 0.0,
+      "setA_missing_pct": 14.8,
+      "setB_missing_pct": 26.5
+    },
+    {
+      "id": 75,
+      "name": "Unit1_z",
+      "category": "Causal Z-Score",
+      "causal_status": "CAUSAL_EXPANDING (No Lookahead)",
+      "train_median": 0.0,
+      "setA_missing_pct": 14.8,
+      "setB_missing_pct": 26.5
+    },
+    {
+      "id": 76,
+      "name": "Unit2_z",
+      "category": "Causal Z-Score",
+      "causal_status": "CAUSAL_EXPANDING (No Lookahead)",
+      "train_median": 0.0,
+      "setA_missing_pct": 14.8,
+      "setB_missing_pct": 26.5
+    },
+    {
+      "id": 77,
+      "name": "HospAdmTime_z",
+      "category": "Causal Z-Score",
+      "causal_status": "CAUSAL_EXPANDING (No Lookahead)",
+      "train_median": 0.0,
+      "setA_missing_pct": 14.8,
+      "setB_missing_pct": 26.5
+    },
+    {
+      "id": 78,
+      "name": "ICULOS_z",
+      "category": "Causal Z-Score",
+      "causal_status": "CAUSAL_EXPANDING (No Lookahead)",
+      "train_median": 1.0,
+      "setA_missing_pct": 14.8,
+      "setB_missing_pct": 26.5
+    },
+    {
+      "id": 79,
+      "name": "HR_delta",
+      "category": "Causal Delta (1h)",
+      "causal_status": "CAUSAL_EXPANDING (No Lookahead)",
+      "train_median": 0.0,
+      "setA_missing_pct": 4.2,
+      "setB_missing_pct": 11.8
+    },
+    {
+      "id": 80,
+      "name": "O2Sat_delta",
+      "category": "Causal Delta (1h)",
+      "causal_status": "CAUSAL_EXPANDING (No Lookahead)",
+      "train_median": 0.0,
+      "setA_missing_pct": 4.2,
+      "setB_missing_pct": 11.8
+    },
+    {
+      "id": 81,
+      "name": "Temp_delta",
+      "category": "Causal Delta (1h)",
+      "causal_status": "CAUSAL_EXPANDING (No Lookahead)",
+      "train_median": 0.0,
+      "setA_missing_pct": 4.2,
+      "setB_missing_pct": 11.8
+    },
+    {
+      "id": 82,
+      "name": "SBP_delta",
+      "category": "Causal Delta (1h)",
+      "causal_status": "CAUSAL_EXPANDING (No Lookahead)",
+      "train_median": 0.0,
+      "setA_missing_pct": 4.2,
+      "setB_missing_pct": 11.8
+    },
+    {
+      "id": 83,
+      "name": "MAP_delta",
+      "category": "Causal Delta (1h)",
+      "causal_status": "CAUSAL_EXPANDING (No Lookahead)",
+      "train_median": 0.0,
+      "setA_missing_pct": 4.2,
+      "setB_missing_pct": 11.8
+    },
+    {
+      "id": 84,
+      "name": "DBP_delta",
+      "category": "Causal Delta (1h)",
+      "causal_status": "CAUSAL_EXPANDING (No Lookahead)",
+      "train_median": 0.0,
+      "setA_missing_pct": 4.2,
+      "setB_missing_pct": 11.8
+    },
+    {
+      "id": 85,
+      "name": "Resp_delta",
+      "category": "Causal Delta (1h)",
+      "causal_status": "CAUSAL_EXPANDING (No Lookahead)",
+      "train_median": 0.0,
+      "setA_missing_pct": 4.2,
+      "setB_missing_pct": 11.8
+    },
+    {
+      "id": 86,
+      "name": "BaseExcess_delta",
+      "category": "Causal Delta (1h)",
+      "causal_status": "CAUSAL_EXPANDING (No Lookahead)",
+      "train_median": 0.0,
+      "setA_missing_pct": 4.2,
+      "setB_missing_pct": 11.8
+    },
+    {
+      "id": 87,
+      "name": "HCO3_delta",
+      "category": "Causal Delta (1h)",
+      "causal_status": "CAUSAL_EXPANDING (No Lookahead)",
+      "train_median": 0.0,
+      "setA_missing_pct": 4.2,
+      "setB_missing_pct": 11.8
+    },
+    {
+      "id": 88,
+      "name": "FiO2_delta",
+      "category": "Causal Delta (1h)",
+      "causal_status": "CAUSAL_EXPANDING (No Lookahead)",
+      "train_median": 0.0,
+      "setA_missing_pct": 4.2,
+      "setB_missing_pct": 11.8
+    },
+    {
+      "id": 89,
+      "name": "pH_delta",
+      "category": "Causal Delta (1h)",
+      "causal_status": "CAUSAL_EXPANDING (No Lookahead)",
+      "train_median": 0.0,
+      "setA_missing_pct": 4.2,
+      "setB_missing_pct": 11.8
+    },
+    {
+      "id": 90,
+      "name": "PaCO2_delta",
+      "category": "Causal Delta (1h)",
+      "causal_status": "CAUSAL_EXPANDING (No Lookahead)",
+      "train_median": 0.0,
+      "setA_missing_pct": 4.2,
+      "setB_missing_pct": 11.8
+    },
+    {
+      "id": 91,
+      "name": "SaO2_delta",
+      "category": "Causal Delta (1h)",
+      "causal_status": "CAUSAL_EXPANDING (No Lookahead)",
+      "train_median": 0.0,
+      "setA_missing_pct": 4.2,
+      "setB_missing_pct": 11.8
+    },
+    {
+      "id": 92,
+      "name": "AST_delta",
+      "category": "Causal Delta (1h)",
+      "causal_status": "CAUSAL_EXPANDING (No Lookahead)",
+      "train_median": 0.0,
+      "setA_missing_pct": 4.2,
+      "setB_missing_pct": 11.8
+    },
+    {
+      "id": 93,
+      "name": "BUN_delta",
+      "category": "Causal Delta (1h)",
+      "causal_status": "CAUSAL_EXPANDING (No Lookahead)",
+      "train_median": 0.0,
+      "setA_missing_pct": 4.2,
+      "setB_missing_pct": 11.8
+    },
+    {
+      "id": 94,
+      "name": "Alkalinephos_delta",
+      "category": "Causal Delta (1h)",
+      "causal_status": "CAUSAL_EXPANDING (No Lookahead)",
+      "train_median": 0.0,
+      "setA_missing_pct": 4.2,
+      "setB_missing_pct": 11.8
+    },
+    {
+      "id": 95,
+      "name": "Calcium_delta",
+      "category": "Causal Delta (1h)",
+      "causal_status": "CAUSAL_EXPANDING (No Lookahead)",
+      "train_median": 0.0,
+      "setA_missing_pct": 4.2,
+      "setB_missing_pct": 11.8
+    },
+    {
+      "id": 96,
+      "name": "Chloride_delta",
+      "category": "Causal Delta (1h)",
+      "causal_status": "CAUSAL_EXPANDING (No Lookahead)",
+      "train_median": 0.0,
+      "setA_missing_pct": 4.2,
+      "setB_missing_pct": 11.8
+    },
+    {
+      "id": 97,
+      "name": "Creatinine_delta",
+      "category": "Causal Delta (1h)",
+      "causal_status": "CAUSAL_EXPANDING (No Lookahead)",
+      "train_median": 0.0,
+      "setA_missing_pct": 4.2,
+      "setB_missing_pct": 11.8
+    },
+    {
+      "id": 98,
+      "name": "Bilirubin_direct_delta",
+      "category": "Causal Delta (1h)",
+      "causal_status": "CAUSAL_EXPANDING (No Lookahead)",
+      "train_median": 0.0,
+      "setA_missing_pct": 4.2,
+      "setB_missing_pct": 11.8
+    },
+    {
+      "id": 99,
+      "name": "Glucose_delta",
+      "category": "Causal Delta (1h)",
+      "causal_status": "CAUSAL_EXPANDING (No Lookahead)",
+      "train_median": 0.0,
+      "setA_missing_pct": 4.2,
+      "setB_missing_pct": 11.8
+    },
+    {
+      "id": 100,
+      "name": "Lactate_delta",
+      "category": "Causal Delta (1h)",
+      "causal_status": "CAUSAL_EXPANDING (No Lookahead)",
+      "train_median": 0.0,
+      "setA_missing_pct": 4.2,
+      "setB_missing_pct": 11.8
+    },
+    {
+      "id": 101,
+      "name": "Magnesium_delta",
+      "category": "Causal Delta (1h)",
+      "causal_status": "CAUSAL_EXPANDING (No Lookahead)",
+      "train_median": 0.0,
+      "setA_missing_pct": 4.2,
+      "setB_missing_pct": 11.8
+    },
+    {
+      "id": 102,
+      "name": "Phosphate_delta",
+      "category": "Causal Delta (1h)",
+      "causal_status": "CAUSAL_EXPANDING (No Lookahead)",
+      "train_median": 0.0,
+      "setA_missing_pct": 4.2,
+      "setB_missing_pct": 11.8
+    },
+    {
+      "id": 103,
+      "name": "Potassium_delta",
+      "category": "Causal Delta (1h)",
+      "causal_status": "CAUSAL_EXPANDING (No Lookahead)",
+      "train_median": 0.0,
+      "setA_missing_pct": 4.2,
+      "setB_missing_pct": 11.8
+    },
+    {
+      "id": 104,
+      "name": "Bilirubin_total_delta",
+      "category": "Causal Delta (1h)",
+      "causal_status": "CAUSAL_EXPANDING (No Lookahead)",
+      "train_median": 0.0,
+      "setA_missing_pct": 4.2,
+      "setB_missing_pct": 11.8
+    },
+    {
+      "id": 105,
+      "name": "TroponinI_delta",
+      "category": "Causal Delta (1h)",
+      "causal_status": "CAUSAL_EXPANDING (No Lookahead)",
+      "train_median": 0.0,
+      "setA_missing_pct": 4.2,
+      "setB_missing_pct": 11.8
+    },
+    {
+      "id": 106,
+      "name": "Hct_delta",
+      "category": "Causal Delta (1h)",
+      "causal_status": "CAUSAL_EXPANDING (No Lookahead)",
+      "train_median": 0.0,
+      "setA_missing_pct": 4.2,
+      "setB_missing_pct": 11.8
+    },
+    {
+      "id": 107,
+      "name": "Hgb_delta",
+      "category": "Causal Delta (1h)",
+      "causal_status": "CAUSAL_EXPANDING (No Lookahead)",
+      "train_median": 0.0,
+      "setA_missing_pct": 4.2,
+      "setB_missing_pct": 11.8
+    },
+    {
+      "id": 108,
+      "name": "PTT_delta",
+      "category": "Causal Delta (1h)",
+      "causal_status": "CAUSAL_EXPANDING (No Lookahead)",
+      "train_median": 0.0,
+      "setA_missing_pct": 4.2,
+      "setB_missing_pct": 11.8
+    },
+    {
+      "id": 109,
+      "name": "WBC_delta",
+      "category": "Causal Delta (1h)",
+      "causal_status": "CAUSAL_EXPANDING (No Lookahead)",
+      "train_median": 0.0,
+      "setA_missing_pct": 4.2,
+      "setB_missing_pct": 11.8
+    },
+    {
+      "id": 110,
+      "name": "Fibrinogen_delta",
+      "category": "Causal Delta (1h)",
+      "causal_status": "CAUSAL_EXPANDING (No Lookahead)",
+      "train_median": 0.0,
+      "setA_missing_pct": 4.2,
+      "setB_missing_pct": 11.8
+    },
+    {
+      "id": 111,
+      "name": "Platelets_delta",
+      "category": "Causal Delta (1h)",
+      "causal_status": "CAUSAL_EXPANDING (No Lookahead)",
+      "train_median": 0.0,
+      "setA_missing_pct": 4.2,
+      "setB_missing_pct": 11.8
+    },
+    {
+      "id": 112,
+      "name": "Age_delta",
+      "category": "Causal Delta (1h)",
+      "causal_status": "CAUSAL_EXPANDING (No Lookahead)",
+      "train_median": 0.0,
+      "setA_missing_pct": 4.2,
+      "setB_missing_pct": 11.8
+    },
+    {
+      "id": 113,
+      "name": "Gender_delta",
+      "category": "Causal Delta (1h)",
+      "causal_status": "CAUSAL_EXPANDING (No Lookahead)",
+      "train_median": 0.0,
+      "setA_missing_pct": 4.2,
+      "setB_missing_pct": 11.8
+    },
+    {
+      "id": 114,
+      "name": "Unit1_delta",
+      "category": "Causal Delta (1h)",
+      "causal_status": "CAUSAL_EXPANDING (No Lookahead)",
+      "train_median": 0.0,
+      "setA_missing_pct": 4.2,
+      "setB_missing_pct": 11.8
+    },
+    {
+      "id": 115,
+      "name": "Unit2_delta",
+      "category": "Causal Delta (1h)",
+      "causal_status": "CAUSAL_EXPANDING (No Lookahead)",
+      "train_median": 0.0,
+      "setA_missing_pct": 4.2,
+      "setB_missing_pct": 11.8
+    },
+    {
+      "id": 116,
+      "name": "HospAdmTime_delta",
+      "category": "Causal Delta (1h)",
+      "causal_status": "CAUSAL_EXPANDING (No Lookahead)",
+      "train_median": 0.0,
+      "setA_missing_pct": 4.2,
+      "setB_missing_pct": 11.8
+    },
+    {
+      "id": 117,
+      "name": "ICULOS_delta",
+      "category": "Causal Delta (1h)",
+      "causal_status": "CAUSAL_EXPANDING (No Lookahead)",
+      "train_median": 1.0,
+      "setA_missing_pct": 4.2,
+      "setB_missing_pct": 11.8
+    },
+    {
+      "id": 118,
+      "name": "Shock_Index",
+      "category": "Derived Clinical Index",
+      "causal_status": "CAUSAL_EXPANDING (No Lookahead)",
+      "train_median": 0.7244,
+      "setA_missing_pct": 4.2,
+      "setB_missing_pct": 11.8
+    },
+    {
+      "id": 119,
+      "name": "Mod_Shock_Index",
+      "category": "Derived Clinical Index",
+      "causal_status": "CAUSAL_EXPANDING (No Lookahead)",
+      "train_median": 1.0937,
+      "setA_missing_pct": 4.2,
+      "setB_missing_pct": 11.8
+    },
+    {
+      "id": 120,
+      "name": "Pulse_Pressure",
+      "category": "Derived Clinical Index",
+      "causal_status": "CAUSAL_EXPANDING (No Lookahead)",
+      "train_median": 40.0,
+      "setA_missing_pct": 4.2,
+      "setB_missing_pct": 11.8
+    },
+    {
+      "id": 121,
+      "name": "qSOFA_Causal",
+      "category": "Raw Vital/Lab/Demographic",
+      "causal_status": "CAUSAL_EXPANDING (No Lookahead)",
+      "train_median": 0.0,
+      "setA_missing_pct": 4.2,
+      "setB_missing_pct": 11.8
+    },
+    {
+      "id": 122,
+      "name": "SIRS_Causal",
+      "category": "Raw Vital/Lab/Demographic",
+      "causal_status": "CAUSAL_EXPANDING (No Lookahead)",
+      "train_median": 1.0,
+      "setA_missing_pct": 4.2,
+      "setB_missing_pct": 11.8
+    }
+  ]
+}

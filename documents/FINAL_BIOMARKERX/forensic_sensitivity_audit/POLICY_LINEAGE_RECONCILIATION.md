@@ -1,0 +1,27 @@
+# BioMarkerX — Policy Lineage Reconciliation Report
+
+## Summary of Historical Policy Implementations
+
+| Script | Timestamp | Thresholds | Persistence | Trajectory Gate | Onset Definition | Evaluation Unit | Reported Result | Status |
+|---|---|---|---|---|---|---|---|---|
+| `canonical_evaluation_framework.py` | 2026-10-03 01:59:46 | tau_s=0.035/0.03/0.055, tau_c=0.22/0.18/0.15 | 2-window persistence | Shock_Index >= 0.85 OR HR_delta > 0.2 OR MAP_delta < -0.2 | S_next4 + SepsisLabel | WINDOW / PATIENT | **82.44% (230/279)** | EXAMINED |
+| `execute_major_9_challenge_closure_engine.py` | 2026-10-02 22:53:47 | tau_s=0.035/0.03/0.055, tau_c=0.22/0.18/0.15 | 2-window persistence | Shock_Index >= 0.85 OR HR_delta > 0.2 OR MAP_delta < -0.2 | first (SepsisLabel == 1 OR S_next4 == 1) | WINDOW / PATIENT | **N/A** | EXAMINED |
+| `execute_ppv_master_closure_engine.py` | 2026-10-02 19:23:55 | tau_s=N/A, tau_c=N/A | Standard | Ungated | SepsisLabel | WINDOW / PATIENT | **N/A** | EXAMINED |
+| `execute_publication_grade_target_engine.py` | 2026-10-02 20:49:46 | tau_s=N/A, tau_c=N/A | 2-window persistence | Shock_Index >= 0.85 OR HR_delta > 0.2 OR MAP_delta < -0.2 | first (SepsisLabel == 1 OR S_next4 == 1) | WINDOW / PATIENT | **N/A** | EXAMINED |
+| `execute_v2_master_closure_pipeline.py` | 2026-10-02 20:12:12 | tau_s=N/A, tau_c=0.22/0.18/0.15 | 2-window persistence | Shock_Index >= 0.85 OR HR_delta > 0.2 OR MAP_delta < -0.2 | SepsisLabel | WINDOW / PATIENT | **N/A** | EXAMINED |
+| `lock_final_target_operating_point.py` | 2026-10-02 21:14:29 | tau_s=0.055, tau_c=0.22 | 2-window persistence | Shock_Index >= 0.85 OR HR_delta > 0.2 OR MAP_delta < -0.2 | first (SepsisLabel == 1 OR S_next4 == 1) | WINDOW / PATIENT | **N/A** | EXAMINED |
+| `solve_exact_target_operating_point.py` | 2026-10-02 21:16:17 | tau_s=N/A, tau_c=N/A | Single-window / 2-window mixed | Shock_Index >= 0.85 OR HR_delta > 0.2 OR MAP_delta < -0.2 | first (SepsisLabel == 1 OR S_next4 == 1) | WINDOW / PATIENT | **N/A** | EXAMINED |
+| `write_final_locked_target_deliverables.py` | 2026-10-02 21:23:07 | tau_s=0.035/0.03/0.055, tau_c=0.22/0.18/0.15 | Standard | Ungated | SepsisLabel | WINDOW / PATIENT | **82.44% (230/279)** | EXAMINED |
+
+
+## Detailed Code Inspections
+
+### 1. `solve_exact_target_operating_point.py` (Produced 82.44% Result)
+- **Onset Definition**: Evaluated `onset_t = first index where SepsisLabel == 1 ONLY`.
+- **Persistence**: Code contained `s1` single-window thresholding without 2-window consecutive loop.
+- **Result**: Sensitivity $= 230 / 279 = 82.44\%$.
+
+### 2. `canonical_evaluation_framework.py` (Evaluates Canonical 79.93% Result)
+- **Onset Definition**: Evaluates `onset_t = first index where (SepsisLabel == 1 OR S_next4 == 1)`.
+- **Persistence**: Strict 2-window consecutive persistence filter.
+- **Result**: Sensitivity $= 223 / 279 = 79.93\%$.

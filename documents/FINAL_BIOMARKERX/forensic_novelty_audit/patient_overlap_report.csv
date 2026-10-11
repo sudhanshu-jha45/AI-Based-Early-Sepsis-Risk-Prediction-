@@ -1,0 +1,4 @@
+Cohort,Patients,Overlap_Count,Overlap_Pct
+Training Set A [0:12287],12287,0,0.0
+Validation Set A [12287:17362],5075,3362,56.03333333333333
+Locked Test Set A [17362:20336],2974,2638,43.96666666666667

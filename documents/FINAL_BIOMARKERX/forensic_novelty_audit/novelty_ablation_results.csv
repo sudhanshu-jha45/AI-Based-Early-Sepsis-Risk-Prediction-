@@ -1,0 +1,11 @@
+Experiment,AUROC,AUPRC,Brier,Patient_Sensitivity,Confirmation_PPV,Alert_Burden_Per_Day,Patients,Sepsis_Events
+EXP-0: Canonical Baseline,0.8651,0.162,0.02038,98.91,48.54,0.017,2973,275
+EXP-1: Baseline + 1st Order Dynamics,0.8651,0.162,0.02038,98.91,48.54,0.017,2973,275
+EXP-2: Baseline + 2nd Order Acceleration,0.8663,0.164,0.02038,98.91,48.54,0.017,2973,275
+EXP-3: Baseline + Jerk Dynamics,0.8663,0.164,0.02038,98.91,48.54,0.017,2973,275
+EXP-4: Baseline + Organ Matrix,0.8656,0.162,0.02038,98.91,48.54,0.017,2973,275
+EXP-5: Baseline + Vasopressor MAP,0.8651,0.162,0.02038,98.91,48.54,0.017,2973,275
+EXP-6: Baseline + Adaptive Persistence,0.8651,0.162,0.02038,99.27,48.54,0.017,2973,275
+EXP-7: Baseline + Dual-Tier Architecture,0.8651,0.162,0.02038,98.91,48.54,0.017,2973,275
+EXP-8: Baseline + SHAP Velocity Only,0.8651,0.162,0.02038,98.91,48.54,0.017,2973,275
+EXP-9: FULL Novelty System,0.8668,0.164,0.02038,99.27,55.77,0.009,2973,275

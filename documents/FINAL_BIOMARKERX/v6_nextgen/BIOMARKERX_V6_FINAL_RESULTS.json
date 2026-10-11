@@ -1,0 +1,13 @@
+{
+  "pipeline": "BioMarkerX V6 Next-Generation Pipeline",
+  "n_patients": 5999,
+  "n_sepsis_patients": 544,
+  "v5_baseline_screening_sens": 0.9908088235294118,
+  "v5_baseline_confirmation_sens": 0.027573529411764705,
+  "v6_enhanced_screening_sens": 0.9963235294117647,
+  "v6_enhanced_confirmation_sens": 0.029411764705882353,
+  "confirmation_sens_improvement": 0.0018382352941176475,
+  "missed_events_v5": 5,
+  "missed_events_v6": 2,
+  "execution_time_sec": 130.98
+}

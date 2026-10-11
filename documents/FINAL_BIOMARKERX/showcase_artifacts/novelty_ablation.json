@@ -1,0 +1,80 @@
+[
+  {
+    "Experiment_Code": "EXP-A",
+    "Experiment_Name": "Canonical Baseline",
+    "Acceleration_Enabled": false,
+    "LOS_Persistence_Enabled": false,
+    "Dual_Tier_Enabled": false,
+    "AUROC": 0.8651,
+    "AUPRC": 0.162,
+    "Brier": 0.02038,
+    "Patient_Sensitivity_Pct": 82.18,
+    "Confirmation_PPV_Pct": 28.4,
+    "Median_Lead_Time_Hours": 41.0
+  },
+  {
+    "Experiment_Code": "EXP-B",
+    "Experiment_Name": "Baseline + Acceleration (d2_MAP, d2_SI)",
+    "Acceleration_Enabled": true,
+    "LOS_Persistence_Enabled": false,
+    "Dual_Tier_Enabled": false,
+    "AUROC": 0.8663,
+    "AUPRC": 0.1645,
+    "Brier": 0.02031,
+    "Patient_Sensitivity_Pct": 82.54,
+    "Confirmation_PPV_Pct": 29.1,
+    "Median_Lead_Time_Hours": 41.0
+  },
+  {
+    "Experiment_Code": "EXP-C",
+    "Experiment_Name": "Baseline + LOS Persistence",
+    "Acceleration_Enabled": false,
+    "LOS_Persistence_Enabled": true,
+    "Dual_Tier_Enabled": false,
+    "AUROC": 0.8651,
+    "AUPRC": 0.162,
+    "Brier": 0.02038,
+    "Patient_Sensitivity_Pct": 82.54,
+    "Confirmation_PPV_Pct": 28.9,
+    "Median_Lead_Time_Hours": 42.0
+  },
+  {
+    "Experiment_Code": "EXP-D",
+    "Experiment_Name": "Baseline + Dual-Tier Policy",
+    "Acceleration_Enabled": false,
+    "LOS_Persistence_Enabled": false,
+    "Dual_Tier_Enabled": true,
+    "AUROC": 0.8651,
+    "AUPRC": 0.162,
+    "Brier": 0.02038,
+    "Patient_Sensitivity_Pct": 84.95,
+    "Confirmation_PPV_Pct": 32.14,
+    "Median_Lead_Time_Hours": 36.0
+  },
+  {
+    "Experiment_Code": "EXP-E",
+    "Experiment_Name": "Baseline + Accel + LOS Pers",
+    "Acceleration_Enabled": true,
+    "LOS_Persistence_Enabled": true,
+    "Dual_Tier_Enabled": false,
+    "AUROC": 0.8663,
+    "AUPRC": 0.1645,
+    "Brier": 0.02031,
+    "Patient_Sensitivity_Pct": 82.9,
+    "Confirmation_PPV_Pct": 29.8,
+    "Median_Lead_Time_Hours": 42.0
+  },
+  {
+    "Experiment_Code": "EXP-F",
+    "Experiment_Name": "Full Novelty Pipeline (Accel + LOS + Dual-Tier)",
+    "Acceleration_Enabled": true,
+    "LOS_Persistence_Enabled": true,
+    "Dual_Tier_Enabled": true,
+    "AUROC": 0.8663,
+    "AUPRC": 0.1645,
+    "Brier": 0.02031,
+    "Patient_Sensitivity_Pct": 85.31,
+    "Confirmation_PPV_Pct": 33.2,
+    "Median_Lead_Time_Hours": 40.0
+  }
+]

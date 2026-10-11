@@ -1,0 +1,45 @@
+{
+  "explainer_type": "TreeSHAP (Exact Tree Explicit Attribution)",
+  "base_value_expectation": 0.09479875486696789,
+  "additivity_axiom": {
+    "max_abs_reconstruction_error": 8.326672684688674e-17,
+    "mean_abs_reconstruction_error": 4.810966440042345e-18,
+    "status": "PASSED (< 1e-12 Machine Precision)"
+  },
+  "cross_center_stability": {
+    "spearman_rho": 0.942,
+    "status": "High Rank Stability across Emory Set A and BIDMC Set B"
+  },
+  "top_global_drivers": [
+    {
+      "rank": 1,
+      "feature": "HR_z",
+      "mean_abs_shap": 0.245,
+      "clinical_description": "Autonomic dysregulation & persistent tachycardia Z-score"
+    },
+    {
+      "rank": 2,
+      "feature": "MAP_delta",
+      "mean_abs_shap": 0.198,
+      "clinical_description": "1-Hour acute Mean Arterial Pressure drop"
+    },
+    {
+      "rank": 3,
+      "feature": "Temp_z",
+      "mean_abs_shap": 0.162,
+      "clinical_description": "Thermal dysregulation Z-score (fever or hypothermia)"
+    },
+    {
+      "rank": 4,
+      "feature": "WBC_z",
+      "mean_abs_shap": 0.134,
+      "clinical_description": "Leukocyte dysregulation Z-score"
+    },
+    {
+      "rank": 5,
+      "feature": "Shock_Index",
+      "mean_abs_shap": 0.115,
+      "clinical_description": "Hemodynamic stress ratio (HR / SBP)"
+    }
+  ]
+}

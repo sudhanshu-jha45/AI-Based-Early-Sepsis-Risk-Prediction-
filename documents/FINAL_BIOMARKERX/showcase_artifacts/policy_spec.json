@@ -1,0 +1,19 @@
+{
+  "policy_id": "VAL_POL_0450",
+  "rule_name": "Rule_E_MAP_Trend",
+  "screening_tier": {
+    "threshold": 0.015,
+    "role": "Silent Background Surveillance",
+    "patient_sensitivity": "84.95%",
+    "bedside_alarm": false
+  },
+  "confirmation_tier": {
+    "threshold": 0.3,
+    "persistence_windows_required": 3,
+    "gate": "Rule_E_MAP_Trend (MAP <= 75.0 mmHg or MAP_delta3 <= -3.0 mmHg)",
+    "role": "Bedside Audible Clinical Alarm",
+    "confirmation_ppv": "32.14%",
+    "false_alarm_suppression_pct": 91.4
+  },
+  "persistence_logic_pseudocode": "\ndef evaluate_policy(calibrated_prob, map_val, map_delta3, consecutive_risk_windows):\n    screening_alert = (calibrated_prob >= 0.015)\n    map_gate_pass = (map_val <= 75.0) or (map_delta3 <= -3.0)\n    \n    if calibrated_prob >= 0.300:\n        consecutive_risk_windows += 1\n    else:\n        consecutive_risk_windows = 0 # Reset counter on negative window\n        \n    confirmation_alarm = (consecutive_risk_windows >= 3) and map_gate_pass\n    return screening_alert, confirmation_alarm, consecutive_risk_windows\n"
+}

@@ -1,0 +1,10 @@
+{
+  "cohort_name_claimed": "Reserved External Validation (6,000 Patients)",
+  "source_database": "PhysioNet 2019 Challenge Training Set A (Emory University Hospital)",
+  "total_files_in_slice": 6000,
+  "overlap_with_training_cohort": 0,
+  "overlap_with_validation_cohort": 3362,
+  "overlap_with_locked_test_cohort": 2638,
+  "is_truly_independent_external": false,
+  "forensic_verdict": "INVALID EXTERNAL LABEL. Cohort is NOT an independent external hospital. It overlaps 3,362 patients with Validation and 2,638 patients with Locked Test."
+}

@@ -1,0 +1,5 @@
+{
+  "model_type": "HistGradientBoostingClassifier",
+  "calibrator_type": "IsotonicRegression (Fitted on full Dev out-of-fold predictions)",
+  "threshold_provenance": "tau=0.1825 inherited from locked Model D operating policy; evaluated solely as historical benchmark."
+}

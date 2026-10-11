@@ -1,0 +1,153 @@
+{
+  "title": "BioMarkerX Task 4 Final Locked Test Evaluation",
+  "frozen_policy_lock": {
+    "policy_id": "POL_0077",
+    "policy_hash": "783d1ab4e48c364af3215100efbc2b3d79c805bbbeb11d4df946e48f8b7ed27c",
+    "tau_screening": 0.02,
+    "tau_confirmation": 0.25,
+    "persistence_windows": 2,
+    "trajectory_filter": "OFF",
+    "onset_definition": "SepsisLabel",
+    "episode_grouping_rule": "first_episode_per_patient",
+    "validation_performance_metrics": {
+      "policy_id": "POL_0077",
+      "tau_screening": 0.02,
+      "tau_confirmation": 0.25,
+      "persistence_windows": 2,
+      "trajectory_filter": "OFF",
+      "patient_sensitivity": 0.9212253829321663,
+      "window_screening_sens": 0.7516938289690532,
+      "window_screening_ppv": 0.06317620080951722,
+      "window_confirmation_ppv": 0.32105263157894737,
+      "window_confirmation_sens": 0.03351034609045962,
+      "patient_specificity": 0.2462104807275877,
+      "screening_alerts_per_day": 8.12792461287481,
+      "confirmation_alerts_per_day": 0.071300876146,
+      "tp_patients": 421,
+      "fn_patients": 36,
+      "fp_patients": 3481
+    },
+    "selection_dataset": "Validation Cohort (N=5075 patients, N=191863 windows)",
+    "selection_timestamp": "2026-10-03 13:32:27",
+    "lock_status": "FROZEN_VALIDATION_POLICY_LOCK"
+  },
+  "validation_metrics": {
+    "policy_id": "POL_0077",
+    "tau_screening": 0.02,
+    "tau_confirmation": 0.25,
+    "persistence_windows": 2,
+    "trajectory_filter": "OFF",
+    "patient_sensitivity": 0.9212253829321663,
+    "window_screening_sens": 0.7516938289690532,
+    "window_screening_ppv": 0.06317620080951722,
+    "window_confirmation_ppv": 0.32105263157894737,
+    "window_confirmation_sens": 0.03351034609045962,
+    "patient_specificity": 0.2462104807275877,
+    "screening_alerts_per_day": 8.12792461287481,
+    "confirmation_alerts_per_day": 0.071300876146,
+    "tp_patients": 421,
+    "fn_patients": 36,
+    "fp_patients": 3481
+  },
+  "locked_test_metrics": {
+    "auroc": 0.7895103506580183,
+    "auprc": 0.12410481289948076,
+    "brier": 0.02737970029341863,
+    "window_screening_ppv": 0.06654328934663663,
+    "window_screening_sens": 0.736420302760463,
+    "window_screening_spec": 0.6815012079947288,
+    "window_screening_npv": 0.9882160914049126,
+    "window_confirmation_ppv": 0.2375886524822695,
+    "window_confirmation_sens": 0.03977441377263283,
+    "window_confirmation_spec": 0.9960648656563438,
+    "window_confirmation_npv": 0.9711359154866743,
+    "patient_sensitivity": 0.9498207885304659,
+    "patient_ppv": 0.11910112359550562,
+    "patient_specificity": 0.2727272727272727,
+    "patient_npv": 0.9813084112149533,
+    "episode_sensitivity": 0.9498207885304659,
+    "episode_ppv": 0.11910112359550562,
+    "screening_alert_burden_per_day": 7.943963565664367,
+    "confirmation_alert_burden_per_day": 0.12016938770074839,
+    "patient_counts": {
+      "tp_patients": 265,
+      "fn_patients": 14,
+      "fp_patients": 1960,
+      "tn_patients": 735,
+      "total_patients": 2974
+    },
+    "lead_time_statistics": {
+      "n_detected": 265,
+      "n_total_events": 279,
+      "min": 0.0,
+      "p10": 1.0,
+      "p25": 8.0,
+      "median": 31.0,
+      "mean": 51.75471698113208,
+      "std": 58.608617326464035,
+      "p75": 74.0,
+      "p90": 136.0,
+      "max": 295.0,
+      "iqr": 66.0
+    }
+  },
+  "locked_test_bootstrap_cis": {
+    "auroc": {
+      "point_estimate": 0.7895103506580183,
+      "boot_mean": 0.7893018211996281,
+      "boot_std": 0.011698235921014998,
+      "ci_lower_95": 0.767341869024627,
+      "ci_upper_95": 0.8102710582694932,
+      "ci_contains_point_estimate": true
+    },
+    "auprc": {
+      "point_estimate": 0.12410481289948076,
+      "boot_mean": 0.12436903201152369,
+      "boot_std": 0.008981785631385093,
+      "ci_lower_95": 0.1079846072395852,
+      "ci_upper_95": 0.14200314696655508,
+      "ci_contains_point_estimate": true
+    },
+    "patient_sensitivity": {
+      "point_estimate": 0.9498207885304659,
+      "boot_mean": 0.9506099002201043,
+      "boot_std": 0.012990584441668422,
+      "ci_lower_95": 0.9259256713093454,
+      "ci_upper_95": 0.9737359550561798,
+      "ci_contains_point_estimate": true
+    },
+    "window_screening_ppv": {
+      "point_estimate": 0.06654328934663663,
+      "boot_mean": 0.06640732717948084,
+      "boot_std": 0.0034425558501170205,
+      "ci_lower_95": 0.05976588367521381,
+      "ci_upper_95": 0.0733649061669135,
+      "ci_contains_point_estimate": true
+    },
+    "window_confirmation_ppv": {
+      "point_estimate": 0.2375886524822695,
+      "boot_mean": 0.2398559685154482,
+      "boot_std": 0.041473916173404984,
+      "ci_lower_95": 0.16521030490216962,
+      "ci_upper_95": 0.3205980201233366,
+      "ci_contains_point_estimate": true
+    },
+    "window_confirmation_sens": {
+      "point_estimate": 0.03977441377263283,
+      "boot_mean": 0.039636681696134594,
+      "boot_std": 0.007478643981127137,
+      "ci_lower_95": 0.026020771643847664,
+      "ci_upper_95": 0.05529887782519361,
+      "ci_contains_point_estimate": true
+    },
+    "patient_ppv": {
+      "point_estimate": 0.11910112359550562,
+      "boot_mean": 0.11907434463658557,
+      "boot_std": 0.00706292117296879,
+      "ci_lower_95": 0.105193586597078,
+      "ci_upper_95": 0.13272320736950144,
+      "ci_contains_point_estimate": true
+    }
+  },
+  "execution_timestamp": "2026-10-03 13:36:18"
+}

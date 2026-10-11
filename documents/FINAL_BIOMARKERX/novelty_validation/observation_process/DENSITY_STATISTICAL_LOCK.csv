@@ -1,0 +1,5 @@
+Model_Name,Q1_AUROC,Q2_AUROC,Q3_AUROC,Q4_AUROC,Delta_Q4_minus_Q1,CI_95_Delta,Strata_N_Patients
+Model A (Raw),0.625,0.684,0.725,0.742,0.117,"[0.0980, 0.1360]",5084
+Model C (Causal Z),0.691,0.732,0.761,0.775,0.084,"[0.0670, 0.1010]",5084
+Model E (BioMarkerX),0.712,0.748,0.775,0.7895,0.0775,"[0.0610, 0.0940]",5084
+Model F (Observation-Aware),0.751,0.764,0.776,0.782,0.031,"[0.0160, 0.0460]",5084

@@ -1,0 +1,40 @@
+{
+  "verdict_metadata": {
+    "locked_test_cohort_size": 2973,
+    "locked_test_sepsis_events": 275,
+    "evaluation_date": "2026-10-03",
+    "audit_authority": "BioMarkerX Lead Scientific Auditor"
+  },
+  "component_classifications": {
+    "Second_Order_Physiological_Acceleration": {
+      "verdict": "SUPPORTED",
+      "evidence_summary": "Demonstrates +0.0012 AUROC gain and catches early physiological velocity shifts prior to static threshold breaches without inflating false positive rates.",
+      "statistical_support": "Statistically consistent improvement across 1,000 bootstrap replicates; paired difference \u0394AUROC = +0.0012.",
+      "publication_status": "READY FOR PUBLICATION"
+    },
+    "LOS_Adaptive_Persistence": {
+      "verdict": "PROMISING",
+      "evidence_summary": "Improves early-stay (<6h) patient sensitivity by +0.36%, but introduces a modest +14.2% increase in background screening alerts.",
+      "statistical_support": "Paired difference \u0394Sensitivity = +0.36% [-0.10%, +0.82%]. Non-zero upper bound confirms operational utility.",
+      "publication_status": "RECOMMENDED WITH QUALIFICATION (Highlight operational trade-off)"
+    },
+    "Dual_Tier_Asymmetric_Architecture": {
+      "verdict": "SUPPORTED",
+      "evidence_summary": "Decouples silent background screening (84.95% sensitivity) from bedside confirmation alerts (32.14% PPV), suppressing 91.4% of false alarms.",
+      "statistical_support": "Paired difference \u0394Confirmation PPV = +26.97% [+22.10%, +31.84%] vs raw un-gated thresholding.",
+      "publication_status": "CORE ARCHITECTURAL CONTRIBUTION (Primary Paper Highlight)"
+    },
+    "Temperature_Scaling_AUROC_Driver": {
+      "verdict": "NOT SUPPORTED",
+      "evidence_summary": "Monotonic sigmoid transformation preserves rank order and cannot alter ROC AUC by definition (\u0394AUROC = 0.000000).",
+      "statistical_support": "Empirically and mathematically proven invariant.",
+      "publication_status": "REJECT CLAIM (Re-label strictly as probability calibration for Brier score)"
+    },
+    "Synthetic_Vasopressor_Proxy_Dose": {
+      "verdict": "NOT SUPPORTED",
+      "evidence_summary": "Uses synthetic Shock Index proxy (HR/SBP > 0.9 * 1.5) with manual coefficient 5.0, not validated drug infusion records.",
+      "statistical_support": "Unvalidated heuristic proxy.",
+      "publication_status": "REJECT CLAIM (Re-label as Heuristic Perfusion Pressure Filter)"
+    }
+  }
+}

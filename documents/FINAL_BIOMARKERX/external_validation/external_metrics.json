@@ -1,0 +1,37 @@
+{
+  "dataset_name": "PhysioNet 2019 Challenge Set B",
+  "institution": "Beth Israel Deaconess Medical Center (BIDMC), Boston, MA",
+  "patient_count": 20000,
+  "sepsis_event_count": 1142,
+  "total_windows": 741995,
+  "target_horizon": "S_next4 (4-Hour Forward Lookahead)",
+  "evaluator_version": "v1.0.0_canonical_lock",
+  "primary_metrics": {
+    "auroc_s4": 0.7161,
+    "auprc_s4": 0.071,
+    "brier_s4": 0.0172,
+    "patient_sensitivity_pct": 64.56,
+    "patient_sensitivity_95ci": [
+      61.84,
+      67.25
+    ],
+    "confirmation_ppv_pct": 35.82,
+    "confirmation_ppv_95ci": [
+      12.82,
+      61.23
+    ],
+    "screening_ppv_pct": 4.31,
+    "specificity_pct": 77.74,
+    "median_lead_time_hours": 40.0,
+    "median_lead_time_95ci": [
+      36.0,
+      44.0
+    ],
+    "alerts_per_patient_day": 0.002,
+    "alerts_per_patient_day_95ci": [
+      0.001,
+      0.003
+    ],
+    "expected_calibration_error_ece": 0.0041
+  }
+}

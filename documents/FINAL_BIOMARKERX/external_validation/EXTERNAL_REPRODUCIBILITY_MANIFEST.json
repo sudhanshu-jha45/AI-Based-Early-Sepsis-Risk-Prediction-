@@ -1,0 +1,9 @@
+{
+  "execution_timestamp": "2026-10-03 17:49:29",
+  "random_seed": 42,
+  "evaluator_version": "v1.0.0_canonical_lock",
+  "model_sha256": "93ecdbc42f0fda19cbba15261c1545d653eeef54e343e44e5ddcfacaf83cccdd",
+  "external_cohort_size": 20000,
+  "external_sepsis_events": 1142,
+  "execution_time_sec": 332.0
+}

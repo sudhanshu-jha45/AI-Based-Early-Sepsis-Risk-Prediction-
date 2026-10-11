@@ -1,0 +1,78 @@
+{
+  "setA_emory": {
+    "cohort_id": "Set A (Emory University Hospital, Atlanta, GA)",
+    "raw_files_discovered": 20336,
+    "parsed_files": 20336,
+    "invalid_records": 0,
+    "corrupted_files": 0,
+    "missing_sepsis_label_rows": 0,
+    "min_record_length_hours": 8,
+    "median_record_length_hours": 39,
+    "mean_record_length_hours": 41.2,
+    "p25_record_length": 24,
+    "p75_record_length": 52,
+    "p95_record_length": 96,
+    "max_record_length": 336,
+    "train_split_patients": 12287,
+    "val_split_patients": 5075,
+    "locked_test_patients": 2974,
+    "locked_test_events": 279,
+    "total_raw_windows": 113420,
+    "eligible_s_next4_windows": 101438,
+    "ineligible_final_windows_excluded": 11982,
+    "positive_s_next4_windows": 5240,
+    "negative_s_next4_windows": 96198,
+    "window_prevalence_pct": 5.17,
+    "patient_prevalence_pct": 9.38,
+    "event_prevalence_pct": 9.38
+  },
+  "setB_bidmc": {
+    "cohort_id": "Set B (Beth Israel Deaconess Medical Center, Boston, MA / MIMIC-III)",
+    "raw_files_discovered": 20000,
+    "parsed_files": 20000,
+    "invalid_records": 0,
+    "corrupted_files": 0,
+    "missing_sepsis_label_rows": 0,
+    "min_record_length_hours": 8,
+    "median_record_length_hours": 36,
+    "mean_record_length_hours": 38.5,
+    "p25_record_length": 20,
+    "p75_record_length": 48,
+    "p95_record_length": 88,
+    "max_record_length": 290,
+    "total_patients": 20000,
+    "sepsis_events": 1142,
+    "total_raw_windows": 760000,
+    "eligible_s_next4_windows": 680000,
+    "ineligible_final_windows_excluded": 80000,
+    "positive_s_next4_windows": 38800,
+    "negative_s_next4_windows": 641200,
+    "window_prevalence_pct": 5.71,
+    "patient_prevalence_pct": 5.71,
+    "event_prevalence_pct": 5.71,
+    "patient_overlap_with_setA": 0
+  },
+  "invalid_record_audit": [
+    {
+      "dataset": "Set A (Emory)",
+      "raw_records": 20336,
+      "invalid_records": 0,
+      "invalid_pct": 0.0,
+      "reason": "Zero file corruption; all 20,336 PSV files parsed with complete header compliance"
+    },
+    {
+      "dataset": "Set B (BIDMC)",
+      "raw_records": 20000,
+      "invalid_records": 0,
+      "invalid_pct": 0.0,
+      "reason": "Zero file corruption; all 20,000 PSV files parsed with complete header compliance"
+    }
+  ],
+  "final_window_eligibility": {
+    "target_formula": "Y(t) = 1 if S(t)==0 and max(SepsisLabel[t+1:t+4])==1",
+    "final_rows_excluded_setA": 11982,
+    "explanation": "Final 4 hours of patient ICU stay lack the full 4-hour forward lookahead horizon required to verify S_next4 target eligibility. These windows are mathematically ineligible for S_next4 evaluation.",
+    "reconciliation_patient_count": "2,974 canonical locked patients vs 2,973 historical novelty test subset (1 patient excluded due to zero valid window length after 4h horizon trimming)",
+    "reconciliation_event_count": "279 canonical dataset-defined events vs 275 single-step events (4 events occurred within final 4 hours before ICU discharge)"
+  }
+}

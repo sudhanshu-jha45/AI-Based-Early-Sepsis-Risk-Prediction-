@@ -1,0 +1,2 @@
+dataset_role,terminology_designation,file_path,total_patients,total_windows,usage_policy
+HISTORICAL EXTERNAL TEST A,previously analyzed external cohort / historical external re-evaluation cohort,scratch/physionet2019_risk_set_cache.parquet,2942,17723,"HISTORICAL EVALUATION ONLY. Strictly prohibited for tuning, selection, or fitting."

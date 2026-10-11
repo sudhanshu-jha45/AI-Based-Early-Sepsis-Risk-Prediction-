@@ -1,0 +1,14 @@
+{
+  "status": "LOCKED_FOR_AUTHOR_REVIEW",
+  "central_contribution": "Measurement-process-aware causal trajectory modeling for transportable early sepsis prediction",
+  "canonical_evaluator": "v1.0.0_canonical_lock",
+  "canonical_policy": "VAL_POL_0450",
+  "set_a_patients": 2974,
+  "set_b_patients": 20000,
+  "patient_overlap": 0,
+  "transport_gap_reduction": 0.3052,
+  "measurement_loss_ratio_40pct": 2.93,
+  "same_physiology_shift_ratio": 3.0,
+  "density_gap_reduction": 0.6,
+  "unsupported_claims": []
+}

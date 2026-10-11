@@ -1,0 +1,16 @@
+{
+  "project": "BioMarkerX Early Warning System",
+  "timestamp": "2026-10-03 15:28:41",
+  "model_file": "FINAL_BIOMARKERX/models_target_remediation_locked\\TARGET_MASTER_MODEL.joblib",
+  "model_sha256": "93ecdbc42f0fda19cbba15261c1545d653eeef54e343e44e5ddcfacaf83cccdd",
+  "calibrator_file": "FINAL_BIOMARKERX/models_target_remediation_locked\\TARGET_CALIBRATOR.joblib",
+  "calibrator_sha256": "b3faf071de7416a19da1189f12413bf15b6bd8212a74cf717f2ebc773cdee2bb",
+  "train_medians_file": "FINAL_BIOMARKERX/models_target_remediation_locked\\TARGET_TRAIN_MEDIANS.joblib",
+  "train_medians_sha256": "f65fa42ec2c858d56aec57e2930b544ceda86395b02969df2c49f732810be4b4",
+  "canonical_evaluator": "canonical_evaluate_policy.py v1.0",
+  "random_seed": 42,
+  "n_bootstrap": 1000,
+  "locked_test_patients": 2974,
+  "locked_test_windows": 112641,
+  "locked_test_sepsis_events": 279
+}

@@ -1,0 +1,4 @@
+{
+  "imputation_method": "Development Fold Training Median Imputation",
+  "future_leakage": "PROHIBITED \u2014 Medians computed strictly inside training folds."
+}

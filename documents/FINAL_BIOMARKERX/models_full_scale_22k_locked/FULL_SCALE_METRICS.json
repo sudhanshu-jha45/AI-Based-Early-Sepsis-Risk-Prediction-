@@ -1,0 +1,19 @@
+{
+  "full_scale_test_auroc": 0.7911801463001346,
+  "full_scale_test_auprc": 0.10732010387858032,
+  "full_scale_test_brier": 0.02187627304926701,
+  "validation_auroc": 0.7984349844987385,
+  "validation_auprc": 0.11735189686347748,
+  "screening_sensitivity": 0.6290566037735849,
+  "screening_specificity": 0.8013201080088371,
+  "confirmation_specificity": 0.9799619968906547,
+  "confirmation_ppv": 0.16483516483516483,
+  "train_patients_count": 12286,
+  "val_patients_count": 5075,
+  "test_patients_count": 2974,
+  "train_windows_count": 465365,
+  "val_windows_count": 191863,
+  "test_windows_count": 112641,
+  "feature_count": 117,
+  "execution_timestamp": "2026-10-02 18:50:08"
+}

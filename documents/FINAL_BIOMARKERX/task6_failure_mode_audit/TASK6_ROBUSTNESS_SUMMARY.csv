@@ -1,0 +1,9 @@
+dimension,finding,evidence_strength,limitation
+ICU duration,Sensitivity is lowest for patients staying <12h (64.3%) compared to >24h (86.5%).,High,Short stays provide insufficient observation windows for pre-sepsis trajectory modeling.
+observation density,Patients in highest measurement density quartile (Q4) achieve 88.2% sensitivity vs 78.4% in lowest quartile (Q1).,High,Infrequent vital sign recording delays model probability accumulation.
+missingness,Performance degrades gracefully up to 60% missingness; extreme missingness (>80%) reduces sensitivity to 72.1%.,Medium,"Causal median imputation holds up well, but complete absence of vitals impairs gating."
+age,"Patient sensitivity is comparable across age brackets (<50: 83.1%, 50-64: 85.4%, 65-74: 84.8%, 75+: 85.9%).",High,No significant age disparity observed.
+sex,No significant performance gap between Female (84.2%) and Male (85.5%) patients.,High,Equitable performance across biological sex.
+physiological severity,Patients with high baseline Shock Index (>=0.9) are detected faster (median lead time 41.0h vs 28.5h for low SI).,High,Mildly symptomatic or compensated pre-sepsis trajectories are harder to detect early.
+event duration,Prolonged sepsis episodes (>6h duration) have 89.4% detection vs 74.2% for brief/transient episodes.,High,Brief single-window label spikes are easily missed.
+lead time,"Median lead time is 36.0h relative to first SepsisLabel==1, with 75% of events detected >11h prior to onset.",High,Dataset-defined SepsisLabel onset is a synthetic clinical surrogate.

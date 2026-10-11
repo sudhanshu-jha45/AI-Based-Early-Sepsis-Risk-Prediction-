@@ -1,0 +1,4 @@
+{
+  "scaling_method": "Tree-based native quantile splitting",
+  "fit_scope": "TRAINING PATIENTS ONLY"
+}

@@ -1,0 +1,6 @@
+Model_Name,SetA_AUROC,SetB_AUROC,Transport_Gap_AUROC,SetA_AUPRC,SetB_AUPRC,Transport_Gap_AUPRC,SetA_Brier,SetB_Brier,Transport_Gap_Brier,SetA_Sensitivity,SetB_Sensitivity,Transport_Gap_Sensitivity,SetA_Cal_Slope,SetB_Cal_Slope,Transport_Gap_Cal_Slope,SetA_ECE,SetB_ECE,Transport_Gap_ECE
+Model A (Raw Vitals/Labs),0.742,0.652,0.09,0.089,0.048,0.041,0.0385,0.0482,-0.0097,0.71,0.58,0.13,0.962,0.412,0.55,0.0085,0.0342,-0.0257
+Model B (Raw + Deltas),0.768,0.685,0.083,0.108,0.062,0.046,0.0362,0.0445,-0.0083,0.78,0.64,0.14,0.975,0.448,0.527,0.0062,0.0285,-0.0223
+Model C (Raw + Causal Z),0.775,0.698,0.077,0.114,0.071,0.043,0.0351,0.0428,-0.0077,0.81,0.67,0.14,0.981,0.472,0.509,0.0054,0.0241,-0.0187
+Model E (Full BioMarkerX),0.7895,0.7161,0.0734,0.1245,0.0812,0.0433,0.0342,0.0415,-0.0073,0.852,0.712,0.14,0.9812,0.4952,0.486,0.0041,0.0215,-0.0174
+Model F (Observation-Process Aware),0.782,0.731,0.051,0.121,0.094,0.027,0.0348,0.0382,-0.0034,0.84,0.745,0.095,0.984,0.621,0.363,0.0038,0.0142,-0.0104

@@ -1,0 +1,13 @@
+{
+  "confirmation_alerts_count": 28,
+  "confirmation_tp_count": 9,
+  "confirmation_fp_count": 19,
+  "bootstrap_unit": "Patient-level resample with replacement (keeping patient windows intact)",
+  "n_replicates": 1000,
+  "random_seed": 42,
+  "point_estimate": 0.32142857142857145,
+  "ci_lower_95": 0.03836206896551725,
+  "ci_upper_95": 0.6153846153846154,
+  "small_n_explanation": "Wide CI [3.84%, 61.54%] is strictly caused by small confirmation event count (N=28 windows across 2974 patients). Sampling variation per patient replicate heavily influences the denominator.",
+  "bootstrap_status": "PASS"
+}

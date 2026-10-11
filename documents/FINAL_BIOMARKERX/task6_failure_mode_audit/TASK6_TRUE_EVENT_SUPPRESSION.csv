@@ -1,0 +1,6 @@
+suppression_mechanism,transition_window_count,percentage
+prob_low_AND_map_gate_failed,1202,40.25452109845948
+prob_below_tau_c_0.300,1713,57.36771600803751
+map_gate_suppressed (MAP > 75 & MAP_delta_3h > -3),27,0.9042196918955124
+persistence_below_3_windows,35,1.1721366376423308
+confirmed_transition_window,9,0.3014065639651708

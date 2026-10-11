@@ -1,0 +1,9 @@
+{
+  "xai_engine": "BioMarkerX Pure-NumPy Master SHAP Engine",
+  "eval_windows_count": 300,
+  "base_value_expectation": 0.09479875486696789,
+  "max_abs_reconstruction_error": 8.326672684688674e-17,
+  "mean_abs_reconstruction_error": 4.810966440042345e-18,
+  "additivity_axiom_status": "PASSED (< 1e-12 exact machine precision)",
+  "execution_time_sec": 4.03
+}

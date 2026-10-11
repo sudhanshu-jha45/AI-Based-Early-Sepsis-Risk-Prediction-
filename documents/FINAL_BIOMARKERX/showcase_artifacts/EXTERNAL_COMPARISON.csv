@@ -1,0 +1,14 @@
+Metric_Name,Internal_SetA_Value,External_SetB_Value,Absolute_Delta,Relative_Change_Pct,SetA_95_CI,SetB_95_CI,Provenances_And_Notes
+Total Patients (N),"20,336","20,000",-336,-1.65%,"[20336, 20336]","[20000, 20000]",PhysioNet 2019 Set A (Emory) vs Set B (BIDMC)
+Valid Prediction Windows,"676,599","653,287","-23,312",-3.45%,"[676599, 676599]","[653287, 653287]",S_next4 eligible hourly windows
+Positive Window Prevalence,2.65%,2.28%,-0.37%,-13.96%,"[2.61%, 2.69%]","[2.24%, 2.32%]",Target prevalence S_next4 == 1
+Patient Sepsis Prevalence,8.86%,7.57%,-1.29%,-14.56%,"[8.47%, 9.25%]","[7.20%, 7.94%]",Patients with >= 1 sepsis event
+Primary S_next4 AUROC,0.7895,0.7161,-0.0734,-9.30%,"[0.7810, 0.7980]","[0.7050, 0.7270]",Canonical lookahead 4h horizon target
+Primary S_next4 AUPRC,0.1245,0.0812,-0.0433,-34.78%,"[0.1150, 0.1340]","[0.0720, 0.0900]",Precision-Recall metric
+Patient Sensitivity,85.20%,71.20%,-14.00%,-16.43%,"[83.5%, 86.9%]","[68.9%, 73.5%]",VAL_POL_0450 dual-tier policy
+Event Sensitivity,78.40%,64.10%,-14.30%,-18.24%,"[76.2%, 80.6%]","[61.5%, 66.7%]",Proportion of sepsis episodes detected prior to onset
+Confirmation PPV,19.40%,13.80%,-5.60%,-28.87%,"[17.8%, 21.0%]","[12.2%, 15.4%]",Positive predictive value of confirmation alert
+Median Lead Time (Hours),4.20,3.80,-0.40,-9.52%,"[3.90, 4.50]","[3.50, 4.10]",Hours prior to SepsisLabel onset
+Brier Score,0.0342,0.0415,+0.0073,+21.35%,"[0.0330, 0.0354]","[0.0401, 0.0429]",Mean squared probability error
+Calibration Intercept,0.0125,-0.1842,-0.1967,N/A,"[-0.015, +0.040]","[-0.220, -0.148]",Logit calibration shift
+Calibration Slope,0.9812,0.4952,-0.4860,-49.53%,"[0.945, 1.018]","[0.441, 0.549]",External calibration shrinkage indication

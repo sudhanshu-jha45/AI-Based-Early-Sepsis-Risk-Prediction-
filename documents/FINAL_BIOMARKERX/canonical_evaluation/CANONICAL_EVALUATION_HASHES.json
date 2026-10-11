@@ -1,0 +1,9 @@
+{
+  "master_model_sha256": "93ecdbc42f0fda19cbba15261c1545d653eeef54e343e44e5ddcfacaf83cccdd",
+  "calibrator_sha256": "b3faf071de7416a19da1189f12413bf15b6bd8212a74cf717f2ebc773cdee2bb",
+  "train_medians_sha256": "f65fa42ec2c858d56aec57e2930b544ceda86395b02969df2c49f732810be4b4",
+  "locked_test_patient_ids_sha256": "e91cde036777e0cb9ec20d4d8aac23b43e3b220e828b3af956a98916a43f7b7e",
+  "feature_matrix_sha256": "cafdc596c095c549d77c2b57058b253db292e3ba954a91aaa1ba4f8ce40601d9",
+  "calibrated_predictions_sha256": "6d4f7d0463f14d33ba6c1ec090a2dab1c8e323b6245c84ac278f1eb13aedacee",
+  "evaluation_script_sha256": "08428796a728312a22e5b9779c2ef8707c578922f1ec6a74602a5e36ec6c384a"
+}

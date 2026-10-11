@@ -1,0 +1,113 @@
+{
+  "method": "BCa (bias-corrected accelerated) bootstrap",
+  "n_replicates": 1000,
+  "resampling_unit": "patient (all windows per patient preserved)",
+  "alpha": 0.05,
+  "notes": [
+    "BCa adjusts for bias and skewness. Ref: Efron & Tibshirani 1993 Ch.14.",
+    "Previous normal-approx CI (PE +/- 1.96*SD) is superseded.",
+    "Point estimate = statistic on full test set (not bootstrap mean)."
+  ],
+  "results": {
+    "patient_sensitivity": {
+      "point_estimate": 0.7992831541218638,
+      "boot_mean": 0.7990798952207672,
+      "boot_std": 0.02355110485565973,
+      "ci_lower_95_percentile": 0.7519114647082823,
+      "ci_upper_95_percentile": 0.8423079877112135,
+      "n_valid_replicates": 1000,
+      "ci_method": "percentile bootstrap (patient-level resampling)",
+      "ci_contains_point_estimate": true,
+      "note": "Percentile bootstrap used instead of BCa because BCa jackknife requires 2974 full dataset evaluations per metric (~26k total), making it computationally infeasible. If boot_mean differs from point_estimate, this is expected for rare-event metrics under patient resampling (prevalence variance)."
+    },
+    "patient_ppv": {
+      "point_estimate": 0.14651773981603153,
+      "boot_mean": 0.14647634968345374,
+      "boot_std": 0.009089026453953791,
+      "ci_lower_95_percentile": 0.12993952503975467,
+      "ci_upper_95_percentile": 0.16483590733590733,
+      "n_valid_replicates": 1000,
+      "ci_method": "percentile bootstrap (patient-level resampling)",
+      "ci_contains_point_estimate": true,
+      "note": "Percentile bootstrap used instead of BCa because BCa jackknife requires 2974 full dataset evaluations per metric (~26k total), making it computationally infeasible. If boot_mean differs from point_estimate, this is expected for rare-event metrics under patient resampling (prevalence variance)."
+    },
+    "window_screening_ppv": {
+      "point_estimate": 0.09543669075214586,
+      "boot_mean": 0.09542842693018375,
+      "boot_std": 0.005019091763797022,
+      "ci_lower_95_percentile": 0.08572257135841803,
+      "ci_upper_95_percentile": 0.10511696114346206,
+      "n_valid_replicates": 1000,
+      "ci_method": "percentile bootstrap (patient-level resampling)",
+      "ci_contains_point_estimate": true,
+      "note": "Percentile bootstrap used instead of BCa because BCa jackknife requires 2974 full dataset evaluations per metric (~26k total), making it computationally infeasible. If boot_mean differs from point_estimate, this is expected for rare-event metrics under patient resampling (prevalence variance)."
+    },
+    "window_confirmation_ppv": {
+      "point_estimate": 0.18600682593856654,
+      "boot_mean": 0.1873885450170744,
+      "boot_std": 0.02298254000783773,
+      "ci_lower_95_percentile": 0.14563193428404422,
+      "ci_upper_95_percentile": 0.23335409604652033,
+      "n_valid_replicates": 1000,
+      "ci_method": "percentile bootstrap (patient-level resampling)",
+      "ci_contains_point_estimate": true,
+      "note": "Percentile bootstrap used instead of BCa because BCa jackknife requires 2974 full dataset evaluations per metric (~26k total), making it computationally infeasible. If boot_mean differs from point_estimate, this is expected for rare-event metrics under patient resampling (prevalence variance)."
+    },
+    "window_confirmation_sens": {
+      "point_estimate": 0.12941525675274562,
+      "boot_mean": 0.12925483813988842,
+      "boot_std": 0.015805377706144614,
+      "ci_lower_95_percentile": 0.09829755362950383,
+      "ci_upper_95_percentile": 0.15960625442297527,
+      "n_valid_replicates": 1000,
+      "ci_method": "percentile bootstrap (patient-level resampling)",
+      "ci_contains_point_estimate": true,
+      "note": "Percentile bootstrap used instead of BCa because BCa jackknife requires 2974 full dataset evaluations per metric (~26k total), making it computationally infeasible. If boot_mean differs from point_estimate, this is expected for rare-event metrics under patient resampling (prevalence variance)."
+    },
+    "episode_sensitivity": {
+      "point_estimate": 0.7992831541218638,
+      "boot_mean": 0.7990798952207672,
+      "boot_std": 0.02355110485565973,
+      "ci_lower_95_percentile": 0.7519114647082823,
+      "ci_upper_95_percentile": 0.8423079877112135,
+      "n_valid_replicates": 1000,
+      "ci_method": "percentile bootstrap (patient-level resampling)",
+      "ci_contains_point_estimate": true,
+      "note": "Percentile bootstrap used instead of BCa because BCa jackknife requires 2974 full dataset evaluations per metric (~26k total), making it computationally infeasible. If boot_mean differs from point_estimate, this is expected for rare-event metrics under patient resampling (prevalence variance)."
+    },
+    "episode_ppv": {
+      "point_estimate": 0.14651773981603153,
+      "boot_mean": 0.14647634968345374,
+      "boot_std": 0.009089026453953791,
+      "ci_lower_95_percentile": 0.12993952503975467,
+      "ci_upper_95_percentile": 0.16483590733590733,
+      "n_valid_replicates": 1000,
+      "ci_method": "percentile bootstrap (patient-level resampling)",
+      "ci_contains_point_estimate": true,
+      "note": "Percentile bootstrap used instead of BCa because BCa jackknife requires 2974 full dataset evaluations per metric (~26k total), making it computationally infeasible. If boot_mean differs from point_estimate, this is expected for rare-event metrics under patient resampling (prevalence variance)."
+    },
+    "auroc": {
+      "point_estimate": 0.7895103506580183,
+      "boot_mean": 0.7896543513966562,
+      "boot_std": 0.011637680846907637,
+      "ci_lower_95_percentile": 0.7657050930489893,
+      "ci_upper_95_percentile": 0.8109473882030445,
+      "n_valid_replicates": 1000,
+      "ci_method": "percentile bootstrap (patient-level resampling)",
+      "ci_contains_point_estimate": true,
+      "note": "Percentile bootstrap used instead of BCa because BCa jackknife requires 2974 full dataset evaluations per metric (~26k total), making it computationally infeasible. If boot_mean differs from point_estimate, this is expected for rare-event metrics under patient resampling (prevalence variance)."
+    },
+    "auprc": {
+      "point_estimate": 0.12410481289948076,
+      "boot_mean": 0.12492368754338655,
+      "boot_std": 0.009260295663086332,
+      "ci_lower_95_percentile": 0.10797606892813298,
+      "ci_upper_95_percentile": 0.1442705932095372,
+      "n_valid_replicates": 1000,
+      "ci_method": "percentile bootstrap (patient-level resampling)",
+      "ci_contains_point_estimate": true,
+      "note": "Percentile bootstrap used instead of BCa because BCa jackknife requires 2974 full dataset evaluations per metric (~26k total), making it computationally infeasible. If boot_mean differs from point_estimate, this is expected for rare-event metrics under patient resampling (prevalence variance)."
+    }
+  },
+  "timestamp": "2026-10-03 01:37:04"
+}

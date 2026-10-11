@@ -1,0 +1,45 @@
+{
+  "audit_name": "BioMarkerX Final Claim Forensics Audit",
+  "audit_timestamp": "2026-10-04T01:52:49+05:30",
+  "evaluator_lock": "v1.0.0_canonical_lock",
+  "final_verdict": "B \u2014 CORE RESULT SUPPORTED BUT CLAIMS REQUIRE QUALIFICATION",
+  "verdict_rationale": "Source-level forensic inspection confirms that all underlying mathematical metrics (30.52% transport gap reduction, 0.0180 vs 0.0540 prediction shift, 7.75% to 3.10% density gap) reproduce exactly from raw CSV artifacts. However, because the 2.93x dropout ratio was derived from endpoint evaluation at 40% loss rather than a fitted linear degradation slope, scientific publication claim CLM-02 MUST be qualified to '2.93x lower AUROC loss at 40% controlled measurement loss' rather than claiming a general '2.93x flatter degradation slope'.",
+  "audited_claims": {
+    "CLM_01_transportability_gap_reduction": {
+      "reported": "30.52%",
+      "recomputed": 30.5177,
+      "status": "EXACT MATCH",
+      "p_value": 0.001,
+      "fdr_q_value": 0.003,
+      "cohen_d": 0.62
+    },
+    "CLM_02_dropout_robustness": {
+      "reported": "2.93x flatter degradation slope",
+      "recomputed_endpoint_ratio": 2.9333,
+      "status": "REQUIRES QUALIFICATION",
+      "qualification": "Qualified from 'flatter slope' to '2.93x lower AUROC loss at 40% dropout'",
+      "p_value": 0.0001,
+      "fdr_q_value": 0.0004
+    },
+    "CLM_03_same_physiology_stability": {
+      "reported": "3.00x prediction stability gain",
+      "recomputed": 3.0,
+      "status": "EXACT MATCH",
+      "delta_p_model_e": 0.054,
+      "delta_p_model_f": 0.018,
+      "p_value": 0.0001,
+      "cohen_d": 1.15
+    },
+    "CLM_04_density_stratification": {
+      "reported": "7.75% to 3.10% AUROC gap",
+      "recomputed_gap_model_e": 0.0775,
+      "recomputed_gap_model_f": 0.031,
+      "status": "EXACT MATCH",
+      "quartile_n_patients": 5084
+    }
+  },
+  "isolation_audit": {
+    "setB_isolation": "PASSED (0.00% Patient Overlap, Zero Set B Parameter Fitting)",
+    "causal_density_formula": "density_t = (sum observed_values_{1:t}) / ICULOS_t (Strictly Causal, No Lookahead)"
+  }
+}
